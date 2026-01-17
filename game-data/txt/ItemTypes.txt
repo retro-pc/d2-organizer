@@ -57,7 +57,7 @@ Second Hand	seco			0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Staves And Rods	rod	blun		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Missile	misl	misc		0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0								0
 Blunt	blun	mele		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
-Expansion																																			
+Expansion																																			0
 Jewel	jewl	sock		0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			6	invjw1	invjw2	invjw3	invjw4	invjw5	invjw6	misc	0
 Class Specific	clas			0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Amazon Item	amaz	clas		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	1		ama	0								0
@@ -105,3 +105,5 @@ Topaz	gemt	gem		0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0
 Skull	gemz	gem		0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0
 Swords and Knives	blde	mele		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
 Spears and Polearms	sppl	mele		0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0
+Bags	BAG			0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0							misc	0
+Gem Bag	GBAG	BAG		0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0							misc	0

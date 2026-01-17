@@ -4,6 +4,7 @@
     "enabled": true,
     "code": "hax",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "str",
@@ -26,8 +27,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 70
+        "min": 160,
+        "max": 170
       }
     ]
   },
@@ -36,6 +37,7 @@
     "enabled": true,
     "code": "axe",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "stupidity",
@@ -64,8 +66,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 70
+        "min": 170,
+        "max": 200
       }
     ]
   },
@@ -74,6 +76,7 @@
     "enabled": true,
     "code": "2ax",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "dmg-undead",
@@ -114,8 +117,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 30,
-        "max": 50
+        "min": 150,
+        "max": 180
       }
     ]
   },
@@ -124,6 +127,7 @@
     "enabled": true,
     "code": "mpi",
     "qlevel": 28,
+    "reqlevel": 21,
     "modifiers": [
       {
         "prop": "stupidity",
@@ -158,8 +162,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 100
+        "min": 180,
+        "max": 200
       },
       {
         "prop": "openwounds",
@@ -174,6 +178,7 @@
     "enabled": true,
     "code": "wax",
     "qlevel": 36,
+    "reqlevel": 27,
     "modifiers": [
       {
         "prop": "pois-min",
@@ -208,8 +213,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 75,
-        "max": 150
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "swing2",
@@ -224,12 +229,13 @@
     "enabled": true,
     "code": "lax",
     "qlevel": 11,
+    "reqlevel": 8,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 90
+        "min": 250,
+        "max": 300
       },
       {
         "prop": "freeze",
@@ -256,6 +262,7 @@
     "enabled": true,
     "code": "bax",
     "qlevel": 19,
+    "reqlevel": 14,
     "modifiers": [
       {
         "prop": "swing3",
@@ -278,8 +285,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 50
+        "min": 150,
+        "max": 220
       },
       {
         "prop": "dmg-max",
@@ -294,12 +301,13 @@
     "enabled": true,
     "code": "btx",
     "qlevel": 26,
+    "reqlevel": 19,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "res-all",
@@ -332,6 +340,7 @@
     "enabled": true,
     "code": "gax",
     "qlevel": 34,
+    "reqlevel": 25,
     "modifiers": [
       {
         "prop": "dmg-min",
@@ -360,8 +369,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 80
+        "min": 180,
+        "max": 200
       },
       {
         "prop": "dmg-fire",
@@ -376,6 +385,7 @@
     "enabled": true,
     "code": "gix",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "str",
@@ -410,8 +420,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 80,
-        "max": 120
+        "min": 280,
+        "max": 300
       }
     ]
   },
@@ -420,6 +430,7 @@
     "enabled": true,
     "code": "wnd",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "nec",
@@ -464,6 +475,7 @@
     "enabled": true,
     "code": "ywn",
     "qlevel": 19,
+    "reqlevel": 14,
     "modifiers": [
       {
         "prop": "ltng-min",
@@ -526,6 +538,7 @@
     "enabled": true,
     "code": "bwn",
     "qlevel": 27,
+    "reqlevel": 20,
     "modifiers": [
       {
         "prop": "str",
@@ -582,6 +595,7 @@
     "enabled": true,
     "code": "gwn",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "nec",
@@ -626,6 +640,7 @@
     "enabled": true,
     "code": "clb",
     "qlevel": 4,
+    "reqlevel": 3,
     "modifiers": [
       {
         "prop": "res-ltng",
@@ -638,12 +653,6 @@
         "param": 0,
         "min": 20,
         "max": 20
-      },
-      {
-        "prop": "knock",
-        "param": 0,
-        "min": 1,
-        "max": 1
       },
       {
         "prop": "fire-min",
@@ -660,8 +669,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 80
+        "min": 190,
+        "max": 200
       }
     ]
   },
@@ -670,6 +679,7 @@
     "enabled": true,
     "code": "scp",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "crush",
@@ -714,6 +724,7 @@
     "enabled": true,
     "code": "gsc",
     "qlevel": 23,
+    "reqlevel": 17,
     "modifiers": [
       {
         "prop": "pal",
@@ -742,8 +753,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 60
+        "min": 160,
+        "max": 220
       },
       {
         "prop": "dmg-undead",
@@ -770,6 +781,7 @@
     "enabled": true,
     "code": "wsp",
     "qlevel": 31,
+    "reqlevel": 23,
     "modifiers": [
       {
         "prop": "dmg-ltng",
@@ -812,6 +824,12 @@
         "param": 121,
         "min": 1,
         "max": 1
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 40,
+        "max": 40
       }
     ]
   },
@@ -820,6 +838,7 @@
     "enabled": true,
     "code": "spc",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "thorns",
@@ -830,8 +849,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 220,
+        "max": 220
       },
       {
         "prop": "vit",
@@ -852,18 +871,13 @@
     "enabled": true,
     "code": "mac",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "str",
         "param": 0,
         "min": 15,
         "max": 15
-      },
-      {
-        "prop": "knock",
-        "param": 0,
-        "min": 1,
-        "max": 1
       },
       {
         "prop": "light",
@@ -880,8 +894,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 60
+        "min": 160,
+        "max": 180
       },
       {
         "prop": "crush",
@@ -896,12 +910,13 @@
     "enabled": true,
     "code": "mst",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 120,
-        "max": 120
+        "min": 180,
+        "max": 180
       },
       {
         "prop": "att%",
@@ -946,6 +961,7 @@
     "enabled": true,
     "code": "fla",
     "qlevel": 28,
+    "reqlevel": 21,
     "modifiers": [
       {
         "prop": "dmg-min",
@@ -980,8 +996,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 60
+        "min": 140,
+        "max": 180
       },
       {
         "prop": "swing2",
@@ -996,6 +1012,7 @@
     "enabled": true,
     "code": "whm",
     "qlevel": 36,
+    "reqlevel": 27,
     "modifiers": [
       {
         "prop": "att",
@@ -1006,8 +1023,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 150
+        "min": 200,
+        "max": 240
       },
       {
         "prop": "ltng-min",
@@ -1034,6 +1051,7 @@
     "enabled": true,
     "code": "mau",
     "qlevel": 32,
+    "reqlevel": 24,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1072,6 +1090,7 @@
     "enabled": true,
     "code": "gma",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "ease",
@@ -1094,8 +1113,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 250
+        "min": 200,
+        "max": 280
       }
     ]
   },
@@ -1104,6 +1123,7 @@
     "enabled": true,
     "code": "ssd",
     "qlevel": 3,
+    "reqlevel": 2,
     "modifiers": [
       {
         "prop": "dmg-min",
@@ -1138,8 +1158,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       }
     ]
   },
@@ -1148,6 +1168,7 @@
     "enabled": true,
     "code": "scm",
     "qlevel": 10,
+    "reqlevel": 7,
     "modifiers": [
       {
         "prop": "res-all",
@@ -1158,8 +1179,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 80
+        "min": 160,
+        "max": 180
       },
       {
         "prop": "hp",
@@ -1198,6 +1219,7 @@
     "enabled": true,
     "code": "sbr",
     "qlevel": 14,
+    "reqlevel": 10,
     "modifiers": [
       {
         "prop": "ignore-ac",
@@ -1226,8 +1248,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 150,
+        "max": 150
       },
       {
         "prop": "dmg-norm",
@@ -1242,6 +1264,7 @@
     "enabled": true,
     "code": "flc",
     "qlevel": 18,
+    "reqlevel": 13,
     "modifiers": [
       {
         "prop": "light",
@@ -1270,8 +1293,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 100
+        "min": 220,
+        "max": 260
       },
       {
         "prop": "dmg-cold",
@@ -1286,6 +1309,7 @@
     "enabled": false,
     "code": "crs",
     "qlevel": 18,
+    "reqlevel": 13,
     "modifiers": [
       {
         "prop": "deadly",
@@ -1330,6 +1354,7 @@
     "enabled": true,
     "code": "bsd",
     "qlevel": 23,
+    "reqlevel": 17,
     "modifiers": [
       {
         "prop": "fire-min",
@@ -1356,16 +1381,10 @@
         "max": 10
       },
       {
-        "prop": "knock",
-        "param": 0,
-        "min": 1,
-        "max": 1
-      },
-      {
         "prop": "dmg%",
         "param": 0,
-        "min": 80,
-        "max": 120
+        "min": 180,
+        "max": 200
       },
       {
         "prop": "str",
@@ -1380,6 +1399,7 @@
     "enabled": true,
     "code": "lsd",
     "qlevel": 30,
+    "reqlevel": 22,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -1436,6 +1456,7 @@
     "enabled": true,
     "code": "wsd",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "allskills",
@@ -1470,8 +1491,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 80
+        "min": 170,
+        "max": 180
       }
     ]
   },
@@ -1480,6 +1501,7 @@
     "enabled": true,
     "code": "2hs",
     "qlevel": 16,
+    "reqlevel": 12,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -1508,8 +1530,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "lifesteal",
@@ -1524,6 +1546,7 @@
     "enabled": true,
     "code": "clm",
     "qlevel": 26,
+    "reqlevel": 19,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -1540,8 +1563,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 100
+        "min": 200,
+        "max": 220
       },
       {
         "prop": "res-all",
@@ -1562,6 +1585,7 @@
     "enabled": true,
     "code": "gis",
     "qlevel": 31,
+    "reqlevel": 23,
     "modifiers": [
       {
         "prop": "att",
@@ -1598,6 +1622,12 @@
         "param": 102,
         "min": 6,
         "max": 6
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 60,
+        "max": 60
       }
     ]
   },
@@ -1606,6 +1636,7 @@
     "enabled": true,
     "code": "bsw",
     "qlevel": 35,
+    "reqlevel": 26,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -1634,8 +1665,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 60
+        "min": 220,
+        "max": 240
       }
     ]
   },
@@ -1644,6 +1675,7 @@
     "enabled": true,
     "code": "flb",
     "qlevel": 35,
+    "reqlevel": 26,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -1666,8 +1698,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 80,
-        "max": 100
+        "min": 160,
+        "max": 180
       }
     ]
   },
@@ -1676,6 +1708,7 @@
     "enabled": true,
     "code": "gsd",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "red-dmg",
@@ -1704,8 +1737,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 120
+        "min": 220,
+        "max": 280
       },
       {
         "prop": "str",
@@ -1720,6 +1753,7 @@
     "enabled": true,
     "code": "dgr",
     "qlevel": 6,
+    "reqlevel": 4,
     "modifiers": [
       {
         "prop": "dmg-min",
@@ -1752,6 +1786,7 @@
     "enabled": true,
     "code": "dir",
     "qlevel": 15,
+    "reqlevel": 11,
     "modifiers": [
       {
         "prop": "dex",
@@ -1762,8 +1797,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "swing3",
@@ -1796,6 +1831,7 @@
     "enabled": true,
     "code": "kri",
     "qlevel": 26,
+    "reqlevel": 19,
     "modifiers": [
       {
         "prop": "att",
@@ -1834,6 +1870,7 @@
     "enabled": true,
     "code": "bld",
     "qlevel": 34,
+    "reqlevel": 25,
     "modifiers": [
       {
         "prop": "cast3",
@@ -1866,6 +1903,7 @@
     "enabled": true,
     "code": "spr",
     "qlevel": 11,
+    "reqlevel": 8,
     "modifiers": [
       {
         "prop": "att",
@@ -1896,6 +1934,12 @@
         "param": 0,
         "min": 3,
         "max": 6
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 200
       }
     ]
   },
@@ -1904,6 +1948,7 @@
     "enabled": true,
     "code": "tri",
     "qlevel": 16,
+    "reqlevel": 12,
     "modifiers": [
       {
         "prop": "slow",
@@ -1938,8 +1983,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 30,
-        "max": 50
+        "min": 150,
+        "max": 180
       }
     ]
   },
@@ -1948,6 +1993,7 @@
     "enabled": true,
     "code": "brn",
     "qlevel": 23,
+    "reqlevel": 17,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -1976,8 +2022,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 70
+        "min": 180,
+        "max": 200
       }
     ]
   },
@@ -1986,6 +2032,7 @@
     "enabled": true,
     "code": "spt",
     "qlevel": 30,
+    "reqlevel": 22,
     "modifiers": [
       {
         "prop": "thorns",
@@ -2016,6 +2063,12 @@
         "param": 0,
         "min": 40,
         "max": 40
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 150,
+        "max": 150
       }
     ]
   },
@@ -2024,6 +2077,7 @@
     "enabled": true,
     "code": "pik",
     "qlevel": 36,
+    "reqlevel": 27,
     "modifiers": [
       {
         "prop": "fire-min",
@@ -2070,8 +2124,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 80,
-        "max": 100
+        "min": 140,
+        "max": 180
       }
     ]
   },
@@ -2080,6 +2134,7 @@
     "enabled": true,
     "code": "bar",
     "qlevel": 11,
+    "reqlevel": 8,
     "modifiers": [
       {
         "prop": "dex",
@@ -2090,8 +2145,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "swing2",
@@ -2112,6 +2167,7 @@
     "enabled": true,
     "code": "vou",
     "qlevel": 19,
+    "reqlevel": 14,
     "modifiers": [
       {
         "prop": "howl",
@@ -2140,8 +2196,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 80
+        "min": 140,
+        "max": 160
       },
       {
         "prop": "dur",
@@ -2156,6 +2212,7 @@
     "enabled": true,
     "code": "scy",
     "qlevel": 26,
+    "reqlevel": 19,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -2178,8 +2235,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 90
+        "min": 170,
+        "max": 200
       },
       {
         "prop": "manasteal",
@@ -2200,6 +2257,7 @@
     "enabled": true,
     "code": "pax",
     "qlevel": 34,
+    "reqlevel": 25,
     "modifiers": [
       {
         "prop": "swing3",
@@ -2216,8 +2274,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 70
+        "min": 150,
+        "max": 170
       },
       {
         "prop": "att",
@@ -2238,6 +2296,7 @@
     "enabled": true,
     "code": "hal",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "slow",
@@ -2284,8 +2343,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 20,
-        "max": 40
+        "min": 160,
+        "max": 180
       }
     ]
   },
@@ -2294,6 +2353,7 @@
     "enabled": true,
     "code": "wsc",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "deadly",
@@ -2316,8 +2376,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 150,
+        "max": 150
       },
       {
         "prop": "dmg-min",
@@ -2332,6 +2392,7 @@
     "enabled": true,
     "code": "sst",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "fire-min",
@@ -2388,6 +2449,7 @@
     "enabled": true,
     "code": "lst",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -2438,6 +2500,7 @@
     "enabled": true,
     "code": "cst",
     "qlevel": 24,
+    "reqlevel": 18,
     "modifiers": [
       {
         "prop": "res-ltng",
@@ -2500,6 +2563,7 @@
     "enabled": true,
     "code": "bst",
     "qlevel": 28,
+    "reqlevel": 21,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -2544,6 +2608,7 @@
     "enabled": true,
     "code": "wst",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "ac",
@@ -2600,6 +2665,7 @@
     "enabled": true,
     "code": "sbw",
     "qlevel": 10,
+    "reqlevel": 7,
     "modifiers": [
       {
         "prop": "att",
@@ -2610,8 +2676,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "hp",
@@ -2620,10 +2686,10 @@
         "max": 10
       },
       {
-        "prop": "light",
-        "param": 0,
-        "min": 2,
-        "max": 2
+        "prop": "hit-skill",
+        "param": 71,
+        "min": 10,
+        "max": 20
       },
       {
         "prop": "manasteal",
@@ -2634,8 +2700,8 @@
       {
         "prop": "mana-kill",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -2644,6 +2710,7 @@
     "enabled": true,
     "code": "hbw",
     "qlevel": 18,
+    "reqlevel": 13,
     "modifiers": [
       {
         "prop": "swing3",
@@ -2652,16 +2719,10 @@
         "max": 30
       },
       {
-        "prop": "dmg-min",
-        "param": 0,
-        "min": 1,
-        "max": 1
-      },
-      {
-        "prop": "dmg-max",
-        "param": 0,
-        "min": 3,
-        "max": 3
+        "prop": "dmg/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "att",
@@ -2672,14 +2733,14 @@
       {
         "prop": "magicarrow",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 12,
+        "max": 12
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 50
+        "min": 140,
+        "max": 180
       }
     ]
   },
@@ -2688,6 +2749,7 @@
     "enabled": true,
     "code": "lbw",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "att%",
@@ -2726,6 +2788,7 @@
     "enabled": true,
     "code": "cbw",
     "qlevel": 27,
+    "reqlevel": 20,
     "modifiers": [
       {
         "prop": "res-all",
@@ -2754,8 +2817,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 60
+        "min": 160,
+        "max": 180
       },
       {
         "prop": "swing2",
@@ -2770,24 +2833,25 @@
     "enabled": true,
     "code": "sbb",
     "qlevel": 34,
+    "reqlevel": 25,
     "modifiers": [
       {
-        "prop": "dmg-ltng",
-        "param": 0,
-        "min": 1,
-        "max": 30
+        "prop": "hit-skill",
+        "param": 42,
+        "min": 25,
+        "max": 9
       },
       {
-        "prop": "str",
+        "prop": "ease",
         "param": 0,
-        "min": 8,
-        "max": 8
+        "min": -15,
+        "max": -15
       },
       {
-        "prop": "att",
+        "prop": "reduce-ac",
         "param": 0,
-        "min": 28,
-        "max": 28
+        "min": 50,
+        "max": 50
       },
       {
         "prop": "pierce",
@@ -2798,14 +2862,14 @@
       {
         "prop": "res-ltng",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 50,
+        "max": 50
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 90
+        "min": 190,
+        "max": 220
       }
     ]
   },
@@ -2814,18 +2878,19 @@
     "enabled": true,
     "code": "lbb",
     "qlevel": 35,
+    "reqlevel": 26,
     "modifiers": [
       {
-        "prop": "magicarrow",
+        "prop": "pierce-fire",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 20,
+        "max": 35
       },
       {
         "prop": "mana",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 100,
+        "max": 100
       },
       {
         "prop": "swing2",
@@ -2834,10 +2899,10 @@
         "max": 20
       },
       {
-        "prop": "res-cold",
+        "prop": "res-all",
         "param": 0,
-        "min": 26,
-        "max": 26
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "att",
@@ -2848,14 +2913,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 80
+        "min": 180,
+        "max": 220
       },
       {
-        "prop": "enr",
+        "prop": "manasteal",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 5,
+        "max": 5
       },
       {
         "prop": "pierce-cold",
@@ -2870,6 +2935,7 @@
     "enabled": true,
     "code": "swb",
     "qlevel": 36,
+    "reqlevel": 27,
     "modifiers": [
       {
         "prop": "swing1",
@@ -2878,22 +2944,16 @@
         "max": 10
       },
       {
-        "prop": "fire-min",
-        "param": 0,
-        "min": 15,
-        "max": 15
-      },
-      {
-        "prop": "fire-max",
-        "param": 0,
-        "min": 30,
-        "max": 50
+        "prop": "oskill",
+        "param": 75,
+        "min": 6,
+        "max": 6
       },
       {
         "prop": "att",
         "param": 0,
-        "min": 50,
-        "max": 75
+        "min": 250,
+        "max": 350
       },
       {
         "prop": "res-fire",
@@ -2902,22 +2962,22 @@
         "max": 40
       },
       {
-        "prop": "dex",
+        "prop": "ease",
         "param": 0,
-        "min": 12,
-        "max": 12
+        "min": -20,
+        "max": -20
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 90
+        "min": 190,
+        "max": 220
       },
       {
-        "prop": "fireskill",
+        "prop": "res-ltng",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 40,
+        "max": 40
       }
     ]
   },
@@ -2926,12 +2986,13 @@
     "enabled": true,
     "code": "lwb",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 130
+        "min": 130,
+        "max": 180
       },
       {
         "prop": "str",
@@ -2948,8 +3009,8 @@
       {
         "prop": "manasteal",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 12,
+        "max": 12
       },
       {
         "prop": "skill",
@@ -2964,6 +3025,7 @@
     "enabled": true,
     "code": "lxb",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "dex",
@@ -2972,22 +3034,22 @@
         "max": 10
       },
       {
-        "prop": "hp",
+        "prop": "ease",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": -30,
+        "max": -30
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 70
+        "min": 270,
+        "max": 300
       },
       {
-        "prop": "res-pois",
+        "prop": "swing2",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 40,
+        "max": 40
       },
       {
         "prop": "deadly",
@@ -3008,18 +3070,19 @@
     "enabled": true,
     "code": "mxb",
     "qlevel": 24,
+    "reqlevel": 18,
     "modifiers": [
       {
-        "prop": "dmg-pois",
-        "param": 75,
-        "min": 102,
-        "max": 102
+        "prop": "kill-skill",
+        "param": 384,
+        "min": 50,
+        "max": 15
       },
       {
-        "prop": "dex",
+        "prop": "ease",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": -25,
+        "max": -25
       },
       {
         "prop": "pierce",
@@ -3036,14 +3099,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 150,
+        "max": 200
       },
       {
         "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 68,
+        "max": 68
       }
     ]
   },
@@ -3052,6 +3115,7 @@
     "enabled": true,
     "code": "hxb",
     "qlevel": 36,
+    "reqlevel": 27,
     "modifiers": [
       {
         "prop": "explosivearrow",
@@ -3072,22 +3136,22 @@
         "max": 15
       },
       {
-        "prop": "att",
+        "prop": "att/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "swing2",
         "param": 0,
         "min": 70,
         "max": 70
       },
       {
-        "prop": "swing2",
-        "param": 0,
-        "min": 20,
-        "max": 20
-      },
-      {
         "prop": "dmg%",
         "param": 0,
-        "min": 70,
-        "max": 80
+        "min": 170,
+        "max": 200
       },
       {
         "prop": "dmg-fire",
@@ -3102,9 +3166,10 @@
     "enabled": true,
     "code": "rxb",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
-        "prop": "ama",
+        "prop": "allskills",
         "param": 0,
         "min": 1,
         "max": 1
@@ -3122,16 +3187,16 @@
         "max": 30
       },
       {
-        "prop": "hp",
-        "param": 0,
-        "min": 15,
-        "max": 15
+        "prop": "hit-skill",
+        "param": 86,
+        "min": 20,
+        "max": 1
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 60,
-        "max": 100
+        "min": 200,
+        "max": 200
       }
     ]
   },
@@ -3140,6 +3205,7 @@
     "enabled": true,
     "code": "cap",
     "qlevel": 4,
+    "reqlevel": 3,
     "modifiers": [
       {
         "prop": "hp",
@@ -3178,6 +3244,7 @@
     "enabled": true,
     "code": "skp",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "gold%",
@@ -3204,6 +3271,7 @@
     "enabled": true,
     "code": "hlm",
     "qlevel": 19,
+    "reqlevel": 14,
     "modifiers": [
       {
         "prop": "light-thorns",
@@ -3242,6 +3310,7 @@
     "enabled": true,
     "code": "fhl",
     "qlevel": 23,
+    "reqlevel": 17,
     "modifiers": [
       {
         "prop": "light",
@@ -3286,6 +3355,7 @@
     "enabled": true,
     "code": "bhm",
     "qlevel": 28,
+    "reqlevel": 21,
     "modifiers": [
       {
         "prop": "nec",
@@ -3324,6 +3394,7 @@
     "enabled": true,
     "code": "ghm",
     "qlevel": 34,
+    "reqlevel": 25,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -3368,6 +3439,7 @@
     "enabled": true,
     "code": "crn",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "lifesteal",
@@ -3424,6 +3496,7 @@
     "enabled": true,
     "code": "msk",
     "qlevel": 27,
+    "reqlevel": 20,
     "modifiers": [
       {
         "prop": "howl",
@@ -3462,6 +3535,7 @@
     "enabled": true,
     "code": "qui",
     "qlevel": 10,
+    "reqlevel": 7,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -3506,6 +3580,7 @@
     "enabled": true,
     "code": "lea",
     "qlevel": 16,
+    "reqlevel": 12,
     "modifiers": [
       {
         "prop": "ac-miss",
@@ -3550,6 +3625,7 @@
     "enabled": true,
     "code": "hla",
     "qlevel": 19,
+    "reqlevel": 14,
     "modifiers": [
       {
         "prop": "ac",
@@ -3606,6 +3682,7 @@
     "enabled": true,
     "code": "stu",
     "qlevel": 22,
+    "reqlevel": 16,
     "modifiers": [
       {
         "prop": "swing2",
@@ -3650,6 +3727,7 @@
     "enabled": true,
     "code": "rng",
     "qlevel": 19,
+    "reqlevel": 14,
     "modifiers": [
       {
         "prop": "att",
@@ -3694,6 +3772,7 @@
     "enabled": true,
     "code": "scl",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "ac%",
@@ -3732,6 +3811,7 @@
     "enabled": true,
     "code": "chn",
     "qlevel": 23,
+    "reqlevel": 17,
     "modifiers": [
       {
         "prop": "ac%",
@@ -3764,6 +3844,7 @@
     "enabled": true,
     "code": "brs",
     "qlevel": 27,
+    "reqlevel": 20,
     "modifiers": [
       {
         "prop": "res-pois-max",
@@ -3802,6 +3883,7 @@
     "enabled": true,
     "code": "spl",
     "qlevel": 30,
+    "reqlevel": 22,
     "modifiers": [
       {
         "prop": "freeze",
@@ -3840,6 +3922,7 @@
     "enabled": true,
     "code": "plt",
     "qlevel": 35,
+    "reqlevel": 26,
     "modifiers": [
       {
         "prop": "lifesteal",
@@ -3872,6 +3955,7 @@
     "enabled": true,
     "code": "fld",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "ease",
@@ -3910,6 +3994,7 @@
     "enabled": true,
     "code": "gth",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "howl",
@@ -3942,6 +4027,7 @@
     "enabled": true,
     "code": "ful",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "ac%",
@@ -3980,6 +4066,7 @@
     "enabled": true,
     "code": "aar",
     "qlevel": 38,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -4012,6 +4099,7 @@
     "enabled": true,
     "code": "ltp",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "ac%",
@@ -4056,6 +4144,7 @@
     "enabled": true,
     "code": "buc",
     "qlevel": 3,
+    "reqlevel": 2,
     "modifiers": [
       {
         "prop": "ac",
@@ -4112,6 +4201,7 @@
     "enabled": true,
     "code": "sml",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "stupidity",
@@ -4168,6 +4258,7 @@
     "enabled": true,
     "code": "lrg",
     "qlevel": 18,
+    "reqlevel": 13,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -4224,6 +4315,7 @@
     "enabled": true,
     "code": "bsh",
     "qlevel": 27,
+    "reqlevel": 20,
     "modifiers": [
       {
         "prop": "mana-kill",
@@ -4268,6 +4360,7 @@
     "enabled": true,
     "code": "spk",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "thorns",
@@ -4318,6 +4411,7 @@
     "enabled": true,
     "code": "kit",
     "qlevel": 23,
+    "reqlevel": 17,
     "modifiers": [
       {
         "prop": "block",
@@ -4380,6 +4474,7 @@
     "enabled": true,
     "code": "tow",
     "qlevel": 26,
+    "reqlevel": 19,
     "modifiers": [
       {
         "prop": "ac",
@@ -4430,6 +4525,7 @@
     "enabled": true,
     "code": "gts",
     "qlevel": 35,
+    "reqlevel": 26,
     "modifiers": [
       {
         "prop": "ac",
@@ -4474,6 +4570,7 @@
     "enabled": true,
     "code": "lgl",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -4518,6 +4615,7 @@
     "enabled": true,
     "code": "vgl",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "dmg-min",
@@ -4562,6 +4660,7 @@
     "enabled": true,
     "code": "mgl",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "gold%",
@@ -4606,6 +4705,7 @@
     "enabled": true,
     "code": "tgl",
     "qlevel": 31,
+    "reqlevel": 23,
     "modifiers": [
       {
         "prop": "cast3",
@@ -4650,6 +4750,7 @@
     "enabled": true,
     "code": "hgl",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "ac",
@@ -4688,6 +4789,7 @@
     "enabled": true,
     "code": "lbt",
     "qlevel": 7,
+    "reqlevel": 5,
     "modifiers": [
       {
         "prop": "res-fire-max",
@@ -4732,6 +4834,7 @@
     "enabled": true,
     "code": "vbt",
     "qlevel": 12,
+    "reqlevel": 9,
     "modifiers": [
       {
         "prop": "bloody",
@@ -4782,6 +4885,7 @@
     "enabled": true,
     "code": "mbt",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "move2",
@@ -4826,6 +4930,7 @@
     "enabled": true,
     "code": "tbt",
     "qlevel": 30,
+    "reqlevel": 22,
     "modifiers": [
       {
         "prop": "crush",
@@ -4870,6 +4975,7 @@
     "enabled": true,
     "code": "hbt",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "ac",
@@ -4920,6 +5026,7 @@
     "enabled": true,
     "code": "lbl",
     "qlevel": 10,
+    "reqlevel": 7,
     "modifiers": [
       {
         "prop": "mana",
@@ -4952,6 +5059,7 @@
     "enabled": true,
     "code": "vbl",
     "qlevel": 16,
+    "reqlevel": 12,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -4996,6 +5104,7 @@
     "enabled": true,
     "code": "mbl",
     "qlevel": 27,
+    "reqlevel": 20,
     "modifiers": [
       {
         "prop": "res-all",
@@ -5040,6 +5149,7 @@
     "enabled": true,
     "code": "tbl",
     "qlevel": 36,
+    "reqlevel": 27,
     "modifiers": [
       {
         "prop": "mag%",
@@ -5084,6 +5194,7 @@
     "enabled": true,
     "code": "hbl",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "thorns",
@@ -5134,6 +5245,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 14,
+    "reqlevel": 10,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -5172,6 +5284,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "ac-miss",
@@ -5222,6 +5335,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 34,
+    "reqlevel": 25,
     "modifiers": [
       {
         "prop": "dex",
@@ -5278,6 +5392,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 10,
+    "reqlevel": 7,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -5310,6 +5425,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 20,
+    "reqlevel": 15,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -5342,6 +5458,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 39,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "mana",
@@ -5380,6 +5497,7 @@
     "enabled": true,
     "code": "vip",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": [
       {
         "prop": "mana",
@@ -5406,6 +5524,7 @@
     "enabled": true,
     "code": "msf",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": [
       {
         "prop": "res-all",
@@ -5426,6 +5545,7 @@
     "enabled": true,
     "code": "hst",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": [
       {
         "prop": "mana",
@@ -5464,6 +5584,7 @@
     "enabled": true,
     "code": "hfh",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": [
       {
         "prop": "fire-min",
@@ -5496,6 +5617,7 @@
     "enabled": true,
     "code": "qf1",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": [
       {
         "prop": "ltng-min",
@@ -5528,6 +5650,7 @@
     "enabled": true,
     "code": "qf2",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": [
       {
         "prop": "ltng-min",
@@ -5572,6 +5695,7 @@
     "enabled": true,
     "code": "9ha",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -5612,8 +5736,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 190
+        "min": 250,
+        "max": 290
       }
     ]
   },
@@ -5622,6 +5746,7 @@
     "enabled": true,
     "code": "9ax",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "deadly",
@@ -5666,6 +5791,7 @@
     "enabled": true,
     "code": "92a",
     "qlevel": 51,
+    "reqlevel": 43,
     "modifiers": [
       {
         "prop": "dru",
@@ -5712,8 +5838,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 170,
-        "max": 190
+        "min": 220,
+        "max": 240
       },
       {
         "prop": "skill",
@@ -5734,6 +5860,7 @@
     "enabled": true,
     "code": "9mp",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -5762,8 +5889,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 140,
-        "max": 170
+        "min": 250,
+        "max": 250
       }
     ]
   },
@@ -5772,6 +5899,7 @@
     "enabled": true,
     "code": "9wa",
     "qlevel": 56,
+    "reqlevel": 48,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -5794,8 +5922,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 180
+        "min": 220,
+        "max": 250
       },
       {
         "prop": "dmg-pois",
@@ -5816,6 +5944,7 @@
     "enabled": true,
     "code": "9la",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "ac",
@@ -5850,8 +5979,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 175,
-        "max": 175
+        "min": 295,
+        "max": 295
       }
     ]
   },
@@ -5860,6 +5989,7 @@
     "enabled": true,
     "code": "9ba",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "ease",
@@ -5928,6 +6058,7 @@
     "enabled": true,
     "code": "9bt",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -5956,8 +6087,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "dur",
@@ -5984,6 +6115,7 @@
     "enabled": true,
     "code": "9ga",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "att-und/lvl",
@@ -6018,8 +6150,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 180,
-        "max": 220
+        "min": 220,
+        "max": 250
       },
       {
         "prop": "charged",
@@ -6040,6 +6172,7 @@
     "enabled": true,
     "code": "9gi",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "stupidity",
@@ -6080,8 +6213,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 140,
-        "max": 200
+        "min": 200,
+        "max": 220
       }
     ]
   },
@@ -6090,6 +6223,7 @@
     "enabled": true,
     "code": "9wn",
     "qlevel": 41,
+    "reqlevel": 33,
     "modifiers": [
       {
         "prop": "thorns",
@@ -6134,6 +6268,7 @@
     "enabled": true,
     "code": "9yw",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "hp/lvl",
@@ -6184,6 +6319,7 @@
     "enabled": true,
     "code": "9bw",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "skilltab",
@@ -6252,6 +6388,7 @@
     "enabled": true,
     "code": "9gw",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "skilltab",
@@ -6308,6 +6445,7 @@
     "enabled": true,
     "code": "9cl",
     "qlevel": 42,
+    "reqlevel": 34,
     "modifiers": [
       {
         "prop": "dru",
@@ -6330,8 +6468,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 195,
-        "max": 195
+        "min": 250,
+        "max": 250
       },
       {
         "prop": "att%",
@@ -6352,6 +6490,7 @@
     "enabled": true,
     "code": "9sc",
     "qlevel": 45,
+    "reqlevel": 37,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -6386,8 +6525,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 180,
-        "max": 220
+        "min": 240,
+        "max": 280
       },
       {
         "prop": "swing2",
@@ -6414,6 +6553,7 @@
     "enabled": true,
     "code": "9qs",
     "qlevel": 46,
+    "reqlevel": 38,
     "modifiers": [
       {
         "prop": "pal",
@@ -6442,8 +6582,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
-        "max": 190
+        "min": 230,
+        "max": 250
       },
       {
         "prop": "att",
@@ -6464,6 +6604,7 @@
     "enabled": true,
     "code": "9ws",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "pal",
@@ -6474,8 +6615,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 130,
-        "max": 160
+        "min": 200,
+        "max": 220
       },
       {
         "prop": "att%",
@@ -6532,6 +6673,7 @@
     "enabled": true,
     "code": "9sp",
     "qlevel": 46,
+    "reqlevel": 38,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -6594,6 +6736,7 @@
     "enabled": true,
     "code": "9ma",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -6610,8 +6753,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 180
+        "min": 230,
+        "max": 250
       },
       {
         "prop": "dmg-norm",
@@ -6638,6 +6781,7 @@
     "enabled": true,
     "code": "9mt",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -6660,8 +6804,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 120,
-        "max": 150
+        "min": 250,
+        "max": 280
       },
       {
         "prop": "light",
@@ -6688,6 +6832,7 @@
     "enabled": true,
     "code": "9fl",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -6716,8 +6861,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
-        "max": 200
+        "min": 240,
+        "max": 260
       },
       {
         "prop": "swing2",
@@ -6738,18 +6883,13 @@
     "enabled": true,
     "code": "9wh",
     "qlevel": 51,
+    "reqlevel": 43,
     "modifiers": [
       {
         "prop": "hit-skill",
         "param": 234,
         "min": 5,
         "max": 7
-      },
-      {
-        "prop": "knock",
-        "param": 0,
-        "min": 1,
-        "max": 1
       },
       {
         "prop": "swing3",
@@ -6760,8 +6900,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 180,
-        "max": 180
+        "min": 250,
+        "max": 250
       },
       {
         "prop": "stupidity",
@@ -6788,6 +6928,7 @@
     "enabled": true,
     "code": "9m9",
     "qlevel": 56,
+    "reqlevel": 48,
     "modifiers": [
       {
         "prop": "crush",
@@ -6798,8 +6939,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 180,
-        "max": 220
+        "min": 240,
+        "max": 280
       },
       {
         "prop": "res-all",
@@ -6838,6 +6979,7 @@
     "enabled": true,
     "code": "9gm",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -6872,8 +7014,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 130,
-        "max": 160
+        "min": 300,
+        "max": 350
       },
       {
         "prop": "charged",
@@ -6888,6 +7030,7 @@
     "enabled": true,
     "code": "9ss",
     "qlevel": 38,
+    "reqlevel": 30,
     "modifiers": [
       {
         "prop": "dmg-norm",
@@ -6922,8 +7065,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 140,
-        "max": 140
+        "min": 240,
+        "max": 240
       },
       {
         "prop": "skill",
@@ -6950,6 +7093,7 @@
     "enabled": true,
     "code": "9sm",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "stupidity",
@@ -7000,6 +7144,7 @@
     "enabled": true,
     "code": "9sb",
     "qlevel": 41,
+    "reqlevel": 33,
     "modifiers": [
       {
         "prop": "charged",
@@ -7034,8 +7179,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 140,
-        "max": 160
+        "min": 240,
+        "max": 260
       },
       {
         "prop": "fireskill",
@@ -7050,6 +7195,7 @@
     "enabled": true,
     "code": "9fc",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "sock",
@@ -7094,6 +7240,7 @@
     "enabled": true,
     "code": "9cr",
     "qlevel": 45,
+    "reqlevel": 37,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -7128,8 +7275,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 150
+        "min": 150,
+        "max": 200
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -7138,6 +7291,7 @@
     "enabled": true,
     "code": "9bs",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "noheal",
@@ -7168,6 +7322,12 @@
         "param": 0,
         "min": 150,
         "max": 150
+      },
+      {
+        "prop": "skill",
+        "param": 147,
+        "min": 6,
+        "max": 6
       }
     ]
   },
@@ -7176,6 +7336,7 @@
     "enabled": true,
     "code": "9ls",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -7212,6 +7373,18 @@
         "param": 238,
         "min": 5,
         "max": 5
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -7220,6 +7393,7 @@
     "enabled": true,
     "code": "9wd",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "dur",
@@ -7254,8 +7428,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 250
+        "min": 250,
+        "max": 300
       },
       {
         "prop": "pal",
@@ -7276,6 +7450,7 @@
     "enabled": true,
     "code": "92h",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "slow",
@@ -7304,8 +7479,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
-        "max": 200
+        "min": 240,
+        "max": 260
       },
       {
         "prop": "swing3",
@@ -7320,6 +7495,7 @@
     "enabled": true,
     "code": "9cm",
     "qlevel": 51,
+    "reqlevel": 43,
     "modifiers": [
       {
         "prop": "ease",
@@ -7354,8 +7530,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 130,
-        "max": 160
+        "min": 260,
+        "max": 300
       }
     ]
   },
@@ -7364,6 +7540,7 @@
     "enabled": true,
     "code": "9gs",
     "qlevel": 52,
+    "reqlevel": 44,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -7392,8 +7569,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 300,
+        "max": 300
       },
       {
         "prop": "att-und/lvl",
@@ -7408,6 +7585,7 @@
     "enabled": true,
     "code": "9b9",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -7442,8 +7620,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 275,
+        "max": 300
       },
       {
         "prop": "light-thorns",
@@ -7470,6 +7648,7 @@
     "enabled": true,
     "code": "9fb",
     "qlevel": 54,
+    "reqlevel": 46,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -7498,8 +7677,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 120,
-        "max": 160
+        "min": 280,
+        "max": 300
       },
       {
         "prop": "charged",
@@ -7520,6 +7699,7 @@
     "enabled": true,
     "code": "9gd",
     "qlevel": 55,
+    "reqlevel": 48,
     "modifiers": [
       {
         "prop": "ease",
@@ -7554,8 +7734,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 170,
-        "max": 180
+        "min": 300,
+        "max": 320
       },
       {
         "prop": "ac-hth",
@@ -7582,6 +7762,7 @@
     "enabled": true,
     "code": "9dg",
     "qlevel": 40,
+    "reqlevel": 32,
     "modifiers": [
       {
         "prop": "ignore-ac",
@@ -7616,8 +7797,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 240
+        "min": 280,
+        "max": 320
       },
       {
         "prop": "dmg-norm",
@@ -7638,6 +7819,7 @@
     "enabled": true,
     "code": "9di",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "deadly",
@@ -7660,26 +7842,26 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 190,
-        "max": 240
+        "min": 240,
+        "max": 290
       },
       {
-        "prop": "skill",
-        "param": 131,
-        "min": 4,
-        "max": 4
-      },
-      {
-        "prop": "skill",
-        "param": 142,
-        "min": 4,
-        "max": 4
-      },
-      {
-        "prop": "skill",
+        "prop": "oskill",
         "param": 150,
-        "min": 4,
-        "max": 4
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "skilltab",
+        "param": 14,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 30,
+        "max": 30
       }
     ]
   },
@@ -7688,6 +7870,7 @@
     "enabled": true,
     "code": "9kr",
     "qlevel": 46,
+    "reqlevel": 38,
     "modifiers": [
       {
         "prop": "slow",
@@ -7736,6 +7919,18 @@
         "param": 92,
         "min": 4,
         "max": 4
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg-ac",
+        "param": 0,
+        "min": -100,
+        "max": -100
       }
     ]
   },
@@ -7744,6 +7939,7 @@
     "enabled": true,
     "code": "9bl",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "dmg-ltng",
@@ -7766,8 +7962,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 150
+        "min": 300,
+        "max": 300
       },
       {
         "prop": "res-ltng/lvl",
@@ -7782,6 +7978,7 @@
     "enabled": true,
     "code": "9sr",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "ignore-ac",
@@ -7816,8 +8013,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 140,
-        "max": 170
+        "min": 270,
+        "max": 300
       },
       {
         "prop": "skill",
@@ -7827,9 +8024,9 @@
       },
       {
         "prop": "skill",
-        "param": 14,
-        "min": 3,
-        "max": 3
+        "param": 34,
+        "min": 6,
+        "max": 6
       }
     ]
   },
@@ -7838,6 +8035,7 @@
     "enabled": true,
     "code": "9tr",
     "qlevel": 41,
+    "reqlevel": 33,
     "modifiers": [
       {
         "prop": "slow",
@@ -7882,6 +8080,7 @@
     "enabled": true,
     "code": "9br",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "ease",
@@ -7910,8 +8109,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 190
+        "min": 240,
+        "max": 260
       },
       {
         "prop": "att",
@@ -7932,6 +8131,7 @@
     "enabled": true,
     "code": "9st",
     "qlevel": 45,
+    "reqlevel": 37,
     "modifiers": [
       {
         "prop": "sock",
@@ -7962,6 +8162,12 @@
         "param": 0,
         "min": 160,
         "max": 200
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -7970,6 +8176,7 @@
     "enabled": true,
     "code": "9p9",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "att%",
@@ -8010,8 +8217,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 250,
+        "max": 280
       },
       {
         "prop": "skilltab",
@@ -8032,12 +8239,13 @@
     "enabled": true,
     "code": "9b7",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 200,
+        "max": 240
       },
       {
         "prop": "swing2",
@@ -8076,6 +8284,7 @@
     "enabled": true,
     "code": "9vo",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "ease",
@@ -8110,8 +8319,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 140
+        "min": 180,
+        "max": 220
       }
     ]
   },
@@ -8120,6 +8329,7 @@
     "enabled": true,
     "code": "9s8",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "dru",
@@ -8154,8 +8364,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 180
+        "min": 230,
+        "max": 250
       }
     ]
   },
@@ -8164,6 +8374,7 @@
     "enabled": true,
     "code": "9pa",
     "qlevel": 51,
+    "reqlevel": 43,
     "modifiers": [
       {
         "prop": "deadly",
@@ -8198,7 +8409,7 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
+        "min": 220,
         "max": 220
       },
       {
@@ -8214,6 +8425,7 @@
     "enabled": true,
     "code": "9h9",
     "qlevel": 52,
+    "reqlevel": 44,
     "modifiers": [
       {
         "prop": "regen",
@@ -8242,8 +8454,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
-        "max": 200
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "swing2",
@@ -8258,6 +8470,7 @@
     "enabled": true,
     "code": "9wc",
     "qlevel": 52,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -8290,12 +8503,6 @@
         "max": -50
       },
       {
-        "prop": "nec",
-        "param": 0,
-        "min": 3,
-        "max": 3
-      },
-      {
         "prop": "reduce-ac",
         "param": 0,
         "min": 50,
@@ -8312,6 +8519,12 @@
         "param": 0,
         "min": 200,
         "max": 250
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 50,
+        "max": 50
       }
     ]
   },
@@ -8320,6 +8533,7 @@
     "enabled": true,
     "code": "8ss",
     "qlevel": 36,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "cast3",
@@ -8370,6 +8584,7 @@
     "enabled": true,
     "code": "8ls",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "dmg-norm",
@@ -8432,6 +8647,7 @@
     "enabled": true,
     "code": "8cs",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "sor",
@@ -8488,6 +8704,7 @@
     "enabled": true,
     "code": "8bs",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "sor",
@@ -8532,6 +8749,7 @@
     "enabled": true,
     "code": "8ws",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "mana%",
@@ -8564,6 +8782,7 @@
     "enabled": true,
     "code": "8sb",
     "qlevel": 36,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "dmg-ltng",
@@ -8592,17 +8811,17 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 220,
+        "max": 280
       },
       {
         "prop": "hit-skill",
         "param": 56,
-        "min": 2,
-        "max": 6
+        "min": 10,
+        "max": 20
       },
       {
-        "prop": "ama",
+        "prop": "allskills",
         "param": 0,
         "min": 1,
         "max": 1
@@ -8614,6 +8833,7 @@
     "enabled": true,
     "code": "8hb",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -8624,20 +8844,20 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 180,
-        "max": 220
+        "min": 250,
+        "max": 280
       },
       {
         "prop": "slow",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 50,
+        "max": 50
       },
       {
-        "prop": "mana",
+        "prop": "manasteal",
         "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 7,
+        "max": 10
       },
       {
         "prop": "swing2",
@@ -8658,18 +8878,19 @@
     "enabled": true,
     "code": "8lb",
     "qlevel": 41,
+    "reqlevel": 33,
     "modifiers": [
       {
-        "prop": "skill",
-        "param": 27,
-        "min": 3,
-        "max": 3
+        "prop": "swing2",
+        "param": 0,
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "explosivearrow",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "dmg%",
@@ -8702,13 +8923,8 @@
     "enabled": true,
     "code": "8cb",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
-      {
-        "prop": "res-cold",
-        "param": 0,
-        "min": 35,
-        "max": 35
-      },
       {
         "prop": "mana",
         "param": 0,
@@ -8716,16 +8932,16 @@
         "max": 40
       },
       {
-        "prop": "ac-miss",
+        "prop": "res-all",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 20,
+        "max": 30
       },
       {
-        "prop": "skill",
-        "param": 26,
-        "min": 3,
-        "max": 5
+        "prop": "deadly",
+        "param": 0,
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "dmg%",
@@ -8746,6 +8962,7 @@
     "enabled": true,
     "code": "8s8",
     "qlevel": 47,
+    "reqlevel": 39,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -8768,8 +8985,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 170
+        "min": 170,
+        "max": 220
       },
       {
         "prop": "magicarrow",
@@ -8790,9 +9007,10 @@
     "enabled": true,
     "code": "8l8",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
-        "prop": "ama",
+        "prop": "allskills",
         "param": 0,
         "min": 2,
         "max": 2
@@ -8800,8 +9018,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 190,
-        "max": 230
+        "min": 230,
+        "max": 280
       },
       {
         "prop": "ac-miss",
@@ -8818,8 +9036,8 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 80,
+        "max": 80
       },
       {
         "prop": "dmg-min",
@@ -8840,6 +9058,7 @@
     "enabled": true,
     "code": "8sw",
     "qlevel": 51,
+    "reqlevel": 43,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -8848,16 +9067,16 @@
         "max": 15
       },
       {
-        "prop": "red-mag",
-        "param": 0,
-        "min": 9,
-        "max": 13
+        "prop": "hit-skill",
+        "param": 43,
+        "min": 100,
+        "max": 25
       },
       {
-        "prop": "skill",
-        "param": 22,
-        "min": 3,
-        "max": 3
+        "prop": "ease",
+        "param": 0,
+        "min": -20,
+        "max": -20
       },
       {
         "prop": "att",
@@ -8866,10 +9085,10 @@
         "max": 250
       },
       {
-        "prop": "dex",
+        "prop": "magicarrow",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 15,
+        "max": 15
       },
       {
         "prop": "stupidity",
@@ -8886,8 +9105,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 120,
-        "max": 150
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "ama",
@@ -8902,6 +9121,7 @@
     "enabled": true,
     "code": "8lw",
     "qlevel": 54,
+    "reqlevel": 46,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -8952,6 +9172,7 @@
     "enabled": true,
     "code": "8lx",
     "qlevel": 40,
+    "reqlevel": 32,
     "modifiers": [
       {
         "prop": "knock",
@@ -8962,8 +9183,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 170,
-        "max": 200
+        "min": 250,
+        "max": 280
       },
       {
         "prop": "mag%",
@@ -8974,8 +9195,8 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 100,
+        "max": 100
       },
       {
         "prop": "dmg-max",
@@ -8990,10 +9211,10 @@
         "max": 33
       },
       {
-        "prop": "dmg-ltng",
+        "prop": "swing2",
         "param": 0,
-        "min": 1,
-        "max": 212
+        "min": 50,
+        "max": 50
       }
     ]
   },
@@ -9002,6 +9223,7 @@
     "enabled": true,
     "code": "8mx",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -9010,16 +9232,16 @@
         "max": 192
       },
       {
-        "prop": "hit-skill",
-        "param": 91,
-        "min": 4,
-        "max": 1
+        "prop": "kill-skill",
+        "param": 382,
+        "min": 50,
+        "max": 20
       },
       {
-        "prop": "nec",
-        "param": 0,
-        "min": 2,
-        "max": 2
+        "prop": "hit-skill",
+        "param": 87,
+        "min": 20,
+        "max": 5
       },
       {
         "prop": "ease",
@@ -9029,21 +9251,21 @@
       },
       {
         "prop": "gethit-skill",
-        "param": 92,
-        "min": 9,
-        "max": 6
+        "param": 68,
+        "min": 20,
+        "max": 15
       },
       {
         "prop": "swing2",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 99,
+        "max": 99
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 220
+        "min": 260,
+        "max": 300
       },
       {
         "prop": "att/lvl",
@@ -9058,6 +9280,7 @@
     "enabled": true,
     "code": "8hx",
     "qlevel": 59,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "pierce",
@@ -9114,6 +9337,7 @@
     "enabled": true,
     "code": "8rx",
     "qlevel": 57,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "ac",
@@ -9164,6 +9388,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -9171,6 +9396,7 @@
     "enabled": true,
     "code": "xap",
     "qlevel": 36,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "enr",
@@ -9215,6 +9441,7 @@
     "enabled": true,
     "code": "xkp",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "res-ltng",
@@ -9265,6 +9492,7 @@
     "enabled": true,
     "code": "xlm",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -9309,6 +9537,7 @@
     "enabled": true,
     "code": "xhl",
     "qlevel": 46,
+    "reqlevel": 38,
     "modifiers": [
       {
         "prop": "light",
@@ -9359,6 +9588,7 @@
     "enabled": true,
     "code": "xhm",
     "qlevel": 52,
+    "reqlevel": 44,
     "modifiers": [
       {
         "prop": "ac%",
@@ -9397,6 +9627,7 @@
     "enabled": true,
     "code": "xrn",
     "qlevel": 57,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dex",
@@ -9447,6 +9678,7 @@
     "enabled": true,
     "code": "xsk",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "light-thorns",
@@ -9491,6 +9723,7 @@
     "enabled": true,
     "code": "xh9",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -9541,6 +9774,7 @@
     "enabled": true,
     "code": "xui",
     "qlevel": 36,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "nofreeze",
@@ -9579,6 +9813,7 @@
     "enabled": true,
     "code": "xea",
     "qlevel": 37,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "ac%",
@@ -9617,6 +9852,7 @@
     "enabled": true,
     "code": "xla",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "rep-dur",
@@ -9661,6 +9897,7 @@
     "enabled": true,
     "code": "xtu",
     "qlevel": 41,
+    "reqlevel": 33,
     "modifiers": [
       {
         "prop": "dur",
@@ -9705,6 +9942,7 @@
     "enabled": true,
     "code": "xng",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "light",
@@ -9755,6 +9993,7 @@
     "enabled": true,
     "code": "xcl",
     "qlevel": 45,
+    "reqlevel": 37,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -9793,6 +10032,7 @@
     "enabled": true,
     "code": "xhn",
     "qlevel": 46,
+    "reqlevel": 38,
     "modifiers": [
       {
         "prop": "ac-miss",
@@ -9803,20 +10043,26 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 42,
+        "max": 42
       },
       {
         "prop": "hp",
         "param": 0,
         "min": 60,
-        "max": 60
+        "max": 100
       },
       {
         "prop": "ac%",
         "param": 0,
         "min": 180,
         "max": 220
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 9,
+        "max": 13
       }
     ]
   },
@@ -9825,6 +10071,7 @@
     "enabled": true,
     "code": "xrs",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "str",
@@ -9893,6 +10140,7 @@
     "enabled": true,
     "code": "xpl",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "allskills",
@@ -9929,6 +10177,12 @@
         "param": 20,
         "min": 0,
         "max": 0
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 5,
+        "max": 5
       }
     ]
   },
@@ -9937,12 +10191,13 @@
     "enabled": true,
     "code": "xlt",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
-        "prop": "light",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 10,
+        "max": 15
       },
       {
         "prop": "pal",
@@ -9969,8 +10224,8 @@
         "max": 15
       },
       {
-        "prop": "att-dem/lvl",
-        "param": 5,
+        "prop": "dmg-dem/lvl",
+        "param": 12,
         "min": 0,
         "max": 0
       },
@@ -9987,6 +10242,7 @@
     "enabled": true,
     "code": "xld",
     "qlevel": 56,
+    "reqlevel": 48,
     "modifiers": [
       {
         "prop": "thorns",
@@ -10029,6 +10285,12 @@
         "param": 0,
         "min": 15,
         "max": 15
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 12,
+        "max": 12
       }
     ]
   },
@@ -10037,6 +10299,7 @@
     "enabled": true,
     "code": "xth",
     "qlevel": 59,
+    "reqlevel": 51,
     "modifiers": [
       {
         "prop": "dex",
@@ -10051,10 +10314,10 @@
         "max": 10
       },
       {
-        "prop": "mana%",
+        "prop": "hp%",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 25,
+        "max": 40
       },
       {
         "prop": "balance2",
@@ -10083,8 +10346,8 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 40,
+        "max": 65
       }
     ]
   },
@@ -10093,6 +10356,7 @@
     "enabled": true,
     "code": "xul",
     "qlevel": 61,
+    "reqlevel": 53,
     "modifiers": [
       {
         "prop": "light",
@@ -10101,10 +10365,10 @@
         "max": -2
       },
       {
-        "prop": "att-demon",
+        "prop": "dmg-demon",
         "param": 0,
-        "min": 200,
-        "max": 250
+        "min": 130,
+        "max": 210
       },
       {
         "prop": "half-freeze",
@@ -10121,14 +10385,14 @@
       {
         "prop": "ac%",
         "param": 0,
-        "min": 140,
-        "max": 200
+        "min": 100,
+        "max": 140
       },
       {
-        "prop": "dmg-demon",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 30,
-        "max": 60
+        "min": 25,
+        "max": 25
       }
     ]
   },
@@ -10137,30 +10401,19 @@
     "enabled": true,
     "code": "xar",
     "qlevel": 63,
+    "reqlevel": 55,
     "modifiers": [
       {
-        "prop": "str",
+        "prop": "res-all",
         "param": 0,
-        "min": 8,
-        "max": 8
-      },
-      {
-        "prop": "vit",
-        "param": 0,
-        "min": 10,
-        "max": 10
-      },
-      {
-        "prop": "res-cold",
-        "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "gethit-skill",
         "param": 76,
-        "min": 6,
-        "max": 2
+        "min": 25,
+        "max": 15
       },
       {
         "prop": "ac%",
@@ -10169,16 +10422,16 @@
         "max": 180
       },
       {
-        "prop": "dmg-fire",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 12,
-        "max": 36
+        "min": 15,
+        "max": 15
       },
       {
         "prop": "charged",
         "param": 74,
         "min": 40,
-        "max": 5
+        "max": 20
       }
     ]
   },
@@ -10187,6 +10440,7 @@
     "enabled": true,
     "code": "xtp",
     "qlevel": 59,
+    "reqlevel": 51,
     "modifiers": [
       {
         "prop": "cast2",
@@ -10237,6 +10491,7 @@
     "enabled": true,
     "code": "xuc",
     "qlevel": 36,
+    "reqlevel": 28,
     "modifiers": [
       {
         "prop": "sor",
@@ -10275,6 +10530,7 @@
     "enabled": true,
     "code": "xml",
     "qlevel": 39,
+    "reqlevel": 31,
     "modifiers": [
       {
         "prop": "res-all",
@@ -10313,6 +10569,7 @@
     "enabled": true,
     "code": "xrg",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "dmg-ltng",
@@ -10375,6 +10632,7 @@
     "enabled": true,
     "code": "xit",
     "qlevel": 46,
+    "reqlevel": 38,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -10437,17 +10695,18 @@
     "enabled": true,
     "code": "xow",
     "qlevel": 52,
+    "reqlevel": 44,
     "modifiers": [
       {
         "prop": "red-dmg",
         "param": 0,
-        "min": 11,
+        "min": 16,
         "max": 16
       },
       {
         "prop": "red-mag",
         "param": 0,
-        "min": 14,
+        "min": 18,
         "max": 18
       },
       {
@@ -10479,6 +10738,12 @@
         "param": 0,
         "min": 20,
         "max": 30
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 12,
+        "max": 12
       }
     ]
   },
@@ -10487,12 +10752,13 @@
     "enabled": true,
     "code": "xts",
     "qlevel": 58,
+    "reqlevel": 50,
     "modifiers": [
       {
-        "prop": "dmg-pois",
-        "param": 100,
-        "min": 204,
-        "max": 204
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 25
       },
       {
         "prop": "gethit-skill",
@@ -10515,26 +10781,32 @@
       {
         "prop": "block",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 35,
+        "max": 35
       },
       {
         "prop": "block2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 45,
+        "max": 45
       },
       {
         "prop": "charged",
-        "param": 83,
-        "min": 40,
-        "max": 6
+        "param": 91,
+        "min": 10,
+        "max": 1
       },
       {
         "prop": "dur",
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 10
       }
     ]
   },
@@ -10543,6 +10815,7 @@
     "enabled": true,
     "code": "xsh",
     "qlevel": 49,
+    "reqlevel": 41,
     "modifiers": [
       {
         "prop": "light",
@@ -10593,6 +10866,7 @@
     "enabled": true,
     "code": "xpk",
     "qlevel": 43,
+    "reqlevel": 35,
     "modifiers": [
       {
         "prop": "hp",
@@ -10637,6 +10911,7 @@
     "enabled": true,
     "code": "xlg",
     "qlevel": 37,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "res-pois",
@@ -10687,6 +10962,7 @@
     "enabled": true,
     "code": "xvg",
     "qlevel": 39,
+    "reqlevel": 32,
     "modifiers": [
       {
         "prop": "enr",
@@ -10725,6 +11001,7 @@
     "enabled": true,
     "code": "xmg",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "att-und/lvl",
@@ -10763,6 +11040,7 @@
     "enabled": true,
     "code": "xtg",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "res-fire",
@@ -10813,6 +11091,7 @@
     "enabled": true,
     "code": "xhg",
     "qlevel": 55,
+    "reqlevel": 47,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -10857,6 +11136,7 @@
     "enabled": true,
     "code": "xlb",
     "qlevel": 37,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -10919,6 +11199,7 @@
     "enabled": true,
     "code": "xvb",
     "qlevel": 40,
+    "reqlevel": 32,
     "modifiers": [
       {
         "prop": "ac-miss",
@@ -10975,6 +11256,7 @@
     "enabled": true,
     "code": "xmb",
     "qlevel": 44,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "ac%",
@@ -11013,6 +11295,7 @@
     "enabled": true,
     "code": "xtb",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "vit",
@@ -11075,6 +11358,7 @@
     "enabled": true,
     "code": "xhb",
     "qlevel": 55,
+    "reqlevel": 47,
     "modifiers": [
       {
         "prop": "ease",
@@ -11131,6 +11415,7 @@
     "enabled": true,
     "code": "zlb",
     "qlevel": 37,
+    "reqlevel": 29,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -11175,6 +11460,7 @@
     "enabled": true,
     "code": "zvb",
     "qlevel": 39,
+    "reqlevel": 32,
     "modifiers": [
       {
         "prop": "thorns/lvl",
@@ -11219,6 +11505,7 @@
     "enabled": true,
     "code": "zmb",
     "qlevel": 45,
+    "reqlevel": 36,
     "modifiers": [
       {
         "prop": "light",
@@ -11263,6 +11550,7 @@
     "enabled": true,
     "code": "ztb",
     "qlevel": 49,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "gethit-skill",
@@ -11319,6 +11607,7 @@
     "enabled": true,
     "code": "zhb",
     "qlevel": 55,
+    "reqlevel": 47,
     "modifiers": [
       {
         "prop": "gethit-skill",
@@ -11381,6 +11670,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -11388,6 +11678,7 @@
     "enabled": true,
     "code": "uap",
     "qlevel": 69,
+    "reqlevel": 62,
     "modifiers": [
       {
         "prop": "allskills",
@@ -11450,6 +11741,7 @@
     "enabled": true,
     "code": "uhm",
     "qlevel": 77,
+    "reqlevel": 73,
     "modifiers": [
       {
         "prop": "res-all",
@@ -11500,6 +11792,7 @@
     "enabled": true,
     "code": "utu",
     "qlevel": 85,
+    "reqlevel": 85,
     "modifiers": [
       {
         "prop": "ac%",
@@ -11562,6 +11855,7 @@
     "enabled": true,
     "code": "upl",
     "qlevel": 85,
+    "reqlevel": 85,
     "modifiers": [
       {
         "prop": "ac%",
@@ -11578,7 +11872,7 @@
       {
         "prop": "allskills",
         "param": 0,
-        "min": 1,
+        "min": 2,
         "max": 2
       },
       {
@@ -11589,9 +11883,21 @@
       },
       {
         "prop": "vit/lvl",
-        "param": 4,
+        "param": 8,
         "min": 0,
         "max": 0
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -30,
+        "max": -30
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 10
       }
     ]
   },
@@ -11600,6 +11906,7 @@
     "enabled": true,
     "code": "uml",
     "qlevel": 67,
+    "reqlevel": 61,
     "modifiers": [
       {
         "prop": "dex/lvl",
@@ -11656,6 +11963,7 @@
     "enabled": true,
     "code": "uit",
     "qlevel": 77,
+    "reqlevel": 73,
     "modifiers": [
       {
         "prop": "ac/lvl",
@@ -11706,10 +12014,10 @@
         "max": 60
       },
       {
-        "prop": "light-thorns",
+        "prop": "ease",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": -20,
+        "max": -20
       }
     ]
   },
@@ -11718,16 +12026,17 @@
     "enabled": true,
     "code": "7bt",
     "qlevel": 71,
+    "reqlevel": 66,
     "modifiers": [
       {
         "prop": "str/lvl",
-        "param": 4,
+        "param": 12,
         "min": 0,
         "max": 0
       },
       {
         "prop": "vit/lvl",
-        "param": 4,
+        "param": 12,
         "min": 0,
         "max": 0
       },
@@ -11738,22 +12047,22 @@
         "max": 0
       },
       {
-        "prop": "dmg-fire",
+        "prop": "ease",
         "param": 0,
-        "min": 150,
-        "max": 250
+        "min": -20,
+        "max": -20
       },
       {
-        "prop": "hp",
+        "prop": "swing2",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 35,
+        "max": 35
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 150,
+        "max": 150
       },
       {
         "prop": "att-skill",
@@ -11768,10 +12077,11 @@
     "enabled": true,
     "code": "7ga",
     "qlevel": 75,
+    "reqlevel": 70,
     "modifiers": [
       {
-        "prop": "dmg%/lvl",
-        "param": 20,
+        "prop": "dmg/lvl",
+        "param": 25,
         "min": 0,
         "max": 0
       },
@@ -11806,10 +12116,10 @@
         "max": 15
       },
       {
-        "prop": "dmg-fire",
+        "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 240
+        "min": 45,
+        "max": 45
       },
       {
         "prop": "dur",
@@ -11830,6 +12140,7 @@
     "enabled": true,
     "code": "7mt",
     "qlevel": 70,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "att%",
@@ -11840,8 +12151,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 300,
+        "max": 350
       },
       {
         "prop": "dex",
@@ -11878,12 +12189,6 @@
         "param": 0,
         "min": 1,
         "max": 200
-      },
-      {
-        "prop": "dmg-cold",
-        "param": 0,
-        "min": 1,
-        "max": 200
       }
     ]
   },
@@ -11892,6 +12197,7 @@
     "enabled": true,
     "code": "7wh",
     "qlevel": 83,
+    "reqlevel": 79,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -11900,10 +12206,10 @@
         "max": 10
       },
       {
-        "prop": "hp",
-        "param": 0,
-        "min": 50,
-        "max": 50
+        "prop": "hp/lvl",
+        "param": 48,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "att/lvl",
@@ -11930,22 +12236,22 @@
         "max": 0
       },
       {
-        "prop": "indestruct",
+        "prop": "rep-dur",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 100,
-        "max": 130
+        "min": 230,
+        "max": 280
       },
       {
-        "prop": "light",
-        "param": 0,
-        "min": 1,
-        "max": 1
+        "prop": "crush/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "dmg-ltng",
@@ -11960,6 +12266,7 @@
     "enabled": true,
     "code": "7gm",
     "qlevel": 85,
+    "reqlevel": 87,
     "modifiers": [
       {
         "prop": "swing2",
@@ -11968,7 +12275,7 @@
         "max": 20
       },
       {
-        "prop": "indestruct",
+        "prop": "ethereal",
         "param": 0,
         "min": 1,
         "max": 1
@@ -11995,7 +12302,7 @@
         "prop": "dmg-norm",
         "param": 0,
         "min": 20,
-        "max": 20
+        "max": 25
       },
       {
         "prop": "dmg%",
@@ -12008,6 +12315,12 @@
         "param": 66,
         "min": 4,
         "max": 1
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -12016,12 +12329,13 @@
     "enabled": true,
     "code": "7cr",
     "qlevel": 66,
+    "reqlevel": 58,
     "modifiers": [
       {
-        "prop": "light",
+        "prop": "extra-ltng",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "att-skill",
@@ -12068,8 +12382,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 250,
+        "max": 300
       },
       {
         "prop": "dmg-norm",
@@ -12084,12 +12398,13 @@
     "enabled": true,
     "code": "7b7",
     "qlevel": 75,
+    "reqlevel": 69,
     "modifiers": [
       {
         "prop": "hp%",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 40
       },
       {
         "prop": "dmg%",
@@ -12117,15 +12432,21 @@
       },
       {
         "prop": "hit-skill",
-        "param": 72,
-        "min": 8,
-        "max": 3
+        "param": 86,
+        "min": 50,
+        "max": 1
       },
       {
         "prop": "lifesteal",
         "param": 0,
         "min": 5,
         "max": 7
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -12134,6 +12455,7 @@
     "enabled": true,
     "code": "7gd",
     "qlevel": 85,
+    "reqlevel": 81,
     "modifiers": [
       {
         "prop": "str",
@@ -12186,8 +12508,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 250
+        "min": 400,
+        "max": 450
+      },
+      {
+        "prop": "skill",
+        "param": 151,
+        "min": 10,
+        "max": 10
       }
     ]
   },
@@ -12196,6 +12524,7 @@
     "enabled": true,
     "code": "7dg",
     "qlevel": 69,
+    "reqlevel": 61,
     "modifiers": [
       {
         "prop": "mana/lvl",
@@ -12240,6 +12569,7 @@
     "enabled": false,
     "code": "rin",
     "qlevel": 95,
+    "reqlevel": 95,
     "modifiers": [
       {
         "prop": "res-all",
@@ -12272,18 +12602,19 @@
     "enabled": true,
     "code": "7wc",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
-        "prop": "res-ltng",
+        "prop": "res-all",
         "param": 0,
-        "min": 50,
+        "min": 30,
         "max": 50
       },
       {
         "prop": "gethit-skill",
-        "param": 53,
-        "min": 5,
-        "max": 5
+        "param": 121,
+        "min": 20,
+        "max": 25
       },
       {
         "prop": "dmg%",
@@ -12292,22 +12623,22 @@
         "max": 250
       },
       {
-        "prop": "str",
+        "prop": "extra-ltng",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "gethit-skill",
-        "param": 38,
-        "min": 2,
-        "max": 0
+        "param": 48,
+        "min": 20,
+        "max": 40
       },
       {
-        "prop": "swing2",
-        "param": 0,
-        "min": 30,
-        "max": 30
+        "prop": "oskill",
+        "param": 246,
+        "min": 10,
+        "max": 10
       },
       {
         "prop": "indestruct",
@@ -12316,16 +12647,16 @@
         "max": 1
       },
       {
-        "prop": "dmg-ltng",
-        "param": 0,
-        "min": 1,
-        "max": 237
+        "prop": "gethit-skill",
+        "param": 76,
+        "min": 20,
+        "max": 15
       },
       {
-        "prop": "light-thorns",
-        "param": 0,
-        "min": 27,
-        "max": 27
+        "prop": "aura",
+        "param": 103,
+        "min": 16,
+        "max": 20
       }
     ]
   },
@@ -12334,6 +12665,7 @@
     "enabled": true,
     "code": "6l7",
     "qlevel": 77,
+    "reqlevel": 69,
     "modifiers": [
       {
         "prop": "ignore-ac",
@@ -12356,8 +12688,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 350,
+        "max": 350
       },
       {
         "prop": "ama",
@@ -12378,6 +12710,7 @@
     "enabled": true,
     "code": "6lw",
     "qlevel": 80,
+    "reqlevel": 73,
     "modifiers": [
       {
         "prop": "dex",
@@ -12390,12 +12723,6 @@
         "param": 25,
         "min": 0,
         "max": 0
-      },
-      {
-        "prop": "regen-stam",
-        "param": 0,
-        "min": 30,
-        "max": 30
       },
       {
         "prop": "manasteal",
@@ -12412,14 +12739,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 250,
-        "max": 250
+        "min": 300,
+        "max": 300
       },
       {
         "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 45,
+        "max": 45
       },
       {
         "prop": "str",
@@ -12434,6 +12761,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -12441,6 +12769,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 66,
+    "reqlevel": 58,
     "modifiers": [
       {
         "prop": "hp/lvl",
@@ -12473,6 +12802,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 58,
+    "reqlevel": 50,
     "modifiers": [
       {
         "prop": "move2",
@@ -12511,6 +12841,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "abs-fire/lvl",
@@ -12555,6 +12886,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 58,
+    "reqlevel": 50,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -12599,6 +12931,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 80,
+    "reqlevel": 67,
     "modifiers": [
       {
         "prop": "allskills",
@@ -12643,6 +12976,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 60,
+    "reqlevel": 60,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -12687,6 +13021,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "gold%",
@@ -12731,6 +13066,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 53,
+    "reqlevel": 45,
     "modifiers": [
       {
         "prop": "nofreeze",
@@ -12775,6 +13111,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "res-ltng",
@@ -12819,6 +13156,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 55,
+    "reqlevel": 47,
     "modifiers": [
       {
         "prop": "res-all",
@@ -12863,6 +13201,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -12870,6 +13209,7 @@
     "enabled": true,
     "code": "baa",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "bar",
@@ -12932,6 +13272,7 @@
     "enabled": true,
     "code": "nea",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "nec",
@@ -12994,6 +13335,7 @@
     "enabled": true,
     "code": "ama",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "ama",
@@ -13062,6 +13404,7 @@
     "enabled": true,
     "code": "am7",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "ama",
@@ -13088,22 +13431,22 @@
         "max": 20
       },
       {
-        "prop": "ac%",
+        "prop": "res-all",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
-        "prop": "dex",
-        "param": 0,
-        "min": 20,
-        "max": 20
+        "prop": "skill",
+        "param": 31,
+        "min": 1,
+        "max": 3
       },
       {
-        "prop": "enr",
-        "param": 0,
-        "min": 20,
-        "max": 20
+        "prop": "skill",
+        "param": 27,
+        "min": 1,
+        "max": 3
       },
       {
         "prop": "manasteal",
@@ -13116,6 +13459,12 @@
         "param": 0,
         "min": 25,
         "max": 50
+      },
+      {
+        "prop": "skill",
+        "param": 16,
+        "min": 1,
+        "max": 3
       }
     ]
   },
@@ -13124,6 +13473,7 @@
     "enabled": true,
     "code": "am9",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "ama",
@@ -13146,38 +13496,26 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 70,
+        "max": 70
       },
       {
-        "prop": "ac%",
-        "param": 0,
-        "min": 20,
-        "max": 20
+        "prop": "skill",
+        "param": 24,
+        "min": 3,
+        "max": 5
       },
       {
-        "prop": "str",
-        "param": 0,
-        "min": 20,
-        "max": 20
-      },
-      {
-        "prop": "vit",
-        "param": 0,
-        "min": 20,
-        "max": 20
-      },
-      {
-        "prop": "lifesteal",
+        "prop": "manasteal",
         "param": 0,
         "min": 5,
         "max": 9
       },
       {
-        "prop": "dmg-norm",
-        "param": 0,
-        "min": 25,
-        "max": 50
+        "prop": "skill",
+        "param": 34,
+        "min": 3,
+        "max": 5
       }
     ]
   },
@@ -13186,6 +13524,7 @@
     "enabled": true,
     "code": "oba",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "sor",
@@ -13248,6 +13587,7 @@
     "enabled": true,
     "code": "pa9",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "pal",
@@ -13310,6 +13650,7 @@
     "enabled": true,
     "code": "9tw",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "ass",
@@ -13336,25 +13677,25 @@
         "max": 30
       },
       {
-        "prop": "att%",
+        "prop": "att/lvl",
+        "param": 24,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "all-stats",
         "param": 0,
         "min": 20,
         "max": 20
       },
       {
-        "prop": "str",
+        "prop": "ease",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": -20,
+        "max": -20
       },
       {
-        "prop": "dex",
-        "param": 0,
-        "min": 20,
-        "max": 20
-      },
-      {
-        "prop": "lifesteal",
+        "prop": "manasteal",
         "param": 0,
         "min": 5,
         "max": 9
@@ -13362,8 +13703,8 @@
       {
         "prop": "dmg-norm",
         "param": 0,
-        "min": 25,
-        "max": 50
+        "min": 50,
+        "max": 75
       }
     ]
   },
@@ -13372,6 +13713,7 @@
     "enabled": true,
     "code": "dra",
     "qlevel": 50,
+    "reqlevel": 42,
     "modifiers": [
       {
         "prop": "dru",
@@ -13434,6 +13776,7 @@
     "enabled": true,
     "code": "9ta",
     "qlevel": 65,
+    "reqlevel": 57,
     "modifiers": [
       {
         "prop": "rep-quant",
@@ -13444,8 +13787,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 200,
+        "max": 240
       },
       {
         "prop": "att%",
@@ -13476,6 +13819,12 @@
         "param": 0,
         "min": 4,
         "max": 4
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -13484,6 +13833,7 @@
     "enabled": true,
     "code": "7sb",
     "qlevel": 69,
+    "reqlevel": 61,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -13498,22 +13848,34 @@
         "max": 15
       },
       {
-        "prop": "charged",
+        "prop": "oskill",
         "param": 85,
-        "min": 9,
-        "max": 15
+        "min": 1,
+        "max": 6
       },
       {
-        "prop": "heal-kill",
+        "prop": "swing2",
         "param": 0,
-        "min": 7,
-        "max": 13
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "openwounds",
         "param": 0,
         "min": 50,
         "max": 50
+      },
+      {
+        "prop": "oskill",
+        "param": 89,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "oskill",
+        "param": 79,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -13522,6 +13884,7 @@
     "enabled": true,
     "code": "7sm",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -13530,10 +13893,10 @@
         "max": 240
       },
       {
-        "prop": "dmg-fire",
+        "prop": "dmg",
         "param": 0,
-        "min": 250,
-        "max": 500
+        "min": 50,
+        "max": 100
       },
       {
         "prop": "dmg-demon",
@@ -13572,6 +13935,7 @@
     "enabled": true,
     "code": "9tk",
     "qlevel": 52,
+    "reqlevel": 44,
     "modifiers": [
       {
         "prop": "deadly",
@@ -13582,8 +13946,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 130,
-        "max": 180
+        "min": 160,
+        "max": 190
       },
       {
         "prop": "att",
@@ -13608,6 +13972,12 @@
         "param": 25,
         "min": 0,
         "max": 0
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -13616,6 +13986,7 @@
     "enabled": true,
     "code": "7bk",
     "qlevel": 83,
+    "reqlevel": 75,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -13660,12 +14031,13 @@
     "enabled": true,
     "code": "6rx",
     "qlevel": 79,
+    "reqlevel": 71,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
-        "max": 220
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "pierce",
@@ -13690,6 +14062,12 @@
         "param": 0,
         "min": 33,
         "max": 33
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 12,
+        "max": 18
       }
     ]
   },
@@ -13698,12 +14076,13 @@
     "enabled": true,
     "code": "7ha",
     "qlevel": 75,
+    "reqlevel": 67,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 175,
-        "max": 225
+        "min": 225,
+        "max": 300
       },
       {
         "prop": "swing2",
@@ -13736,6 +14115,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -13743,6 +14123,7 @@
     "enabled": true,
     "code": "7sp",
     "qlevel": 71,
+    "reqlevel": 63,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -13793,6 +14174,7 @@
     "enabled": true,
     "code": "ulm",
     "qlevel": 70,
+    "reqlevel": 62,
     "modifiers": [
       {
         "prop": "ac%",
@@ -13825,6 +14207,7 @@
     "enabled": true,
     "code": "7pa",
     "qlevel": 86,
+    "reqlevel": 84,
     "modifiers": [
       {
         "prop": "swing2",
@@ -13893,6 +14276,7 @@
     "enabled": true,
     "code": "7gw",
     "qlevel": 74,
+    "reqlevel": 66,
     "modifiers": [
       {
         "prop": "allskills",
@@ -13931,6 +14315,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 77,
+    "reqlevel": 69,
     "modifiers": [
       {
         "prop": "noheal",
@@ -13969,6 +14354,7 @@
     "enabled": true,
     "code": "7cr",
     "qlevel": 87,
+    "reqlevel": 85,
     "modifiers": [
       {
         "prop": "dmg-mag",
@@ -13989,10 +14375,10 @@
         "max": 13
       },
       {
-        "prop": "dmg-cold",
-        "param": 250,
-        "min": 250,
-        "max": 500
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 127,
+        "max": 127
       },
       {
         "prop": "swing2",
@@ -14001,16 +14387,16 @@
         "max": 30
       },
       {
-        "prop": "all-stats",
+        "prop": "dex",
         "param": 0,
-        "min": 5,
-        "max": 10
+        "min": 30,
+        "max": 50
       },
       {
-        "prop": "light",
+        "prop": "deadly",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "allskills",
@@ -14025,6 +14411,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "allskills",
@@ -14075,6 +14462,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -14082,6 +14470,7 @@
     "enabled": true,
     "code": "7kr",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -14132,6 +14521,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -14139,6 +14529,7 @@
     "enabled": true,
     "code": "7fl",
     "qlevel": 72,
+    "reqlevel": 64,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -14161,8 +14552,8 @@
       {
         "prop": "hit-skill",
         "param": 245,
-        "min": 20,
-        "max": 15
+        "min": 30,
+        "max": 25
       },
       {
         "prop": "ease",
@@ -14177,6 +14568,7 @@
     "enabled": true,
     "code": "7wh",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -14185,10 +14577,10 @@
         "max": 320
       },
       {
-        "prop": "str",
+        "prop": "ease",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": -20,
+        "max": -20
       },
       {
         "prop": "crush",
@@ -14209,9 +14601,9 @@
         "max": -100
       },
       {
-        "prop": "dmg",
+        "prop": "swing2",
         "param": 0,
-        "min": 10,
+        "min": 30,
         "max": 30
       }
     ]
@@ -14221,12 +14613,13 @@
     "enabled": true,
     "code": "7wb",
     "qlevel": 74,
+    "reqlevel": 66,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 190,
-        "max": 240
+        "min": 280,
+        "max": 320
       },
       {
         "prop": "manasteal",
@@ -14241,7 +14634,7 @@
         "max": 50
       },
       {
-        "prop": "balance2",
+        "prop": "swing2",
         "param": 0,
         "min": 30,
         "max": 30
@@ -14265,6 +14658,7 @@
     "enabled": true,
     "code": "uhb",
     "qlevel": 79,
+    "reqlevel": 71,
     "modifiers": [
       {
         "prop": "ac%",
@@ -14309,6 +14703,7 @@
     "enabled": true,
     "code": "drb",
     "qlevel": 71,
+    "reqlevel": 63,
     "modifiers": [
       {
         "prop": "ac%",
@@ -14353,6 +14748,7 @@
     "enabled": true,
     "code": "uar",
     "qlevel": 87,
+    "reqlevel": 84,
     "modifiers": [
       {
         "prop": "ease",
@@ -14379,10 +14775,10 @@
         "max": 1
       },
       {
-        "prop": "dmg-demon",
+        "prop": "dmg%",
         "param": 0,
         "min": 50,
-        "max": 100
+        "max": 80
       },
       {
         "prop": "nofreeze",
@@ -14393,20 +14789,26 @@
       {
         "prop": "move2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 60,
+        "max": 60
       },
       {
         "prop": "res-all",
         "param": 0,
         "min": 20,
-        "max": 30
+        "max": 40
       },
       {
-        "prop": "str",
+        "prop": "oskill",
+        "param": 54,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "sock",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": 2,
+        "max": 2
       }
     ]
   },
@@ -14415,6 +14817,7 @@
     "enabled": true,
     "code": "umg",
     "qlevel": 82,
+    "reqlevel": 74,
     "modifiers": [
       {
         "prop": "ac%",
@@ -14453,12 +14856,13 @@
     "enabled": true,
     "code": "72a",
     "qlevel": 80,
+    "reqlevel": 72,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 220,
-        "max": 270
+        "min": 270,
+        "max": 300
       },
       {
         "prop": "sock",
@@ -14467,10 +14871,10 @@
         "max": 5
       },
       {
-        "prop": "res-cold-max",
-        "param": 0,
-        "min": 5,
-        "max": 5
+        "prop": "rep-dur",
+        "param": 20,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "nofreeze",
@@ -14485,12 +14889,13 @@
     "enabled": true,
     "code": "7wa",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 230,
-        "max": 280
+        "min": 280,
+        "max": 380
       },
       {
         "prop": "deadly",
@@ -14511,10 +14916,10 @@
         "max": 40
       },
       {
-        "prop": "heal-kill",
-        "param": 0,
-        "min": 6,
-        "max": 9
+        "prop": "kill-skill",
+        "param": 66,
+        "min": 20,
+        "max": 3
       }
     ]
   },
@@ -14523,12 +14928,13 @@
     "enabled": true,
     "code": "7gi",
     "qlevel": 83,
+    "reqlevel": 75,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 240,
-        "max": 290
+        "min": 340,
+        "max": 400
       },
       {
         "prop": "crush",
@@ -14551,8 +14957,8 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 55,
+        "max": 55
       }
     ]
   },
@@ -14561,18 +14967,19 @@
     "enabled": true,
     "code": "amd",
     "qlevel": 72,
+    "reqlevel": 64,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 230,
-        "max": 280
+        "min": 350,
+        "max": 450
       },
       {
-        "prop": "dmg-mag",
+        "prop": "swing2",
         "param": 0,
-        "min": 101,
-        "max": 187
+        "min": 50,
+        "max": 60
       },
       {
         "prop": "res-all",
@@ -14581,10 +14988,10 @@
         "max": 50
       },
       {
-        "prop": "ac",
-        "param": 0,
-        "min": 400,
-        "max": 600
+        "prop": "skilltab",
+        "param": 1,
+        "min": 3,
+        "max": 6
       },
       {
         "prop": "skilltab",
@@ -14599,6 +15006,7 @@
     "enabled": true,
     "code": "uld",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "ac%",
@@ -14615,8 +15023,8 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 15,
-        "max": 25
+        "min": 25,
+        "max": 35
       },
       {
         "prop": "str",
@@ -14629,6 +15037,12 @@
         "param": 0,
         "min": 1,
         "max": 1
+      },
+      {
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 15,
+        "max": 18
       }
     ]
   },
@@ -14637,6 +15051,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -14644,6 +15059,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 84,
+    "reqlevel": 76,
     "modifiers": [
       {
         "prop": "abs-ltng%",
@@ -14688,6 +15104,7 @@
     "enabled": true,
     "code": "7ts",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -14702,22 +15119,34 @@
         "max": 0
       },
       {
-        "prop": "dmg-pois",
-        "param": 250,
-        "min": 300,
-        "max": 300
+        "prop": "kill-skill",
+        "param": 278,
+        "min": 2,
+        "max": 20
       },
       {
-        "prop": "lifesteal",
+        "prop": "cast2",
         "param": 0,
-        "min": 9,
-        "max": 15
+        "min": 29,
+        "max": 29
       },
       {
-        "prop": "charged",
-        "param": 25,
-        "min": 60,
-        "max": 11
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 12,
+        "max": 22
       }
     ]
   },
@@ -14726,6 +15155,7 @@
     "enabled": true,
     "code": "7b8",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -14776,6 +15206,7 @@
     "enabled": true,
     "code": "6ws",
     "qlevel": 86,
+    "reqlevel": 82,
     "modifiers": [
       {
         "prop": "allskills",
@@ -14786,32 +15217,32 @@
       {
         "prop": "pierce-fire",
         "param": 0,
-        "min": 7,
+        "min": 15,
         "max": 15
       },
       {
         "prop": "pierce-ltng",
         "param": 0,
-        "min": 7,
+        "min": 15,
         "max": 15
       },
       {
         "prop": "pierce-cold",
         "param": 0,
-        "min": 7,
+        "min": 15,
         "max": 15
       },
       {
-        "prop": "regen-mana",
-        "param": 0,
-        "min": 10,
-        "max": 10
+        "prop": "mag%/lvl",
+        "param": 10,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "cast2",
         "param": 0,
         "min": 30,
-        "max": 30
+        "max": 50
       }
     ]
   },
@@ -14820,18 +15251,19 @@
     "enabled": true,
     "code": "7br",
     "qlevel": 79,
+    "reqlevel": 71,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 190,
-        "max": 240
+        "min": 300,
+        "max": 340
       },
       {
-        "prop": "dmg-pois",
-        "param": 250,
-        "min": 333,
-        "max": 333
+        "prop": "openwounds",
+        "param": 0,
+        "min": 35,
+        "max": 35
       },
       {
         "prop": "swing2",
@@ -14847,9 +15279,9 @@
       },
       {
         "prop": "hit-skill",
-        "param": 83,
+        "param": 384,
         "min": 15,
-        "max": 9
+        "max": 26
       },
       {
         "prop": "res-pois",
@@ -14864,6 +15296,7 @@
     "enabled": true,
     "code": "7ba",
     "qlevel": 82,
+    "reqlevel": 74,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -14874,8 +15307,8 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 55,
+        "max": 55
       },
       {
         "prop": "abs-fire",
@@ -14886,14 +15319,14 @@
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 300,
+        "max": 400
       },
       {
         "prop": "demon-heal",
         "param": 0,
-        "min": 5,
-        "max": 10
+        "min": 500,
+        "max": 500
       },
       {
         "prop": "att",
@@ -14920,6 +15353,7 @@
     "enabled": true,
     "code": "bad",
     "qlevel": 69,
+    "reqlevel": 61,
     "modifiers": [
       {
         "prop": "ac%",
@@ -14970,6 +15404,7 @@
     "enabled": true,
     "code": "7s8",
     "qlevel": 83,
+    "reqlevel": 75,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -15020,6 +15455,7 @@
     "enabled": true,
     "code": "drd",
     "qlevel": 75,
+    "reqlevel": 67,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15070,6 +15506,7 @@
     "enabled": true,
     "code": "6hx",
     "qlevel": 84,
+    "reqlevel": 76,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -15086,8 +15523,8 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 95,
+        "max": 95
       },
       {
         "prop": "att%",
@@ -15114,6 +15551,7 @@
     "enabled": true,
     "code": "pac",
     "qlevel": 85,
+    "reqlevel": 77,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15136,26 +15574,26 @@
       {
         "prop": "block",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 50,
+        "max": 50
       },
       {
-        "prop": "red-mag",
+        "prop": "res-all",
         "param": 0,
-        "min": 5,
-        "max": 9
+        "min": 50,
+        "max": 70
       },
       {
-        "prop": "att%",
-        "param": 0,
-        "min": 40,
-        "max": 75
+        "prop": "kill-skill",
+        "param": 382,
+        "min": 10,
+        "max": 17
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 75
+        "min": 150,
+        "max": 200
       }
     ]
   },
@@ -15164,6 +15602,7 @@
     "enabled": true,
     "code": "nef",
     "qlevel": 72,
+    "reqlevel": 64,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15208,6 +15647,7 @@
     "enabled": true,
     "code": "6sw",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -15246,12 +15686,13 @@
     "enabled": true,
     "code": "amb",
     "qlevel": 79,
+    "reqlevel": 71,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 180,
-        "max": 230
+        "min": 300,
+        "max": 330
       },
       {
         "prop": "att%",
@@ -15276,6 +15717,12 @@
         "param": 95,
         "min": 30,
         "max": 5
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -15284,24 +15731,25 @@
     "enabled": true,
     "code": "7bl",
     "qlevel": 70,
+    "reqlevel": 62,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 190,
-        "max": 240
+        "min": 300,
+        "max": 300
       },
       {
-        "prop": "ignore-ac",
+        "prop": "cast2",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 40,
+        "max": 40
       },
       {
-        "prop": "dmg-mag",
+        "prop": "mana",
         "param": 0,
         "min": 108,
-        "max": 108
+        "max": 300
       },
       {
         "prop": "manasteal",
@@ -15322,10 +15770,10 @@
         "max": 1
       },
       {
-        "prop": "light",
+        "prop": "gold%",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 200,
+        "max": 250
       }
     ]
   },
@@ -15334,12 +15782,13 @@
     "enabled": true,
     "code": "7cs",
     "qlevel": 85,
+    "reqlevel": 78,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 170,
-        "max": 220
+        "min": 300,
+        "max": 350
       },
       {
         "prop": "reduce-ac",
@@ -15361,9 +15810,9 @@
       },
       {
         "prop": "hit-skill",
-        "param": 44,
-        "min": 33,
-        "max": 8
+        "param": 279,
+        "min": 3,
+        "max": 20
       },
       {
         "prop": "ethereal",
@@ -15384,12 +15833,13 @@
     "enabled": true,
     "code": "7ta",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 160,
-        "max": 210
+        "min": 210,
+        "max": 270
       },
       {
         "prop": "dmg-fire",
@@ -15398,10 +15848,10 @@
         "max": 483
       },
       {
-        "prop": "dmg-cold",
-        "param": 100,
-        "min": 176,
-        "max": 397
+        "prop": "crush",
+        "param": 0,
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "dmg-ltng",
@@ -15428,6 +15878,7 @@
     "enabled": true,
     "code": "ci3",
     "qlevel": 84,
+    "reqlevel": 76,
     "modifiers": [
       {
         "prop": "ac",
@@ -15466,6 +15917,7 @@
     "enabled": true,
     "code": "7m7",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -15489,7 +15941,7 @@
         "prop": "hit-skill",
         "param": 240,
         "min": 33,
-        "max": 22
+        "max": 36
       }
     ]
   },
@@ -15498,6 +15950,7 @@
     "enabled": true,
     "code": "amf",
     "qlevel": 77,
+    "reqlevel": 69,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -15540,6 +15993,18 @@
         "param": 2,
         "min": 2,
         "max": 4
+      },
+      {
+        "prop": "rep-quant",
+        "param": 17,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -15548,6 +16013,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -15555,6 +16021,7 @@
     "enabled": true,
     "code": "7s7",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -15575,10 +16042,10 @@
         "max": 12
       },
       {
-        "prop": "rep-quant",
-        "param": 30,
-        "min": 0,
-        "max": 0
+        "prop": "kill-skill",
+        "param": 258,
+        "min": 25,
+        "max": 5
       },
       {
         "prop": "swing2",
@@ -15599,6 +16066,7 @@
     "enabled": true,
     "code": "nee",
     "qlevel": 80,
+    "reqlevel": 72,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15637,18 +16105,19 @@
     "enabled": true,
     "code": "7p7",
     "qlevel": 77,
+    "reqlevel": 69,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 210,
-        "max": 260
+        "min": 260,
+        "max": 350
       },
       {
         "prop": "swing2",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 50,
+        "max": 75
       },
       {
         "prop": "reduce-ac",
@@ -15663,7 +16132,7 @@
         "max": 80
       },
       {
-        "prop": "indestruct",
+        "prop": "ethereal",
         "param": 0,
         "min": 1,
         "max": 1
@@ -15673,6 +16142,12 @@
         "param": 0,
         "min": 25,
         "max": 25
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -15681,6 +16156,7 @@
     "enabled": true,
     "code": "uhm",
     "qlevel": 75,
+    "reqlevel": 67,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15731,6 +16207,7 @@
     "enabled": true,
     "code": "urn",
     "qlevel": 86,
+    "reqlevel": 82,
     "modifiers": [
       {
         "prop": "balance2",
@@ -15787,6 +16264,7 @@
     "enabled": true,
     "code": "usk",
     "qlevel": 85,
+    "reqlevel": 83,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15855,6 +16333,7 @@
     "enabled": false,
     "code": "ulm",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -15862,6 +16341,7 @@
     "enabled": true,
     "code": "pae",
     "qlevel": 84,
+    "reqlevel": 80,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15870,34 +16350,34 @@
         "max": 200
       },
       {
-        "prop": "abs-fire%",
-        "param": 0,
-        "min": 10,
-        "max": 20
+        "prop": "abs-fire/lvl",
+        "param": 6,
+        "min": 0,
+        "max": 0
       },
       {
-        "prop": "res-fire-max",
-        "param": 0,
-        "min": 5,
-        "max": 5
-      },
-      {
-        "prop": "str",
+        "prop": "extra-ltng",
         "param": 0,
         "min": 15,
-        "max": 25
+        "max": 15
       },
       {
-        "prop": "dmg-fire",
+        "prop": "res-all",
         "param": 0,
-        "min": 211,
-        "max": 371
+        "min": 15,
+        "max": 45
       },
       {
-        "prop": "oskill",
-        "param": 62,
-        "min": 10,
-        "max": 10
+        "prop": "skilltab",
+        "param": 10,
+        "min": 3,
+        "max": 4
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 5,
+        "max": 15
       },
       {
         "prop": "extra-fire",
@@ -15912,6 +16392,7 @@
     "enabled": true,
     "code": "uul",
     "qlevel": 74,
+    "reqlevel": 66,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15932,10 +16413,10 @@
         "max": 14
       },
       {
-        "prop": "res-cold",
+        "prop": "res-all",
         "param": 0,
-        "min": 40,
-        "max": 60
+        "min": 30,
+        "max": 50
       },
       {
         "prop": "regen-mana",
@@ -15950,10 +16431,10 @@
         "max": 0
       },
       {
-        "prop": "gethit-skill",
-        "param": 76,
-        "min": 8,
-        "max": 6
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 30,
+        "max": 30
       }
     ]
   },
@@ -15962,6 +16443,7 @@
     "enabled": true,
     "code": "uow",
     "qlevel": 84,
+    "reqlevel": 76,
     "modifiers": [
       {
         "prop": "ac%",
@@ -15978,26 +16460,32 @@
       {
         "prop": "gethit-skill",
         "param": 91,
-        "min": 10,
-        "max": 7
+        "min": 25,
+        "max": 15
       },
       {
-        "prop": "lifesteal",
+        "prop": "res-all",
         "param": 0,
-        "min": 5,
-        "max": 9
+        "min": 15,
+        "max": 25
       },
       {
         "prop": "death-skill",
-        "param": 48,
+        "param": 92,
         "min": 100,
         "max": 44
       },
       {
-        "prop": "res-cold",
+        "prop": "cast1",
         "param": 0,
-        "min": 40,
-        "max": 80
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -16006,6 +16494,7 @@
     "enabled": true,
     "code": "dre",
     "qlevel": 82,
+    "reqlevel": 74,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16050,6 +16539,7 @@
     "enabled": true,
     "code": "7bw",
     "qlevel": 84,
+    "reqlevel": 79,
     "modifiers": [
       {
         "prop": "nec",
@@ -16065,12 +16555,6 @@
       },
       {
         "prop": "skill",
-        "param": 67,
-        "min": 4,
-        "max": 5
-      },
-      {
-        "prop": "skill",
         "param": 68,
         "min": 4,
         "max": 5
@@ -16078,8 +16562,8 @@
       {
         "prop": "skill",
         "param": 84,
-        "min": 2,
-        "max": 3
+        "min": 4,
+        "max": 4
       },
       {
         "prop": "skill",
@@ -16088,10 +16572,10 @@
         "max": 2
       },
       {
-        "prop": "skill",
-        "param": 78,
-        "min": 2,
-        "max": 3
+        "prop": "mag%",
+        "param": 0,
+        "min": 100,
+        "max": 100
       }
     ]
   },
@@ -16100,6 +16584,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -16107,6 +16592,7 @@
     "enabled": true,
     "code": "7gs",
     "qlevel": 79,
+    "reqlevel": 71,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -16133,25 +16619,25 @@
         "max": 30
       },
       {
-        "prop": "hit-skill",
-        "param": 225,
+        "prop": "kill-skill",
+        "param": 62,
         "min": 12,
-        "max": 16
+        "max": 32
       },
       {
-        "prop": "str",
+        "prop": "res-all",
         "param": 0,
-        "min": 10,
-        "max": 20
+        "min": 30,
+        "max": 40
       },
       {
-        "prop": "vit",
+        "prop": "enr",
         "param": 0,
-        "min": 5,
-        "max": 10
+        "min": 40,
+        "max": 60
       },
       {
-        "prop": "oskill",
+        "prop": "skill",
         "param": 41,
         "min": 12,
         "max": 18
@@ -16163,6 +16649,7 @@
     "enabled": true,
     "code": "obf",
     "qlevel": 81,
+    "reqlevel": 73,
     "modifiers": [
       {
         "prop": "sor",
@@ -16201,6 +16688,7 @@
     "enabled": true,
     "code": "bac",
     "qlevel": 85,
+    "reqlevel": 79,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16263,6 +16751,7 @@
     "enabled": true,
     "code": "uts",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16271,10 +16760,10 @@
         "max": 180
       },
       {
-        "prop": "abs-cold",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 6,
-        "max": 11
+        "min": 10,
+        "max": 10
       },
       {
         "prop": "res-all",
@@ -16285,8 +16774,8 @@
       {
         "prop": "block",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": 50,
+        "max": 50
       },
       {
         "prop": "block2",
@@ -16297,7 +16786,7 @@
       {
         "prop": "gethit-skill",
         "param": 267,
-        "min": 5,
+        "min": 15,
         "max": 8
       }
     ]
@@ -16307,6 +16796,7 @@
     "enabled": true,
     "code": "ci2",
     "qlevel": 85,
+    "reqlevel": 77,
     "modifiers": [
       {
         "prop": "ac",
@@ -16339,18 +16829,19 @@
     "enabled": true,
     "code": "uui",
     "qlevel": 83,
+    "reqlevel": 75,
     "modifiers": [
       {
-        "prop": "ac",
+        "prop": "ac%",
         "param": 0,
-        "min": 10,
-        "max": 20
+        "min": 150,
+        "max": 180
       },
       {
         "prop": "cast2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "extra-fire",
@@ -16373,8 +16864,8 @@
       {
         "prop": "regen-mana",
         "param": 0,
-        "min": 10,
-        "max": 15
+        "min": 50,
+        "max": 75
       },
       {
         "prop": "skill-rand",
@@ -16389,6 +16880,7 @@
     "enabled": true,
     "code": "cm3",
     "qlevel": 70,
+    "reqlevel": 62,
     "modifiers": [
       {
         "prop": "mag%",
@@ -16415,6 +16907,7 @@
     "enabled": true,
     "code": "7fl",
     "qlevel": 86,
+    "reqlevel": 82,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -16471,6 +16964,7 @@
     "enabled": true,
     "code": "bae",
     "qlevel": 85,
+    "reqlevel": 77,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16521,6 +17015,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -16528,6 +17023,7 @@
     "enabled": true,
     "code": "upk",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16536,10 +17032,10 @@
         "max": 150
       },
       {
-        "prop": "thorns/lvl",
-        "param": 11,
-        "min": 0,
-        "max": 0
+        "prop": "crush",
+        "param": 0,
+        "min": 15,
+        "max": 20
       },
       {
         "prop": "dur",
@@ -16564,6 +17060,12 @@
         "param": 0,
         "min": 1,
         "max": 1
+      },
+      {
+        "prop": "openwounds",
+        "param": 0,
+        "min": 20,
+        "max": 30
       }
     ]
   },
@@ -16572,6 +17074,7 @@
     "enabled": true,
     "code": "uvg",
     "qlevel": 84,
+    "reqlevel": 76,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16616,6 +17119,7 @@
     "enabled": true,
     "code": "7ls",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -16630,10 +17134,10 @@
         "max": 4
       },
       {
-        "prop": "half-freeze",
+        "prop": "extra-cold",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 10,
+        "max": 20
       },
       {
         "prop": "dmg-cold",
@@ -16654,9 +17158,9 @@
         "max": 15
       },
       {
-        "prop": "oskill",
+        "prop": "skill",
         "param": 230,
-        "min": 7,
+        "min": 10,
         "max": 14
       }
     ]
@@ -16666,6 +17170,7 @@
     "enabled": true,
     "code": "uar",
     "qlevel": 82,
+    "reqlevel": 74,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16680,28 +17185,28 @@
         "max": 20
       },
       {
-        "prop": "ac-miss",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 250,
-        "max": 300
+        "min": 20,
+        "max": 20
       },
       {
-        "prop": "stam",
+        "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 50
+        "min": 100,
+        "max": 160
       },
       {
-        "prop": "str",
+        "prop": "dex",
         "param": 0,
-        "min": 10,
-        "max": 15
+        "min": 30,
+        "max": 45
       },
       {
         "prop": "vit",
         "param": 0,
-        "min": 10,
-        "max": 15
+        "min": 15,
+        "max": 30
       },
       {
         "prop": "skilltab",
@@ -16716,6 +17221,7 @@
     "enabled": true,
     "code": "obc",
     "qlevel": 80,
+    "reqlevel": 72,
     "modifiers": [
       {
         "prop": "sor",
@@ -16754,6 +17260,7 @@
     "enabled": true,
     "code": "7lw",
     "qlevel": 75,
+    "reqlevel": 67,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -16768,10 +17275,10 @@
         "max": 15
       },
       {
-        "prop": "skilltab",
-        "param": 20,
-        "min": 1,
-        "max": 3
+        "prop": "skill",
+        "param": 259,
+        "min": 3,
+        "max": 5
       },
       {
         "prop": "dmg-fire",
@@ -16780,22 +17287,22 @@
         "max": 480
       },
       {
-        "prop": "res-fire",
+        "prop": "ass",
         "param": 0,
-        "min": 40,
-        "max": 70
+        "min": 2,
+        "max": 2
       },
       {
         "prop": "skill",
         "param": 262,
-        "min": 1,
-        "max": 2
+        "min": 3,
+        "max": 5
       },
       {
         "prop": "skill",
         "param": 272,
-        "min": 1,
-        "max": 2
+        "min": 3,
+        "max": 5
       }
     ]
   },
@@ -16804,6 +17311,7 @@
     "enabled": true,
     "code": "uvb",
     "qlevel": 72,
+    "reqlevel": 64,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16866,6 +17374,7 @@
     "enabled": true,
     "code": "umb",
     "qlevel": 74,
+    "reqlevel": 66,
     "modifiers": [
       {
         "prop": "ac%",
@@ -16934,6 +17443,7 @@
     "enabled": true,
     "code": "7sc",
     "qlevel": 69,
+    "reqlevel": 61,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -16990,6 +17500,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -16997,6 +17508,7 @@
     "enabled": true,
     "code": "ulc",
     "qlevel": 87,
+    "reqlevel": 80,
     "modifiers": [
       {
         "prop": "ac%",
@@ -17041,6 +17553,7 @@
     "enabled": true,
     "code": "uvc",
     "qlevel": 68,
+    "reqlevel": 51,
     "modifiers": [
       {
         "prop": "str",
@@ -17085,6 +17598,7 @@
     "enabled": true,
     "code": "amu",
     "qlevel": 85,
+    "reqlevel": 81,
     "modifiers": [
       {
         "prop": "ac",
@@ -17123,6 +17637,7 @@
     "enabled": true,
     "code": "umc",
     "qlevel": 71,
+    "reqlevel": 63,
     "modifiers": [
       {
         "prop": "ac%",
@@ -17167,6 +17682,7 @@
     "enabled": false,
     "code": "",
     "qlevel": 0,
+    "reqlevel": 0,
     "modifiers": []
   },
   {
@@ -17174,6 +17690,7 @@
     "enabled": true,
     "code": "rin",
     "qlevel": 68,
+    "reqlevel": 60,
     "modifiers": [
       {
         "prop": "ac-miss",
@@ -17224,6 +17741,7 @@
     "enabled": true,
     "code": "uh9",
     "qlevel": 73,
+    "reqlevel": 65,
     "modifiers": [
       {
         "prop": "ac",
@@ -17262,12 +17780,13 @@
     "enabled": true,
     "code": "7ws",
     "qlevel": 68,
+    "reqlevel": 60,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 240,
-        "max": 290
+        "min": 290,
+        "max": 350
       },
       {
         "prop": "slow",
@@ -17288,21 +17807,21 @@
         "max": 10
       },
       {
-        "prop": "dmg-mag",
-        "param": 0,
-        "min": 80,
-        "max": 240
+        "prop": "skill",
+        "param": 112,
+        "min": 3,
+        "max": 3
       },
       {
-        "prop": "red-dmg",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 4,
-        "max": 7
+        "min": 10,
+        "max": 10
       },
       {
         "prop": "dmg",
         "param": 0,
-        "min": 40,
+        "min": 85,
         "max": 85
       },
       {
@@ -17324,6 +17843,7 @@
     "enabled": true,
     "code": "cm1",
     "qlevel": 110,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "allskills",
@@ -17356,6 +17876,7 @@
     "enabled": true,
     "code": "7sr",
     "qlevel": 85,
+    "reqlevel": 81,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -17400,18 +17921,13 @@
     "enabled": true,
     "code": "7mp",
     "qlevel": 71,
+    "reqlevel": 63,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 240,
-        "max": 300
-      },
-      {
-        "prop": "dmg-ltng",
-        "param": 0,
-        "min": 1,
-        "max": 305
+        "min": 300,
+        "max": 350
       },
       {
         "prop": "swing2",
@@ -17426,16 +17942,34 @@
         "max": 25
       },
       {
-        "prop": "mag%",
-        "param": 0,
-        "min": 20,
-        "max": 50
+        "prop": "skilltab",
+        "param": 14,
+        "min": 3,
+        "max": 3
       },
       {
-        "prop": "charged",
+        "prop": "oskill",
         "param": 221,
-        "min": 15,
+        "min": 8,
         "max": 8
+      },
+      {
+        "prop": "oskill",
+        "param": 275,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "skilltab",
+        "param": 19,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 8,
+        "max": 12
       }
     ]
   },
@@ -17444,6 +17978,7 @@
     "enabled": true,
     "code": "7cl",
     "qlevel": 76,
+    "reqlevel": 68,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -17460,13 +17995,13 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 45,
+        "max": 45
       },
       {
-        "prop": "charged",
+        "prop": "hit-skill",
         "param": 59,
-        "min": 12,
+        "min": 20,
         "max": 16
       },
       {
@@ -17476,7 +18011,7 @@
         "max": 180
       },
       {
-        "prop": "abs-cold%",
+        "prop": "extra-cold",
         "param": 0,
         "min": 5,
         "max": 15
@@ -17484,8 +18019,8 @@
       {
         "prop": "dmg-cold",
         "param": 125,
-        "min": 205,
-        "max": 455
+        "min": 455,
+        "max": 650
       }
     ]
   },
@@ -17494,6 +18029,7 @@
     "enabled": true,
     "code": "7gm",
     "qlevel": 77,
+    "reqlevel": 69,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -17505,7 +18041,7 @@
         "prop": "hit-skill",
         "param": 234,
         "min": 25,
-        "max": 14
+        "max": 25
       },
       {
         "prop": "crush",
@@ -17516,14 +18052,14 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 70,
+        "max": 70
       },
       {
-        "prop": "charged",
-        "param": 244,
-        "min": 30,
-        "max": 14
+        "prop": "skill",
+        "param": 249,
+        "min": 1,
+        "max": 7
       },
       {
         "prop": "skilltab",
@@ -17544,18 +18080,19 @@
     "enabled": true,
     "code": "7gl",
     "qlevel": 84,
+    "reqlevel": 76,
     "modifiers": [
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 190
+        "min": 300,
+        "max": 345
       },
       {
-        "prop": "rep-quant",
-        "param": 40,
-        "min": 0,
-        "max": 0
+        "prop": "pierce",
+        "param": 0,
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "lifesteal",
@@ -17574,6 +18111,12 @@
         "param": 0,
         "min": 1,
         "max": 1
+      },
+      {
+        "prop": "hit-skill",
+        "param": 93,
+        "min": 20,
+        "max": 10
       }
     ]
   },
@@ -17582,6 +18125,7 @@
     "enabled": true,
     "code": "7o7",
     "qlevel": 72,
+    "reqlevel": 64,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -17598,7 +18142,7 @@
       {
         "prop": "charged",
         "param": 74,
-        "min": 30,
+        "min": 66,
         "max": 14
       },
       {
@@ -17608,9 +18152,9 @@
         "max": 16
       },
       {
-        "prop": "noheal",
-        "param": 0,
-        "min": 1,
+        "prop": "hit-skill",
+        "param": 66,
+        "min": 10,
         "max": 1
       },
       {
@@ -17626,12 +18170,13 @@
     "enabled": true,
     "code": "6cs",
     "qlevel": 74,
+    "reqlevel": 66,
     "modifiers": [
       {
         "prop": "cast2",
         "param": 0,
-        "min": 45,
-        "max": 45
+        "min": 60,
+        "max": 60
       },
       {
         "prop": "enr",
@@ -17658,10 +18203,10 @@
         "max": 5
       },
       {
-        "prop": "red-mag",
-        "param": 0,
-        "min": 5,
-        "max": 8
+        "prop": "aura",
+        "param": 109,
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -17670,12 +18215,13 @@
     "enabled": true,
     "code": "7sc",
     "qlevel": 80,
+    "reqlevel": 72,
     "modifiers": [
       {
-        "prop": "dmg%",
+        "prop": "cast2",
         "param": 0,
-        "min": 250,
-        "max": 300
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "dmg-demon",
@@ -17704,8 +18250,8 @@
       {
         "prop": "skill",
         "param": 101,
-        "min": 2,
-        "max": 4
+        "min": 5,
+        "max": 5
       },
       {
         "prop": "light",
@@ -17714,7 +18260,7 @@
         "max": 3
       },
       {
-        "prop": "reduce-ac",
+        "prop": "openwounds",
         "param": 0,
         "min": 33,
         "max": 33
@@ -17732,6 +18278,7 @@
     "enabled": true,
     "code": "ush",
     "qlevel": 83,
+    "reqlevel": 75,
     "modifiers": [
       {
         "prop": "ac",
@@ -17742,14 +18289,14 @@
       {
         "prop": "ac-miss",
         "param": 0,
-        "min": 300,
-        "max": 350
+        "min": 500,
+        "max": 500
       },
       {
-        "prop": "res-pois",
+        "prop": "res-pois-len",
         "param": 0,
-        "min": 30,
-        "max": 40
+        "min": 75,
+        "max": 75
       },
       {
         "prop": "sock",
@@ -17758,16 +18305,22 @@
         "max": 3
       },
       {
-        "prop": "res-fire",
+        "prop": "res-all",
         "param": 0,
         "min": 20,
         "max": 30
       },
       {
-        "prop": "heal-kill",
+        "prop": "abs-ltng",
         "param": 0,
-        "min": 5,
-        "max": 7
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "abs-fire",
+        "param": 0,
+        "min": 15,
+        "max": 15
       }
     ]
   },
@@ -17776,6 +18329,7 @@
     "enabled": true,
     "code": "uhg",
     "qlevel": 78,
+    "reqlevel": 70,
     "modifiers": [
       {
         "prop": "ac",
@@ -17808,6 +18362,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-ltng",
@@ -17840,6 +18395,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -17872,6 +18428,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -17904,6 +18461,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -17936,6 +18494,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-ltng",
@@ -17968,6 +18527,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -18000,6 +18560,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-fire",
@@ -18032,6 +18593,7 @@
     "enabled": true,
     "code": "jew",
     "qlevel": 85,
+    "reqlevel": 49,
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -18064,6 +18626,7 @@
     "enabled": true,
     "code": "cm2",
     "qlevel": 110,
+    "reqlevel": 75,
     "modifiers": [
       {
         "prop": "randclassskill",
@@ -18105,18 +18668,19 @@
   },
   {
     "name": "Cold Rupture",
-    "enabled": false,
-    "code": "cm3",
-    "qlevel": 69,
+    "enabled": true,
+    "code": "cm4",
+    "qlevel": 79,
+    "reqlevel": 75,
     "modifiers": [
       {
-        "prop": "pierce-immunity-cold",
+        "prop": "extra-cold",
         "param": 0,
-        "min": 300,
-        "max": 300
+        "min": 25,
+        "max": 30
       },
       {
-        "prop": "res-cold",
+        "prop": "res-pois-len",
         "param": 0,
         "min": -90,
         "max": -70
@@ -18125,9 +18689,10 @@
   },
   {
     "name": "Flame Rift",
-    "enabled": false,
-    "code": "cm3",
-    "qlevel": 69,
+    "enabled": true,
+    "code": "cm4",
+    "qlevel": 79,
+    "reqlevel": 75,
     "modifiers": [
       {
         "prop": "pierce-immunity-fire",
@@ -18136,90 +18701,1626 @@
         "max": 300
       },
       {
-        "prop": "res-fire",
+        "prop": "res-fire-max",
         "param": 0,
-        "min": -90,
-        "max": -70
+        "min": -25,
+        "max": -20
       }
     ]
   },
   {
     "name": "Crack of the Heavens",
-    "enabled": false,
-    "code": "cm3",
-    "qlevel": 69,
+    "enabled": true,
+    "code": "cm4",
+    "qlevel": 79,
+    "reqlevel": 75,
     "modifiers": [
       {
-        "prop": "pierce-immunity-light",
+        "prop": "pierce-ltng",
         "param": 0,
-        "min": 300,
-        "max": 300
+        "min": 20,
+        "max": 25
       },
       {
-        "prop": "res-ltng",
+        "prop": "mag%",
         "param": 0,
-        "min": -90,
-        "max": -70
+        "min": -50,
+        "max": -40
       }
     ]
   },
   {
     "name": "Rotting Fissure",
-    "enabled": false,
-    "code": "cm3",
-    "qlevel": 69,
+    "enabled": true,
+    "code": "cm4",
+    "qlevel": 79,
+    "reqlevel": 75,
     "modifiers": [
       {
-        "prop": "pierce-immunity-poison",
+        "prop": "pois-dur",
         "param": 0,
-        "min": 300,
-        "max": 300
-      },
-      {
-        "prop": "res-pois",
-        "param": 0,
-        "min": -90,
-        "max": -70
-      }
-    ]
-  },
-  {
-    "name": "Bone Break",
-    "enabled": false,
-    "code": "cm3",
-    "qlevel": 69,
-    "modifiers": [
-      {
-        "prop": "pierce-immunity-damage",
-        "param": 0,
-        "min": 300,
-        "max": 300
+        "min": -50,
+        "max": -30
       },
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": -20,
+        "min": -10,
         "max": -10
       }
     ]
   },
   {
-    "name": "Black Cleft",
-    "enabled": false,
-    "code": "cm3",
-    "qlevel": 69,
+    "name": "Bone Break",
+    "enabled": true,
+    "code": "cm4",
+    "qlevel": 79,
+    "reqlevel": 75,
     "modifiers": [
       {
-        "prop": "pierce-immunity-magic",
+        "prop": "reduce-ac",
         "param": 0,
-        "min": 300,
-        "max": 300
+        "min": 50,
+        "max": 50
       },
       {
-        "prop": "res-mag",
+        "prop": "dmg-ac",
         "param": 0,
-        "min": -65,
-        "max": -45
+        "min": -120,
+        "max": -100
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": -20,
+        "max": -20
+      }
+    ]
+  },
+  {
+    "name": "Black Cleft",
+    "enabled": true,
+    "code": "cm4",
+    "qlevel": 79,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": -60,
+        "max": -60
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": -30,
+        "max": -25
+      },
+      {
+        "prop": "aura",
+        "param": 113,
+        "min": 16,
+        "max": 20
+      },
+      {
+        "prop": "reanimate",
+        "param": 189,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "cont_cs",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ct",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cu",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cv",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cw",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cx",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cy",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cz",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_da",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_db",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dc",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dd",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_de",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_df",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dg",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dh",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_di",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dj",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dk",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dl",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dn",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_do",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dp",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dq",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dr",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dt",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_du",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dv",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dw",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dx",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dy",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_dz",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ea",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cf",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cg",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ch",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ci",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_cj",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ck",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ed",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "mephisto_sta",
+    "enabled": true,
+    "code": "bg2",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "mephisto_stb",
+    "enabled": true,
+    "code": "bg2",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "mephisto_stc",
+    "enabled": true,
+    "code": "bg2",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_beot",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_bra",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_ceoh",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_eye",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_fang",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_feod",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_rvl",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_teos",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_toa",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_std",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Diablo Charm",
+    "enabled": false,
+    "code": "cm5",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": []
+  },
+  {
+    "name": "Diablo Ring",
+    "enabled": false,
+    "code": "fin",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "oskill",
+        "param": 385,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 150,
+        "max": 150
+      },
+      {
+        "prop": "oskill",
+        "param": 386,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "state",
+        "param": -1,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": -50,
+        "max": -50
+      },
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Seraph's Hymn Cr",
+    "enabled": true,
+    "code": "fmu",
+    "qlevel": 73,
+    "reqlevel": 65,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skilltab",
+        "param": 11,
+        "min": 1,
+        "max": 2
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      },
+      {
+        "prop": "att-demon",
+        "param": 0,
+        "min": 150,
+        "max": 250
+      },
+      {
+        "prop": "att-undead",
+        "param": 0,
+        "min": 150,
+        "max": 250
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Bul Katho's Wedding Band Cr",
+    "enabled": true,
+    "code": "fin",
+    "qlevel": 66,
+    "reqlevel": 58,
+    "modifiers": [
+      {
+        "prop": "hp/lvl",
+        "param": 4,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "stam",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Highlord's Wrath Cr",
+    "enabled": true,
+    "code": "fmu",
+    "qlevel": 73,
+    "reqlevel": 65,
+    "modifiers": [
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 1,
+        "max": 30
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "deadly/lvl",
+        "param": 3,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "light-thorns",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Mara's Kaleidoscope Cr",
+    "enabled": true,
+    "code": "fmu",
+    "qlevel": 80,
+    "reqlevel": 67,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "The Stone of Jordan Cr",
+    "enabled": true,
+    "code": "fin",
+    "qlevel": 39,
+    "reqlevel": 29,
+    "modifiers": [
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "ltng-min",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ltng-max",
+        "param": 0,
+        "min": 12,
+        "max": 12
+      }
+    ]
+  },
+  {
+    "name": "Raven Frost Cr",
+    "enabled": true,
+    "code": "fin",
+    "qlevel": 53,
+    "reqlevel": 45,
+    "modifiers": [
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 100,
+        "min": 15,
+        "max": 45
+      },
+      {
+        "prop": "abs-cold%",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 150,
+        "max": 250
+      }
+    ]
+  },
+  {
+    "name": "Wisp Cr",
+    "enabled": true,
+    "code": "fin",
+    "qlevel": 84,
+    "reqlevel": 76,
+    "modifiers": [
+      {
+        "prop": "abs-ltng%",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "hit-skill",
+        "param": 49,
+        "min": 10,
+        "max": 16
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "charged",
+        "param": 226,
+        "min": 15,
+        "max": 2
+      },
+      {
+        "prop": "charged",
+        "param": 236,
+        "min": 13,
+        "max": 5
+      },
+      {
+        "prop": "charged",
+        "param": 246,
+        "min": 11,
+        "max": 7
+      }
+    ]
+  },
+  {
+    "name": "cont_cra",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_crb",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_crc",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "cont_jwd",
+    "enabled": true,
+    "code": "bg1",
+    "qlevel": 1,
+    "reqlevel": 0,
+    "modifiers": [
+      {
+        "prop": "add_one",
+        "param": 0,
+        "min": 0,
+        "max": 0
+      }
+    ]
+  },
+  {
+    "name": "Harlequin Crest Player",
+    "enabled": true,
+    "code": "p03",
+    "qlevel": 1,
+    "reqlevel": 1,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "hp/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "mana/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      }
+    ]
+  },
+  {
+    "name": "Guardian Angel Player",
+    "enabled": true,
+    "code": "p02",
+    "qlevel": 1,
+    "reqlevel": 1,
+    "modifiers": [
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "pal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 180,
+        "max": 200
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "res-all-max",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "att-dem/lvl",
+        "param": 5,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Stormshield Player",
+    "enabled": true,
+    "code": "p01",
+    "qlevel": 1,
+    "reqlevel": 1,
+    "modifiers": [
+      {
+        "prop": "ac/lvl",
+        "param": 30,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "light-thorns",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Schaefer's Hammer Player",
+    "enabled": true,
+    "code": "p04",
+    "qlevel": 1,
+    "reqlevel": 1,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 42,
+        "min": 20,
+        "max": 10
+      },
+      {
+        "prop": "hp/lvl",
+        "param": 48,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "att/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 75,
+        "max": 75
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "rep-dur",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 230,
+        "max": 280
+      },
+      {
+        "prop": "crush/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 50,
+        "max": 200
+      }
+    ]
+  },
+  {
+    "name": "Skin of the Vipermagi Player",
+    "enabled": true,
+    "code": "p05",
+    "qlevel": 1,
+    "reqlevel": 1,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 120,
+        "max": 120
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 35
+      },
+      {
+        "prop": "cast3",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 9,
+        "max": 13
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   }
