@@ -2036,5 +2036,81 @@
         "max": 1
       }
     ]
+  },
+  "04r": {
+    "weapon": [],
+    "armor": [
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "shield": [
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ]
+  },
+  "14r": {
+    "weapon": [],
+    "armor": [
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      }
+    ],
+    "shield": [
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 7,
+        "max": 7
+      }
+    ]
+  },
+  "29r": {
+    "weapon": [],
+    "armor": [
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      }
+    ],
+    "shield": [
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      }
+    ]
+  },
+  "32r": {
+    "weapon": [],
+    "armor": [
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ],
+    "shield": [
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
   }
 }

@@ -865,6 +865,10 @@
       {
         "stat": "item_elemskill",
         "type": "other"
+      },
+      {
+        "stat": "item_elemskill_fire",
+        "type": "all"
       }
     ]
   },
@@ -2203,6 +2207,94 @@
       {
         "stat": "item_charge_noconsume",
         "type": "other"
+      }
+    ]
+  },
+  "Add_one": {
+    "stats": [
+      {
+        "stat": "Add_one",
+        "type": "param"
+      }
+    ]
+  },
+  "pois-dur": {
+    "stats": [
+      {
+        "stat": "item_pois_dur_skill",
+        "type": "other"
+      }
+    ]
+  },
+  "new-dmg": {
+    "stats": [
+      {
+        "stat": "damagepercent",
+        "type": "other"
+      }
+    ]
+  },
+  "torch": {
+    "stats": [
+      {
+        "stat": "torch",
+        "type": "other"
+      }
+    ]
+  },
+  "dur%_new": {
+    "stats": [
+      {
+        "stat": "item_maxdurability_new",
+        "type": "other"
+      }
+    ]
+  },
+  "coldskill": {
+    "stats": [
+      {
+        "stat": "item_elemskill",
+        "type": "other"
+      },
+      {
+        "stat": "item_elemskill_cold",
+        "type": "all"
+      }
+    ]
+  },
+  "lightningskill": {
+    "stats": [
+      {
+        "stat": "item_elemskill",
+        "type": "other"
+      },
+      {
+        "stat": "item_elemskill_lightning",
+        "type": "all"
+      }
+    ]
+  },
+  "poisonskill": {
+    "stats": [
+      {
+        "stat": "item_elemskill",
+        "type": "other"
+      },
+      {
+        "stat": "item_elemskill_poison",
+        "type": "all"
+      }
+    ]
+  },
+  "magicskill": {
+    "stats": [
+      {
+        "stat": "item_elemskill",
+        "type": "other"
+      },
+      {
+        "stat": "item_elemskill_magic",
+        "type": "all"
       }
     ]
   }

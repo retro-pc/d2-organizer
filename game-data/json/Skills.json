@@ -675,7 +675,7 @@
   },
   {
     "code": "Spear Mastery",
-    "name": "Spear Mastery",
+    "name": "skillname136New",
     "charClass": 4
   },
   {
@@ -1700,5 +1700,65 @@
   {
     "code": "Mark of the Wolf",
     "name": "SkillnameMetamorphosisWolf"
+  },
+  {
+    "code": "Barbs Aura Add",
+    "name": "Barbs Aura Add"
+  },
+  {
+    "code": "DiabCloneLight",
+    "name": "DiabCloneLight"
+  },
+  {
+    "code": "DiabCloneCold",
+    "name": "DiabCloneCold"
+  },
+  {
+    "code": "DiabCloneWall",
+    "name": "DiabCloneWall"
+  },
+  {
+    "code": "PrimeCloneFirewall",
+    "name": "PrimeCloneFirewall"
+  },
+  {
+    "code": "DiabloClonegeddon",
+    "name": "DiabloClonegeddon"
+  },
+  {
+    "code": "DiabCloneFire",
+    "name": "DiabCloneFire"
+  },
+  {
+    "code": "Merc Frost Nova",
+    "name": "Merc Frost Nova"
+  },
+  {
+    "code": "DiabCloneRun",
+    "name": "DiabCloneRun"
+  },
+  {
+    "code": "Corpse Explosion CTC",
+    "name": "Corpse Explosion CTC"
+  },
+  {
+    "code": "Resurrect3",
+    "name": "Resurrect3"
+  },
+  {
+    "code": "Poison Explosion CTC",
+    "name": "Poison Explosion CTC"
+  },
+  {
+    "code": "Clone Summon",
+    "name": "Skillname385"
+  },
+  {
+    "code": "Teleport Town",
+    "name": "skillname386"
+  },
+  {
+    "code": "Wearcow",
+    "name": "Skillname387"
   }
 ]

@@ -50,23 +50,25 @@ export function Routes() {
         return <GrailTracker />;
       case "#settings":
         return <Settings />;
-      case "#help":
       default:
-        return <Help />;
+        return <SaveFiles />;
+      // case "#help":
+      // default:
+      //   return <Help />;
     }
   }, [currentHash]);
   return (
     <>
       <nav id="navigation" data-nosnippet={true}>
         <NavLink hash="#saves">Save files</NavLink>
-        <NavLink hash="#collection">Collection</NavLink>
-        <NavLink hash="#characters">Characters</NavLink>
+        {/* <NavLink hash="#collection">Collection</NavLink> */}
+        <NavLink hash="#characters">Collection</NavLink>
         <NavLink hash="#transfer">
           Transfer {selectedItems.size ? selectedItems.size : ""} items
         </NavLink>
-        <NavLink hash="#organize">Organize PlugY stash</NavLink>
+        {/* <NavLink hash="#organize">Organize PlugY stash</NavLink>
         <NavLink hash="#grail-tracker">Grail tracker</NavLink>
-        <NavLink hash="#settings">Settings</NavLink>
+        <NavLink hash="#settings">Settings</NavLink> */}
       </nav>
       <main>{view}</main>
     </>

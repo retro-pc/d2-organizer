@@ -68,3 +68,7 @@ Ber Rune	r30L	18	r30	crush		20	20									red-dmg%		8	8									red-dmg%		8	8			
 Jah Rune	r31L	18	r31	ignore-ac		1	1									hp%		5	5									hp		50	50								0
 Cham Rune	r32L	18	r32	freeze		3	3									nofreeze		1	1									nofreeze		1	1								0
 Zod Rune	r33L	18	r33	indestruct		1	1									indestruct		1	1									indestruct		1	1								0
+Nef Rune Pure	r04L	18	04r													ac-miss		30	30									ac-miss		30	30								0
+Dol Rune Pure	r14L	18	14r													regen		7	7									regen		7	7								0
+Sur Rune Pure	r29L	18	29r													mana%		5	5									mana		50	50								0
+Cham Rune Pure	r32L	18	32r													nofreeze		1	1									nofreeze		1	1								0
