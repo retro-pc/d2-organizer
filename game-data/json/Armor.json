@@ -903,7 +903,7 @@
       138,
       153
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -3229,6 +3229,70 @@
     "height": 2,
     "qlevel": 85,
     "levelReq": 65,
+    "stackable": false
+  },
+  "p01": {
+    "name": "Monarch",
+    "type": "shie",
+    "tier": 0,
+    "def": [
+      133,
+      148
+    ],
+    "maxSockets": 4,
+    "indestructible": false,
+    "width": 2,
+    "height": 3,
+    "qlevel": 72,
+    "levelReq": 54,
+    "stackable": false
+  },
+  "p02": {
+    "name": "Templar Coat",
+    "type": "tors",
+    "tier": 0,
+    "def": [
+      252,
+      274
+    ],
+    "maxSockets": 3,
+    "indestructible": false,
+    "width": 2,
+    "height": 3,
+    "qlevel": 52,
+    "levelReq": 25,
+    "stackable": false
+  },
+  "p03": {
+    "name": "Shako",
+    "type": "helm",
+    "tier": 0,
+    "def": [
+      98,
+      141
+    ],
+    "maxSockets": 2,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 58,
+    "levelReq": 43,
+    "stackable": false
+  },
+  "p05": {
+    "name": "Serpentskin Armor",
+    "type": "tors",
+    "tier": 0,
+    "def": [
+      111,
+      126
+    ],
+    "maxSockets": 2,
+    "indestructible": false,
+    "width": 2,
+    "height": 3,
+    "qlevel": 36,
+    "levelReq": 24,
     "stackable": false
   }
 }

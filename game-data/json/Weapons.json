@@ -3985,5 +3985,18 @@
     "height": 3,
     "qlevel": 65,
     "levelReq": 48
+  },
+  "p04": {
+    "name": "Legendary Mallet",
+    "type": "hamm",
+    "tier": 0,
+    "maxSockets": 4,
+    "indestructible": false,
+    "stackable": false,
+    "twoHanded": false,
+    "width": 2,
+    "height": 3,
+    "qlevel": 82,
+    "levelReq": 61
   }
 }

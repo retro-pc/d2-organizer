@@ -44,55 +44,55 @@ export function Organizer() {
     rollback,
   ]);
 
-  if (!hasPlugY) {
-    return (
-      <p>
-        This feature requires{" "}
-        <ExternalLink href="http://plugy.free.fr/">
-          PlugY's extended stash
-        </ExternalLink>
-        . It allows you to organize your collection across hundreds of pages in
-        just one click, whether in the shared stash or in a character's personal
-        stash.
-      </p>
-    );
-  }
+  // if (!hasPlugY) {
+  //   return (
+  //     <p>
+  //       This feature requires{" "}
+  //       <ExternalLink href="http://plugy.free.fr/">
+  //         PlugY's extended stash
+  //       </ExternalLink>
+  //       . It allows you to organize your collection across hundreds of pages in
+  //       just one click, whether in the shared stash or in a character's personal
+  //       stash.
+  //     </p>
+  //   );
+  // }
 
-  return (
-    <>
-      <p>Select a stash to organize:</p>
-      <OwnerSelector selected={stash} onChange={setStash} onlyStashes={true} />
-      <p>
-        <label>
-          Do not touch the first{" "}
-          <input
-            type="number"
-            min={0}
-            max={99}
-            value={skipPages}
-            onChange={numberInputChangeHandler(setSkipPages)}
-          />{" "}
-          page{skipPages === 1 ? "" : "s"}.
-        </label>
-      </p>
-      <p>
-        <label>
-          Leave{" "}
-          <input
-            type="number"
-            min={0}
-            max={99}
-            value={emptyPages}
-            onChange={numberInputChangeHandler(setEmptyPages)}
-          />{" "}
-          empty page{emptyPages === 1 ? "" : "s"} at the start.
-        </label>
-      </p>
-      <p>
-        <button class="button" disabled={!stash} onClick={handleOrganize}>
-          Organize my stash
-        </button>
-      </p>
-    </>
-  );
+  return <></>;
+  // <>
+  //     <p>Select a stash to organize:</p>
+  //     <OwnerSelector selected={stash} onChange={setStash} onlyStashes={true} />
+  //     <p>
+  //       <label>
+  //         Do not touch the first{" "}
+  //         <input
+  //           type="number"
+  //           min={0}
+  //           max={99}
+  //           value={skipPages}
+  //           onChange={numberInputChangeHandler(setSkipPages)}
+  //         />{" "}
+  //         page{skipPages === 1 ? "" : "s"}.
+  //       </label>
+  //     </p>
+  //     <p>
+  //       <label>
+  //         Leave{" "}
+  //         <input
+  //           type="number"
+  //           min={0}
+  //           max={99}
+  //           value={emptyPages}
+  //           onChange={numberInputChangeHandler(setEmptyPages)}
+  //         />{" "}
+  //         empty page{emptyPages === 1 ? "" : "s"} at the start.
+  //       </label>
+  //     </p>
+  //     <p>
+  //       <button class="button" disabled={!stash} onClick={handleOrganize}>
+  //         Organize my stash
+  //       </button>
+  //     </p>
+  // </>
+  // );
 }
