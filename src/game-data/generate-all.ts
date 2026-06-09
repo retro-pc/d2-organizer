@@ -1,4 +1,5 @@
 import { armorsToJson } from "./parsing/armors";
+import { itemTypesToJson } from "./parsing/itemTypes";
 import { itemStatsToJson } from "./parsing/itemStats";
 import { propertiesToJson } from "./parsing/properties";
 import { weaponsToJson } from "./parsing/weapons";
@@ -18,6 +19,7 @@ import { gemsToJson } from "./parsing/gems";
 async function generateAll() {
   await armorsToJson();
   await weaponsToJson();
+  await itemTypesToJson();
   const misc = await miscToJson();
   const itemStats = await itemStatsToJson();
   await statGroupsToJson(itemStats);

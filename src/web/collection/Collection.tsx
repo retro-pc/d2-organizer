@@ -9,17 +9,27 @@ import {
   QualityFilterValue,
 } from "../controls/QualityFilter";
 import { ItemsTable } from "./ItemsTable";
+import { Item as ItemType } from "../../scripts/items/types/Item";
+import { ItemCard } from "../items/ItemCard";
+import "../items/ItemCardLayout.css";
+import { BufferContext } from "../store/BufferContext";
 
 export function Collection() {
   const { allItems } = useContext(CollectionContext);
+  const { addItem } = useContext(BufferContext);
   const [search, setSearch] = useState("");
   const [quality, setQuality] = useState<QualityFilterValue>("all");
   const [pageSize, setPageSize] = useState(20);
+  const [hoveredItem, setHoveredItem] = useState<ItemType | null>(null);
 
   const filteredItems = useMemo(
     () => filterItemsByQuality(searchItems(allItems, search), quality),
     [allItems, search, quality]
   );
+
+  function handleAdd(item: ItemType) {
+    addItem(item, { ethereal: item.ethereal ?? false });
+  }
 
   return (
     <>
@@ -49,7 +59,22 @@ export function Collection() {
         </div>
       </div>
 
-      <ItemsTable items={filteredItems} pageSize={pageSize} />
+
+      <div class="item-card-layout">
+        <div class="item-card-layout-main">
+          <ItemsTable
+            items={filteredItems}
+            pageSize={pageSize}
+            onAdd={handleAdd}
+            onHover={setHoveredItem}
+          />
+        </div>
+        <div class="item-card-layout-panel">
+          {hoveredItem && !hoveredItem.simple && (
+            <ItemCard item={hoveredItem} />
+          )}
+        </div>
+      </div>
     </>
   );
 }

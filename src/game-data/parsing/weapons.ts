@@ -18,6 +18,7 @@ export async function weaponsToJson() {
       type: line[1].trim(),
       tier,
       maxSockets: Number(line[55]) || 0,
+      spawnable: line[9].trim() === "1",
       indestructible: line[29].trim() === "1",
       stackable: line[46] === "1",
       twoHanded: line[17] === "1",

@@ -8,17 +8,27 @@ export interface ItemProps {
   item: Item;
   duplicates?: Item[];
   withLocation: boolean;
+  withCharacteristics?: boolean;
+  onAdd?: (item: Item) => void;
+  onHover?: (item: Item | null) => void;
 }
 
-export function Item({ item, duplicates, withLocation }: ItemProps) {
+export function Item({ item, duplicates, withLocation, withCharacteristics = true, onAdd, onHover }: ItemProps) {
   return (
-    <tr class="item">
+    <tr
+      class={onAdd ? "item item-selectable" : "item"}
+      onClick={onAdd ? () => onAdd(item) : undefined}
+      onMouseEnter={onHover ? () => onHover(item) : undefined}
+      onMouseLeave={onHover ? () => onHover(null) : undefined}
+    >
       <th scope="row" aria-label={item.name}>
         <ItemTooltip item={item} />
       </th>
-      <td>
-        <AdditionalInfo item={item} quantity={duplicates?.length} />
-      </td>
+      {withCharacteristics && (
+        <td>
+          <AdditionalInfo item={item} quantity={duplicates?.length} />
+        </td>
+      )}
       {withLocation && (
         <td>
           <ItemLocationDesc item={item} />

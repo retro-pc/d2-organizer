@@ -7,9 +7,20 @@ import { Item } from "../items/Item";
 export interface ItemsTableProps {
   items: ItemType[];
   pageSize: number;
+  withLocation?: boolean;
+  withCharacteristics?: boolean;
+  onAdd?: (item: ItemType) => void;
+  onHover?: (item: ItemType | null) => void;
 }
 
-export function ItemsTable({ items, pageSize }: ItemsTableProps) {
+export function ItemsTable({
+  items,
+  pageSize,
+  withLocation = true,
+  withCharacteristics = true,
+  onAdd,
+  onHover,
+}: ItemsTableProps) {
   const [firstItem, setFirstItem] = useState(0);
 
   const groupedItems = useMemo(() => groupItems(items), [items]);
@@ -33,13 +44,15 @@ export function ItemsTable({ items, pageSize }: ItemsTableProps) {
         )}
       />
       <table id="collection">
-        <thead>
-          <tr class="sidenote">
-            <th>Item</th>
-            <th>Characteristics</th>
-            <th>Location</th>
-          </tr>
-        </thead>
+        {(withCharacteristics || withLocation) && (
+          <thead>
+            <tr class="sidenote">
+              <th>Item</th>
+              {withCharacteristics && <th>Characteristics</th>}
+              {withLocation && <th>Location</th>}
+            </tr>
+          </thead>
+        )}
         <tbody>
           {groupedItems
             .slice(firstItem, firstItem + pageSize)
@@ -48,7 +61,10 @@ export function ItemsTable({ items, pageSize }: ItemsTableProps) {
                 key={items[0].id ?? index}
                 item={items[0]}
                 duplicates={items}
-                withLocation={true}
+                withLocation={withLocation}
+                withCharacteristics={withCharacteristics}
+                onAdd={onAdd}
+                onHover={onHover}
               />
             ))}
         </tbody>

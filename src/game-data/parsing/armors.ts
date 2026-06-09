@@ -19,6 +19,7 @@ export async function armorsToJson() {
       tier,
       def: [Number(line[5]), Number(line[6])],
       maxSockets: Number(line[30]),
+      spawnable: line[4].trim() === "1",
       indestructible: line[12].trim() === "1",
       width: Number(line[27]),
       height: Number(line[28]),

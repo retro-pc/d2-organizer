@@ -59,6 +59,8 @@ export interface Item {
   modifiers?: Modifier[];
   setItemModifiers?: Modifier[][];
   setGlobalModifiers?: Modifier[][];
+  // Stats granted by the runes/gems socketed into this item (catalog runewords)
+  socketModifiers?: Modifier[];
 
   // Searcheable description of the item. Right now it's only mods.
   search: string;

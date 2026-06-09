@@ -1,7 +1,7 @@
 import { parseSaveFile, toSaveFile } from "./parser";
 
 if (!window.indexedDB) {
-  alert(
+  console.warn(
     "Your browser doesn't support a stable version of IndexedDB. " +
       "This application will not remember your stash between sessions."
   );

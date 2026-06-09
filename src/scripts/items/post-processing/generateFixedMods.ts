@@ -10,7 +10,10 @@ import { Modifier } from "../types/Modifier";
 // (that would make no sense), so we can ignore the sockets mod.
 const SPECIAL_PROPS = ["sock"];
 
-export function generateFixedMods(ranges: ModifierRange[]) {
+export function generateFixedMods(
+  ranges: ModifierRange[],
+  allowRanges = false
+) {
   const modifiers: Modifier[] = [];
   for (const { prop, min, max, param } of ranges) {
     if (SPECIAL_PROPS.includes(prop)) {
@@ -78,17 +81,28 @@ export function generateFixedMods(ranges: ModifierRange[]) {
           });
           break;
         case "other":
-          if (min !== max) {
+          if (prop === "skill-rand") {
+            // For skill-rand, param is the bonus value, and min/max are the
+            // range of skill ids the game can randomly choose from.
+            modifiers.push({
+              ...shared,
+              value: Number(param!),
+              skillRange: [min!, max!],
+            });
+            break;
+          }
+          if (min !== max && !allowRanges) {
             throw new Error(`Unexpected range modifier ${prop}: ${min}-${max}`);
           }
           modifiers.push({
             ...shared,
             value: max!,
-            param: param
-              ? stat === "item_addskill_tab"
-                ? SKILL_TABS[Number(param)].id
-                : param
-              : propParam,
+            param:
+              param != null
+                ? stat === "item_addskill_tab"
+                  ? SKILL_TABS[Number(param)].id
+                  : param
+                : propParam,
           });
       }
     }

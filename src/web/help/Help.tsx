@@ -33,12 +33,6 @@ export function Help() {
           <a href="#organize">fully sort and organize</a> your PlugY stash in
           one click, no matter how many items you hoarded.
         </p>
-        <p>
-          Finally, this website also serves as a{" "}
-          <a href="#grail-tracker">Grail tracker</a> that you never have to
-          manually update. Simply refresh your save files and you will
-          immediately see your progress.
-        </p>
       </FaqSection>
 
       <FaqSection question="Is this compatible with Diablo 2 Resurrected?">

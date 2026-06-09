@@ -2,7 +2,6 @@ import { useContext, useMemo, useState } from "preact/hooks";
 import { CollectionContext } from "../store/CollectionContext";
 import { FilePicker } from "./FilePicker";
 import "./SaveFiles.css";
-import { UPLOAD_CONFIRM } from "../store/singleStashConfirmation";
 import { PrettyOwnerName } from "./PrettyOwnerName";
 import { LAST_LEGACY } from "../../scripts/character/parsing/versions";
 
@@ -48,9 +47,7 @@ export function SaveFiles() {
         {!allowSingleFile && (
           <button
             class="button sidenote"
-            onClick={() =>
-              window.confirm(UPLOAD_CONFIRM) && setAllowSingleFile(true)
-            }
+            onClick={() => setAllowSingleFile(true)}
           >
             Let me select a single file
           </button>

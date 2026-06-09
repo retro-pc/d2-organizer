@@ -9,6 +9,7 @@ export interface Equipment {
   type: string;
   tier: EquipmentTier;
   maxSockets: number;
+  spawnable: boolean;
   indestructible: boolean;
   width: number;
   height: number;
@@ -72,6 +73,8 @@ export interface Runeword {
   enabled: boolean;
   runes: string[];
   levelReq: number;
+  itypes: string[];
+  etypes: string[];
   modifiers: ModifierRange[];
 }
 

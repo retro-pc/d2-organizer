@@ -1,11 +1,5 @@
 import { createContext, RenderableProps } from "preact";
-import {
-  useCallback,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "preact/hooks";
+import { useCallback, useEffect, useMemo, useState } from "preact/hooks";
 import { getSavedStashes } from "./store";
 import { Item } from "../../scripts/items/types/Item";
 import { getAllItems } from "../../scripts/plugy-stash/getAllItems";
@@ -19,7 +13,6 @@ import { Character } from "../../scripts/character/types";
 import { PlugyStash } from "../../scripts/plugy-stash/types";
 import { findDuplicates } from "./plugyDuplicates";
 import { ItemStorageType } from "../../scripts/items/types/ItemLocation";
-import { SelectionContext } from "../transfer/SelectionContext";
 
 interface Collection {
   owners: ItemsOwner[];
@@ -64,46 +57,36 @@ function formatCollection(owners: ItemsOwner[]): Collection {
 }
 
 export function CollectionProvider({ children }: RenderableProps<unknown>) {
-  const { resetSelection } = useContext(SelectionContext);
   const [collection, setInternalCollection] = useState<Collection>({
     owners: [],
     allItems: [],
     hasPlugY: false,
   });
 
-  const setCollection = useCallback(
-    (owners: ItemsOwner[]) => {
-      setInternalCollection(formatCollection(owners));
-      resetSelection();
-    },
-    [resetSelection]
-  );
+  const setCollection = useCallback((owners: ItemsOwner[]) => {
+    setInternalCollection(formatCollection(owners));
+  }, []);
 
-  const setSingleFile = useCallback(
-    (owner: ItemsOwner) => {
-      setInternalCollection((previous) => {
-        const newOwners = [...previous.owners];
-        const existing = newOwners.findIndex(
-          (o) => o.filename === owner.filename
-        );
-        if (existing >= 0) {
-          newOwners.splice(existing, 1, owner);
-        } else {
-          newOwners.push(owner);
-        }
-        return formatCollection(newOwners);
-      });
-      resetSelection();
-    },
-    [resetSelection]
-  );
+  const setSingleFile = useCallback((owner: ItemsOwner) => {
+    setInternalCollection((previous) => {
+      const newOwners = [...previous.owners];
+      const existing = newOwners.findIndex(
+        (o) => o.filename === owner.filename
+      );
+      if (existing >= 0) {
+        newOwners.splice(existing, 1, owner);
+      } else {
+        newOwners.push(owner);
+      }
+      return formatCollection(newOwners);
+    });
+  }, []);
 
   const value = useMemo(
     () => ({ ...collection, setCollection, setSingleFile }),
     [collection, setCollection, setSingleFile]
   );
 
-  // Initialize with the stash found in storage
   useEffect(() => {
     void getSavedStashes().then((owners) => {
       setCollection(owners);

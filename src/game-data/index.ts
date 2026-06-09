@@ -33,6 +33,7 @@ import rareNames from "../../game-data/json/RareNames.json";
 import magicPrefixes from "../../game-data/json/MagicPrefix.json";
 import magicSuffixes from "../../game-data/json/MagicSuffix.json";
 import runewords from "../../game-data/json/Runewords.json";
+import itemTypes from "../../game-data/json/ItemTypes.json";
 import gems from "../../game-data/json/Gems.json";
 import modLoc from "../../game-data/json/item-modifiers.json";
 
@@ -53,6 +54,7 @@ export const RARE_NAMES: string[] = rareNames;
 export const MAGIC_PREFIXES: MagicAffix[] = magicPrefixes;
 export const MAGIC_SUFFIXES: MagicAffix[] = magicSuffixes;
 export const RUNEWORDS: Runeword[] = runewords;
+export const ITEM_TYPES: Record<string, string[]> = itemTypes;
 export const GEMS: Record<string, Gem> = gems;
 //
 let locaRecord: Record<string, ModifierLocale> = {};

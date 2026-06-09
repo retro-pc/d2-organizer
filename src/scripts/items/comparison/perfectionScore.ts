@@ -73,8 +73,10 @@ export function computePerfectionScore(item: Item) {
       "Only uniques, sets and runewords have a perfection score."
     );
   }
-  // We ignore the "Extra bloody" prop not to confuse people with hidden imperfections
-  ranges = ranges.filter(({ prop }) => prop !== "bloody");
+  // We ignore the "Extra bloody" prop not to confuse people with hidden imperfections.
+  // skill-rand's min/max represent a pool of skill ids to randomly choose from,
+  // not a value range, so it shouldn't factor into the perfection score either.
+  ranges = ranges.filter(({ prop }) => prop !== "bloody" && prop !== "skill-rand");
 
   const base = getBase(item);
 

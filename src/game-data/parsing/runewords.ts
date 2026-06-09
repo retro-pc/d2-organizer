@@ -17,11 +17,19 @@ export async function runewordsToJson(
       .filter((rune) => !!rune);
     const runeword: Runeword = {
       name: getString(line[0].trim()),
-      enabled: line[2].trim() === "1",
+      enabled: line[2].trim() === "1" && !line[4].trim(),
       runes,
       levelReq: runes.length
         ? Math.max(...runes.map((rune) => misc[rune]?.levelReq ?? 0))
         : 0,
+      itypes: line
+        .slice(6, 12)
+        .map((t) => t.trim())
+        .filter(Boolean),
+      etypes: line
+        .slice(12, 15)
+        .map((t) => t.trim())
+        .filter(Boolean),
       modifiers: [],
     };
     for (let i = 0; i < 7; i++) {

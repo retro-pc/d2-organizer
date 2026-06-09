@@ -18,7 +18,7 @@ export function postProcessItem(item: Item) {
   if (item.filledSockets) {
     for (const socketed of item.filledSockets) {
       addSocketedMods(item, socketed);
-      item.reqlevel = Math.max(item.reqlevel || 0, socketed.reqlevel || 0)
+      item.reqlevel = Math.max(item.reqlevel || 0, socketed.reqlevel || 0);
     }
   }
 
@@ -26,6 +26,11 @@ export function postProcessItem(item: Item) {
     consolidateMods(item.modifiers);
     // Generate descriptions only after consolidating
     describeMods(item, item.modifiers);
+  }
+
+  if (item.socketModifiers) {
+    consolidateMods(item.socketModifiers);
+    describeMods(item, item.socketModifiers);
   }
 
   if (item.quality === ItemQuality.SET) {

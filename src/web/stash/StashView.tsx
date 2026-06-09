@@ -16,11 +16,16 @@ import {
   ownerName,
 } from "../../scripts/save-file/ownership";
 import { characterPages } from "./characterPages";
+import { Item as ItemType } from "../../scripts/items/types/Item";
+import { ItemCard } from "../items/ItemCard";
+import "../items/ItemCardLayout.css";
+import { BufferContext } from "../store/BufferContext";
 
 const PAGE_SIZE = 10;
 
 export function StashView() {
   const { owners, lastActivePlugyStashPage } = useContext(CollectionContext);
+  const { addItem } = useContext(BufferContext);
   const [ownerIndex, setOwnerIndex] = useState(() =>
     Math.max(
       0,
@@ -30,6 +35,11 @@ export function StashView() {
   const [search, setSearch] = useState("");
   const [quality, setQuality] = useState<QualityFilterValue>("all");
   const [currentPage, setCurrentPage] = useState(0);
+  const [hoveredItem, setHoveredItem] = useState<ItemType | null>(null);
+
+  function handleAdd(item: ItemType) {
+    addItem(item, { ethereal: item.ethereal ?? false });
+  }
 
   const owner = owners[ownerIndex];
 
@@ -102,12 +112,25 @@ export function StashView() {
         <QualityFilter value={quality} onChange={setQuality} />
       </div>
       {pagination}
-      <div>
-        {filteredPages
-          .slice(currentPage, currentPage + PAGE_SIZE)
-          .map((page, index) => (
-            <Page key={index} page={page} index={index + currentPage} />
-          ))}
+      <div class="item-card-layout">
+        <div class="item-card-layout-main">
+          {filteredPages
+            .slice(currentPage, currentPage + PAGE_SIZE)
+            .map((page, index) => (
+              <Page
+                key={index}
+                page={page}
+                index={index + currentPage}
+                onAdd={handleAdd}
+                onHover={setHoveredItem}
+              />
+            ))}
+        </div>
+        <div class="item-card-layout-panel">
+          {hoveredItem && !hoveredItem.simple && (
+            <ItemCard item={hoveredItem} />
+          )}
+        </div>
       </div>
       {pagination}
     </>

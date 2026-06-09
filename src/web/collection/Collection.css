@@ -18,7 +18,6 @@
 }
 
 #collection tr {
-  border-bottom: 1px solid #222;
 }
 
 #collection tbody tr:hover td:not(:first-child) {

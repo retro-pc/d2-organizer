@@ -11,6 +11,7 @@ export async function miscToJson() {
       type: line[31].trim(),
       tier: 0,
       maxSockets: Number(line[21]),
+      spawnable: line[9].trim() === "1",
       indestructible: line[11].trim() === "1",
       width: Number(line[18]),
       height: Number(line[19]),

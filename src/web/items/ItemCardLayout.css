@@ -1,0 +1,28 @@
+/* ── List + card layout ──────────────────────────────────────────── */
+.item-card-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.item-card-layout-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.item-card-layout-panel {
+  flex: 0 0 580px;
+  position: sticky;
+  top: 8px;
+}
+
+/* ── Buffer hint ──────────────────────────────────────────────────── */
+.buffer-hint {
+  font-size: 0.85em;
+  color: #aaa;
+  margin: 0 0 8px;
+}
+
+.buffer-hint a {
+  color: #c8a96e;
+}
