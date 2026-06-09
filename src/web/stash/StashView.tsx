@@ -16,7 +16,6 @@ import {
   ownerName,
 } from "../../scripts/save-file/ownership";
 import { characterPages } from "./characterPages";
-import { SelectAll } from "../controls/SelectAll";
 
 const PAGE_SIZE = 10;
 
@@ -60,12 +59,6 @@ export function StashView() {
     );
   }, [rawPages, search, quality]);
 
-  const filteredItems = useMemo(
-    () => filteredPages.flatMap(({ items }) => items),
-    [filteredPages]
-  );
-
-  // Reset to the first page when the owner changes
   useEffect(() => {
     setCurrentPage(0);
   }, [owner]);
@@ -107,10 +100,8 @@ export function StashView() {
           Search for an item or a page:
         </Search>
         <QualityFilter value={quality} onChange={setQuality} />
-        <SelectAll items={filteredItems} />
       </div>
       {pagination}
-      {/* Need an extra div because Preact doesn't seem to like maps flat with non-mapped elements */}
       <div>
         {filteredPages
           .slice(currentPage, currentPage + PAGE_SIZE)

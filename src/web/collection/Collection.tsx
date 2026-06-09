@@ -9,7 +9,6 @@ import {
   QualityFilterValue,
 } from "../controls/QualityFilter";
 import { ItemsTable } from "./ItemsTable";
-import { SelectAll } from "../controls/SelectAll";
 
 export function Collection() {
   const { allItems } = useContext(CollectionContext);
@@ -48,10 +47,9 @@ export function Collection() {
             </select>
           </p>
         </div>
-        <SelectAll items={filteredItems} />
       </div>
 
-      <ItemsTable items={filteredItems} selectable={true} pageSize={pageSize} />
+      <ItemsTable items={filteredItems} pageSize={pageSize} />
     </>
   );
 }

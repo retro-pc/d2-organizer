@@ -7,16 +7,13 @@ import { Item } from "../items/Item";
 export interface ItemsTableProps {
   items: ItemType[];
   pageSize: number;
-  selectable: boolean;
 }
 
-export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
+export function ItemsTable({ items, pageSize }: ItemsTableProps) {
   const [firstItem, setFirstItem] = useState(0);
 
-  // We group simple items together with a quantity, leave others alone
   const groupedItems = useMemo(() => groupItems(items), [items]);
 
-  // Reset to the first page when the list of items changes
   useEffect(() => {
     setFirstItem(0);
   }, [items]);
@@ -38,9 +35,6 @@ export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
       <table id="collection">
         <thead>
           <tr class="sidenote">
-            <th>
-              <span class="sr-only">Select</span>
-            </th>
             <th>Item</th>
             <th>Characteristics</th>
             <th>Location</th>
@@ -54,7 +48,6 @@ export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
                 key={items[0].id ?? index}
                 item={items[0]}
                 duplicates={items}
-                selectable={selectable}
                 withLocation={true}
               />
             ))}

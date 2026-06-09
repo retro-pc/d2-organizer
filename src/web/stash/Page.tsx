@@ -32,7 +32,6 @@ export function Page({ page, index }: PageProps) {
             key={items[0].id ?? index}
             item={items[0]}
             duplicates={items}
-            selectable={true}
             withLocation={false}
           />
         ))}
