@@ -1,20 +1,19 @@
 import { Item } from "../types/Item";
-import { ARMORS, GEMS, ModifierRange } from "../../../game-data";
+import { ARMORS, GEMS, MISC, ModifierRange } from "../../../game-data";
 import { ItemParsingError } from "../../errors/ItemParsingError";
 import { generateFixedMods } from "./generateFixedMods";
 
 /**
- * Adds mods from sockets to the base item
+ * Adds mods from sockets to the base item.
+ * Jewel mods go into modifiers (merge with item stats).
+ * Gem/rune mods go into socketModifiers (shown separately in item card).
  */
 export function addSocketedMods(socketedItem: Item, socketable: Item) {
-  if (!socketedItem.modifiers) {
-    socketedItem.modifiers = [];
-  }
-  if (socketable.code === "jew") {
-    // Jewel
+  const miscType = MISC[socketable.code]?.type;
+  if (miscType === "jewl" || miscType === "cjwl") {
+    if (!socketedItem.modifiers) socketedItem.modifiers = [];
     socketedItem.modifiers.push(...socketable.modifiers!);
   } else {
-    // Gem or rune
     const gem = GEMS[socketable.code];
     if (!gem) {
       throw new ItemParsingError(
@@ -25,7 +24,6 @@ export function addSocketedMods(socketedItem: Item, socketable: Item) {
     const base = ARMORS[socketedItem.code];
     let ranges: ModifierRange[];
     if (!base) {
-      // Not an armor, so it has to be a weapon
       ranges = gem.weapon;
     } else if (
       base.type === "shie" ||
@@ -36,6 +34,7 @@ export function addSocketedMods(socketedItem: Item, socketable: Item) {
     } else {
       ranges = gem.armor;
     }
-    socketedItem.modifiers.push(...generateFixedMods(ranges));
+    if (!socketedItem.socketModifiers) socketedItem.socketModifiers = [];
+    socketedItem.socketModifiers.push(...generateFixedMods(ranges));
   }
 }

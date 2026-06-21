@@ -5,6 +5,7 @@ import { parseItemList } from "../../items/parsing/parseItemList";
 import { parseMercenary } from "./parseMercenary";
 import { postProcessCharacter } from "./postProcessCharacter";
 import { parseCorpses } from "./parseCorpses";
+import { V105_D2R } from "./versions";
 
 // Can't use Node's Buffer because this needs to run in the browser
 export function parseCharacter(
@@ -17,20 +18,26 @@ export function parseCharacter(
     throw new Error("This does not look like a Diablo 2 character save (.d2s)");
   }
 
+  const version = reader.readInt32LE(4);
+  const isV105 = version >= V105_D2R;
+
   const character: Character = {
     filename: file?.name ?? "",
     lastModified: file?.lastModified ?? 0,
-    version: reader.readInt32LE(4),
-    name: reader.readNullTerminatedString(20),
-    class: reader.readInt8(40),
+    version,
+    // v105 moved the name into the extended header at 0x12B (utf8, 16 bytes)
+    name: isV105
+      ? reader.readString(16, 0x12b).split("\0")[0]
+      : reader.readNullTerminatedString(20),
+    class: reader.readInt8(isV105 ? 0x18 : 0x28),
     hasCorpse: false,
-    hasMercenary: !!reader.readInt32LE(179),
+    hasMercenary: !!reader.readInt32LE(isV105 ? 0xa3 : 0xb3),
     characterData: new Uint8Array(),
     golem: new Uint8Array(),
     items: [],
   };
 
-  parseAttributes(reader);
+  parseAttributes(reader, version);
 
   // Skip over skills
   reader.readString(32);
@@ -47,6 +54,7 @@ export function parseCharacter(
   const expansionChar = true;
   if (expansionChar) {
     parseMercenary(reader, character);
+    // Captures iron golem (0x666b), and on v105 also warlock bind-demon (0x666c)
     character.golem = reader.readRemaining();
   }
 

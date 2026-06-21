@@ -5847,5 +5847,175 @@
         "max": 6
       }
     ]
+  },
+  {
+    "name": "Runeword180",
+    "enabled": true,
+    "runes": [
+      "r24",
+      "r08",
+      "r16"
+    ],
+    "levelReq": 51,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 393,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 1,
+        "max": 15
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 1,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Runeword181",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r25"
+    ],
+    "levelReq": 53,
+    "itypes": [
+      "grim",
+      "shld",
+      "head",
+      "ashd"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 394,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Runeword182",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r13",
+      "r27"
+    ],
+    "levelReq": 57,
+    "itypes": [
+      "knif"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 400,
+        "min": 13,
+        "max": 1
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 200,
+        "max": 270
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 150,
+        "max": 250
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 200,
+        "max": 260
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "rip",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
   }
 ]

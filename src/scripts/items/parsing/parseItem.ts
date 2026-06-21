@@ -5,9 +5,10 @@ import { parseQuantified } from "./parseQuantified";
 import { parseModifiers } from "./parseModifiers";
 import { ItemParsingError } from "../../errors/ItemParsingError";
 import { SaveFileReader } from "../../save-file/SaveFileReader";
-import { LAST_LEGACY } from "../../character/parsing/versions";
+import { LAST_LEGACY, V105_D2R } from "../../character/parsing/versions";
 import { ItemsOwner } from "../../save-file/ownership";
 import { MISC } from "../../../game-data";
+import { ItemQuality } from "../types/ItemQuality";
 
 export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
   // https://squeek502.github.io/d2itemreader/formats/d2.html
@@ -35,11 +36,30 @@ export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
       }
       throw new ItemParsingError(item, (e as Error).message);
     }
-  } else {
-    item.reqlevel = Math.max(
-      item.reqlevel || 0,
-      MISC[item.code]?.levelReq || 0
-    );
+  }
+  else
+  {
+    item.reqlevel = Math.max(item.reqlevel || 0, MISC[item.code]?.levelReq || 0)
+  }
+
+  // D2R EXTRAS flag: skip 52 bits; SET/UNIQUE/RUNEWORD items get an extra 64-bit chronicle block
+  if (item.extras) {
+    stream.read(52);
+    if (
+      item.runeword ||
+      item.quality === ItemQuality.SET ||
+      item.quality === ItemQuality.UNIQUE
+    ) {
+      stream.read(64);
+    }
+  }
+
+  // v105: post-stat quantity flag (1 bit) present for ALL v105 items, including character files.
+  // If the flag is set, read 8 bits of quantity (stash stackables use this for per-item count).
+  if (owner.version >= V105_D2R) {
+    if (stream.readBool()) {
+      item.quantity = stream.readInt(8);
+    }
   }
 
   item.raw = stream.done();

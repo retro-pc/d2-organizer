@@ -18629,5 +18629,1411 @@
         "max": -45
       }
     ]
+  },
+  {
+    "name": "",
+    "enabled": false,
+    "code": "",
+    "qlevel": 0,
+    "reqlevel": 0,
+    "modifiers": []
+  },
+  {
+    "name": "Ars Al'Diablolos",
+    "enabled": true,
+    "code": "waf",
+    "qlevel": 85,
+    "reqlevel": 80,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 23,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 77,
+        "min": 15,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 170,
+        "max": 200
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "light",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "skill",
+        "param": 401,
+        "min": 3,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Ars Tor'Baalos",
+    "enabled": true,
+    "code": "wae",
+    "qlevel": 85,
+    "reqlevel": 73,
+    "modifiers": [
+      {
+        "prop": "skilltab",
+        "param": 21,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 87,
+        "min": 15,
+        "max": 1
+      },
+      {
+        "prop": "skill",
+        "param": 374,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 380,
+        "min": 2,
+        "max": 4
+      },
+      {
+        "prop": "skill",
+        "param": 379,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 381,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 120,
+        "max": 150
+      },
+      {
+        "prop": "hp/lvl",
+        "param": 12,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Ars Dul'Mephistos",
+    "enabled": true,
+    "code": "wac",
+    "qlevel": 85,
+    "reqlevel": 78,
+    "modifiers": [
+      {
+        "prop": "war",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 59,
+        "min": 15,
+        "max": 28
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "balance1",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 70,
+        "max": 115
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 50,
+        "max": 70
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 140,
+        "max": 170
+      },
+      {
+        "prop": "pierce-mag",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 10,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Measured Wrath",
+    "enabled": true,
+    "code": "wa6",
+    "qlevel": 58,
+    "reqlevel": 52,
+    "modifiers": [
+      {
+        "prop": "war",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 394,
+        "min": 5,
+        "max": 25
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 130,
+        "max": 180
+      },
+      {
+        "prop": "skill",
+        "param": 376,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 394,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 398,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      }
+    ]
+  },
+  {
+    "name": "Dreadfang",
+    "enabled": true,
+    "code": "72h",
+    "qlevel": 69,
+    "reqlevel": 61,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 66,
+        "min": 33,
+        "max": 3
+      },
+      {
+        "prop": "swing1",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 133,
+        "max": 166
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 3,
+        "max": 6
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "skill",
+        "param": 392,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -33,
+        "max": -33
+      }
+    ]
+  },
+  {
+    "name": "Wraithstep",
+    "enabled": true,
+    "code": "utb",
+    "qlevel": 73,
+    "reqlevel": 67,
+    "modifiers": [
+      {
+        "prop": "skilltab-war",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "balance1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 40,
+        "max": 60
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      }
+    ]
+  },
+  {
+    "name": "Bloodpact Shard",
+    "enabled": true,
+    "code": "7di",
+    "qlevel": 73,
+    "reqlevel": 67,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "skill",
+        "param": 378,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 380,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 382,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 20,
+        "max": 35
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Sling",
+    "enabled": true,
+    "code": "rin",
+    "qlevel": 58,
+    "reqlevel": 50,
+    "modifiers": [
+      {
+        "prop": "oskill",
+        "param": 411,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "pierce-mag",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      }
+    ]
+  },
+  {
+    "name": "Opalvein",
+    "enabled": true,
+    "code": "rin",
+    "qlevel": 58,
+    "reqlevel": 50,
+    "modifiers": [
+      {
+        "prop": "att-skill",
+        "param": 398,
+        "min": 2,
+        "max": 15
+      },
+      {
+        "prop": "magdam-rand",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 6,
+        "max": 8
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 1,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Entropy Locket",
+    "enabled": true,
+    "code": "amu",
+    "qlevel": 60,
+    "reqlevel": 54,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 399,
+        "min": 4,
+        "max": 19
+      },
+      {
+        "prop": "extra-mag",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 25,
+        "max": 40
+      },
+      {
+        "prop": "mana%",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 8,
+        "max": 12
+      }
+    ]
+  },
+  {
+    "name": "Gheed's Wager",
+    "enabled": true,
+    "code": "utc",
+    "qlevel": 79,
+    "reqlevel": 71,
+    "modifiers": [
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "balance1",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 90,
+        "max": 150
+      },
+      {
+        "prop": "pierce-mag",
+        "param": 0,
+        "min": 3,
+        "max": 7
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 5,
+        "max": 15
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 44,
+        "max": 75
+      }
+    ]
+  },
+  {
+    "name": "Unique Warlock Helm",
+    "enabled": true,
+    "code": "xsk",
+    "qlevel": 55,
+    "reqlevel": 50,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 5,
+        "max": 8
+      },
+      {
+        "prop": "pierce-mag",
+        "param": 0,
+        "min": 5,
+        "max": 8
+      },
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 150,
+        "max": 215
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 4,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Defender's Bile",
+    "enabled": true,
+    "code": "cjw",
+    "qlevel": 110,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 68,
+        "min": 1,
+        "max": 25
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "dmg-pois",
+        "param": 25,
+        "min": 975,
+        "max": 975
+      },
+      {
+        "prop": "pierce-pois",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Guardian's Thunder",
+    "enabled": true,
+    "code": "cjw",
+    "qlevel": 110,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 235,
+        "min": 1,
+        "max": 25
+      },
+      {
+        "prop": "extra-ltng",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 1,
+        "max": 75
+      },
+      {
+        "prop": "pierce-ltng",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Protector's Frost",
+    "enabled": true,
+    "code": "cjw",
+    "qlevel": 110,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 40,
+        "min": 1,
+        "max": 25
+      },
+      {
+        "prop": "extra-cold",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 125,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Defender's Fire",
+    "enabled": true,
+    "code": "cjw",
+    "qlevel": 110,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 46,
+        "min": 1,
+        "max": 25
+      },
+      {
+        "prop": "extra-fire",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 20,
+        "max": 60
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Protector's Stone",
+    "enabled": true,
+    "code": "cjw",
+    "qlevel": 110,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 267,
+        "min": 1,
+        "max": 15
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 10,
+        "max": 30
+      },
+      {
+        "prop": "pierce-dmg",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "Guardian's Light",
+    "enabled": true,
+    "code": "cjw",
+    "qlevel": 110,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 387,
+        "min": 1,
+        "max": 25
+      },
+      {
+        "prop": "extra-mag",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "dmg-mag",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "pierce-mag",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "addxp",
+        "param": 0,
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "mag%",
+        "param": 0,
+        "min": 15,
+        "max": 35
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 25,
+        "max": 50
+      }
+    ]
+  },
+  {
+    "name": "PreCrafted Cold Rupture",
+    "enabled": true,
+    "code": "cm3",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-cold",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": -90,
+        "max": -90
+      }
+    ]
+  },
+  {
+    "name": "Crafted Cold Rupture",
+    "enabled": true,
+    "code": "cs2",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-cold",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": -90,
+        "max": -70
+      },
+      {
+        "prop": "Gelid-Affix1",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Gelid-Affix2",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Gelid-Affix3",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Gelid-Affix4",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Gelid-Affix5",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Gelid-Affix6",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "PreCrafted Flame Rift",
+    "enabled": true,
+    "code": "cm3",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-fire",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": -90,
+        "max": -90
+      }
+    ]
+  },
+  {
+    "name": "PreCrafted Crack of the Heavens",
+    "enabled": true,
+    "code": "cm3",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-light",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": -90,
+        "max": -90
+      }
+    ]
+  },
+  {
+    "name": "PreCrafted Rotting Fissure",
+    "enabled": true,
+    "code": "cm3",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-poison",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": -90,
+        "max": -90
+      }
+    ]
+  },
+  {
+    "name": "PreCrafted Bone Break",
+    "enabled": true,
+    "code": "cm3",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-damage",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": -20,
+        "max": -20
+      }
+    ]
+  },
+  {
+    "name": "PreCrafted Black Cleft",
+    "enabled": true,
+    "code": "cm3",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-magic",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": -65,
+        "max": -65
+      }
+    ]
+  },
+  {
+    "name": "Crafted Flame Rift",
+    "enabled": true,
+    "code": "cs2",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-fire",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": -90,
+        "max": -70
+      },
+      {
+        "prop": "Incendiary-Affix1",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Incendiary-Affix2",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Incendiary-Affix3",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Incendiary-Affix4",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Incendiary-Affix6",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Crafted Crack of the Heavens",
+    "enabled": true,
+    "code": "cs2",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-light",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": -90,
+        "max": -70
+      },
+      {
+        "prop": "Magnetic-Affix1",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Magnetic-Affix2",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Magnetic-Affix3",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Magnetic-Affix4",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Magnetic-Affix6",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Crafted Rotting Fissure",
+    "enabled": true,
+    "code": "cs2",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-poison",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-pois",
+        "param": 0,
+        "min": -90,
+        "max": -70
+      },
+      {
+        "prop": "Virulent-Affix1",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Virulent-Affix2",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Virulent-Affix3",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Virulent-Affix4",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Virulent-Affix6",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Crafted Bone Break",
+    "enabled": true,
+    "code": "cs2",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-damage",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": -20,
+        "max": -10
+      },
+      {
+        "prop": "Breaching-Affix1",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Breaching-Affix2",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Breaching-Affix3",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Breaching-Affix4",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Breaching-Affix6",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Crafted Black Cleft",
+    "enabled": true,
+    "code": "cs2",
+    "qlevel": 69,
+    "reqlevel": 75,
+    "modifiers": [
+      {
+        "prop": "pierce-immunity-magic",
+        "param": 0,
+        "min": 300,
+        "max": 300
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": -65,
+        "max": -45
+      },
+      {
+        "prop": "Mystical-Affix1",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Mystical-Affix2",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Mystical-Affix3",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Mystical-Affix4",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "Mystical-Affix6",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
   }
 ]

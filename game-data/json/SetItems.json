@@ -5838,5 +5838,450 @@
       [],
       []
     ]
+  },
+  {
+    "name": "",
+    "code": "",
+    "set": "",
+    "qlevel": 0,
+    "levelReq": 0,
+    "baseModifiers": [],
+    "setModifiers": []
+  },
+  {
+    "name": "",
+    "code": "",
+    "set": "",
+    "qlevel": 0,
+    "levelReq": 0,
+    "baseModifiers": [],
+    "setModifiers": []
+  },
+  {
+    "name": "",
+    "code": "",
+    "set": "",
+    "qlevel": 0,
+    "levelReq": 0,
+    "baseModifiers": [],
+    "setModifiers": []
+  },
+  {
+    "name": "",
+    "code": "",
+    "set": "",
+    "qlevel": 0,
+    "levelReq": 0,
+    "baseModifiers": [],
+    "setModifiers": []
+  },
+  {
+    "name": "",
+    "code": "",
+    "set": "",
+    "qlevel": 0,
+    "levelReq": 0,
+    "baseModifiers": [],
+    "setModifiers": []
+  },
+  {
+    "name": "Bane's Oathmaker",
+    "code": "kri",
+    "set": "Bane's Garments",
+    "qlevel": 7,
+    "levelReq": 8,
+    "baseModifiers": [
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "mana-kill",
+          "param": 0,
+          "min": 3,
+          "max": 3
+        },
+        {
+          "prop": "deadly",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Bane's Wraithskin",
+    "code": "hla",
+    "set": "Bane's Garments",
+    "qlevel": 7,
+    "levelReq": 8,
+    "baseModifiers": [
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "balance1",
+          "param": 0,
+          "min": 25,
+          "max": 25
+        },
+        {
+          "prop": "att/lvl",
+          "param": 16,
+          "min": 0,
+          "max": 0
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Bane's Authority",
+    "code": "vbl",
+    "set": "Bane's Garments",
+    "qlevel": 7,
+    "levelReq": 8,
+    "baseModifiers": [
+      {
+        "prop": "cast1",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "enr",
+          "param": 0,
+          "min": 15,
+          "max": 15
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Horazon's Countenance",
+    "code": "usk",
+    "set": "Horazon's Splendor",
+    "qlevel": 40,
+    "levelReq": 62,
+    "baseModifiers": [
+      {
+        "prop": "att%/lvl",
+        "param": 2,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "war",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "red-mag",
+        "param": 0,
+        "min": 7,
+        "max": 10
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "hp%",
+          "param": 0,
+          "min": 5,
+          "max": 5
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Horazon's Dominion",
+    "code": "xpl",
+    "set": "Horazon's Splendor",
+    "qlevel": 40,
+    "levelReq": 55,
+    "baseModifiers": [
+      {
+        "prop": "skilltab",
+        "param": 21,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 75,
+        "max": 100
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "res-fire",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "res-pois",
+          "param": 0,
+          "min": 25,
+          "max": 25
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Horazon's Hold",
+    "code": "xlg",
+    "set": "Horazon's Splendor",
+    "qlevel": 40,
+    "levelReq": 48,
+    "baseModifiers": [
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 95,
+        "max": 150
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "dmg-fire",
+        "param": 0,
+        "min": 140,
+        "max": 270
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 30,
+        "max": 40
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "swing1",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        },
+        {
+          "prop": "manasteal",
+          "param": 0,
+          "min": 7,
+          "max": 7
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Horazon's Legacy",
+    "code": "utb",
+    "set": "Horazon's Splendor",
+    "qlevel": 40,
+    "levelReq": 67,
+    "baseModifiers": [
+      {
+        "prop": "move1",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "str",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "dex",
+        "param": 0,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "res-mag",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -30,
+        "max": -30
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "move2",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Horazon's Secrets",
+    "code": "wad",
+    "set": "Horazon's Splendor",
+    "qlevel": 40,
+    "levelReq": 57,
+    "baseModifiers": [
+      {
+        "prop": "skilltab",
+        "param": 22,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "balance1",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 30,
+        "max": 50
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "res-pois-len",
+          "param": 0,
+          "min": 75,
+          "max": 75
+        },
+        {
+          "prop": "pierce-fire",
+          "param": 0,
+          "min": 25,
+          "max": 25
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
   }
 ]

@@ -14,6 +14,7 @@ export interface Item {
   ethereal: boolean;
   personalized: boolean;
   runeword: boolean;
+  extras?: boolean; // D2R only: triggers 52-bit skip after stat blocks
 
   location: ItemLocation;
   equippedInSlot: ItemEquipSlot;

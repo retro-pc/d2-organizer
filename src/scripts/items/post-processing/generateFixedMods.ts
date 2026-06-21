@@ -29,10 +29,11 @@ export function generateFixedMods(
         throw new Error(`Unknown mod ${stat}`);
       }
       const previous = modifiers[modifiers.length - 1];
+      const statDef = ITEM_STATS[statId]!;
       const shared: Modifier = {
         id: statId,
         stat,
-        priority: ITEM_STATS[statId]!.descPriority,
+        priority: statDef.descPriority,
       };
       switch (type) {
         case "proc":
@@ -97,12 +98,16 @@ export function generateFixedMods(
           modifiers.push({
             ...shared,
             value: max!,
-            param:
-              param != null
-                ? stat === "item_addskill_tab"
-                  ? SKILL_TABS[Number(param)].id
-                  : param
-                : propParam,
+            // Only set param when the stat actually encodes one in binary (paramSize > 0).
+            // Gem/rune ranges default param to 0, which would mismatch parsed binary mods
+            // (param=undefined) and prevent consolidation for stats like resistances.
+            param: statDef.paramSize
+              ? (param != null
+                  ? stat === "item_addskill_tab"
+                    ? SKILL_TABS[Number(param)].id
+                    : param
+                  : propParam)
+              : undefined,
           });
       }
     }

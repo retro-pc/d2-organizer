@@ -126,7 +126,7 @@ function writeModifiers(writer: BitWriter, mods: Modifier[]): void {
 }
 
 // Write a single rune item binary (simple, location = socket)
-function writeRuneItemBinary(runeCode: string): Uint8Array {
+function writeRuneItemBinary(runeCode: string, v105: boolean): Uint8Array {
   const writer = new BitWriter();
 
   // Flags
@@ -154,6 +154,7 @@ function writeRuneItemBinary(runeCode: string): Uint8Array {
   writeHuffmanCode(writer, runeCode);
   writer.writeUInt8(0, 1); // nr_of_items_in_sockets (simple → 1 bit)
 
+  if (v105) writer.writeBit(0); // v105: post-stat quantity flag
   writer.align();
   return writer.toArray();
 }
@@ -168,7 +169,8 @@ export function getItemDimensions(
   return base ? { width: base.width, height: base.height } : { width: 1, height: 1 };
 }
 
-export function writeItemBinary(item: Item, opts: CreateItemOpts): Uint8Array {
+export function writeItemBinary(item: Item, opts: CreateItemOpts, stashVersion = D2R_STASH_VERSION): Uint8Array {
+  const v105 = stashVersion >= 105;
   const hasRuneword = item.runeword;
   // For runewords, use the selected base code
   const code = hasRuneword && opts.baseCode ? opts.baseCode : item.code;
@@ -258,14 +260,15 @@ export function writeItemBinary(item: Item, opts: CreateItemOpts): Uint8Array {
         base.indestructible ||
         (item.modifiers ?? []).some((m) => m.stat === "item_indesctructible");
       const maxDur = indestructible ? 0 : 50;
-      writer.writeUInt16(maxDur, ITEM_STATS[73]!.size); // 8 bits
+      writer.writeUInt16(maxDur, ITEM_STATS[73]!.size); // 8 bits: max durability
       if (maxDur > 0) {
         // 9 bits: 8-bit current durability + 1 unknown bit
-        writer.writeUInt16(maxDur << 1, ITEM_STATS[72]!.size);
+        writer.writeUInt16(maxDur, ITEM_STATS[72]!.size);
       }
     }
 
-    // Quantity for stackable weapons/armor
+    // v105: 1-bit stackable flag present for ALL v105 items
+    if (v105) writer.writeBit(base?.stackable ? 1 : 0);
     if (base?.stackable) {
       writer.writeUInt16(item.quantity ?? 1, 9);
     }
@@ -300,6 +303,7 @@ export function writeItemBinary(item: Item, opts: CreateItemOpts): Uint8Array {
     }
   }
 
+  if (v105) writer.writeBit(0); // v105: post-stat quantity flag
   writer.align();
 
   // Append socketed rune items for runewords
@@ -307,7 +311,7 @@ export function writeItemBinary(item: Item, opts: CreateItemOpts): Uint8Array {
     const rw = RUNEWORDS[item.runewordId];
     if (rw) {
       for (const runeCode of rw.runes) {
-        writer.writeArray(writeRuneItemBinary(runeCode));
+        writer.writeArray(writeRuneItemBinary(runeCode, v105));
       }
     }
   }
@@ -317,6 +321,9 @@ export function writeItemBinary(item: Item, opts: CreateItemOpts): Uint8Array {
 
 const D2R_PAGE_HEADER = 0xaa55aa55;
 const D2R_STASH_VERSION = 99;
+export const STASH_PAGE_WIDTH = 10;
+export const STASH_PAGE_HEIGHT = 10;
+export const STASH_PAGE_COUNT = 3;
 
 function writePage(w: SaveFileWriter, itemBytesList: Uint8Array[]) {
   const pageStart = w.nextIndex;
@@ -341,9 +348,47 @@ export function wrapInD2rStash(itemBytes: Uint8Array): Uint8Array {
   return w.done();
 }
 
-// All items together in a single page of a D2R stash file
-export function wrapAllInD2rStash(allItemBytes: Uint8Array[]): Uint8Array {
+// Pack items across STASH_PAGE_COUNT pages (each STASH_PAGE_WIDTH × STASH_PAGE_HEIGHT)
+// and write a D2R stash file.
+export function wrapAllInD2rStash(
+  items: Array<{ item: Item; opts: CreateItemOpts }>
+): Uint8Array {
+  // occupied[page] = Set of "x,y" strings
+  const occupied: Set<string>[] = Array.from({ length: STASH_PAGE_COUNT }, () => new Set());
+
+  function findSlot(width: number, height: number): { page: number; x: number; y: number } | null {
+    for (let page = 0; page < STASH_PAGE_COUNT; page++) {
+      for (let y = 0; y <= STASH_PAGE_HEIGHT - height; y++) {
+        for (let x = 0; x <= STASH_PAGE_WIDTH - width; x++) {
+          let fits = true;
+          outer: for (let dx = 0; dx < width; dx++) {
+            for (let dy = 0; dy < height; dy++) {
+              if (occupied[page].has(`${x + dx},${y + dy}`)) { fits = false; break outer; }
+            }
+          }
+          if (fits) return { page, x, y };
+        }
+      }
+    }
+    return null;
+  }
+
+  const pages: Uint8Array[][] = Array.from({ length: STASH_PAGE_COUNT }, () => []);
+
+  for (const { item, opts } of items) {
+    const { width, height } = getItemDimensions(item, opts);
+    const slot = findSlot(width, height);
+    if (!slot) continue; // no space — skip item
+    const { page, x, y } = slot;
+    for (let dx = 0; dx < width; dx++) {
+      for (let dy = 0; dy < height; dy++) {
+        occupied[page].add(`${x + dx},${y + dy}`);
+      }
+    }
+    pages[page].push(writeItemBinary(item, { ...opts, position: { x, y } }));
+  }
+
   const w = new SaveFileWriter();
-  writePage(w, allItemBytes);
+  for (const pageItems of pages) writePage(w, pageItems);
   return w.done();
 }

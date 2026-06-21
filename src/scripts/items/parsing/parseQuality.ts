@@ -11,51 +11,49 @@ import {
   UNIQUE_ITEMS,
 } from "../../../game-data";
 import { getBase } from "../getBase";
+import { FIRST_D2R } from "../../character/parsing/versions";
 
-function getLevel(item: Item) {
-  let reqlevel = 0;
+function getLevel(item: Item)
+{
+  let reqlevel = 0
   switch (item.quality) {
     case ItemQuality.NORMAL:
-      reqlevel = Math.max(reqlevel, getBase(item).levelReq);
+      reqlevel = Math.max(reqlevel, getBase(item).levelReq)
       break;
     case ItemQuality.LOW:
-      reqlevel = Math.max(reqlevel, getBase(item).levelReq);
+      reqlevel = Math.max(reqlevel, getBase(item).levelReq)
       break;
     case ItemQuality.SUPERIOR:
-      reqlevel = Math.max(reqlevel, getBase(item).levelReq);
+      reqlevel = Math.max(reqlevel, getBase(item).levelReq)
       break;
     case ItemQuality.RARE:
     case ItemQuality.MAGIC:
-      for (let i = 0; item.prefixes && i < item.prefixes.length; ++i) {
+      for(let i = 0; item.prefixes && i < item.prefixes.length; ++i)
+      {
         if (MAGIC_PREFIXES[item.prefixes[i]])
-          reqlevel = Math.max(
-            reqlevel,
-            MAGIC_PREFIXES[item.prefixes[i]].reqlevel
-          );
+          reqlevel = Math.max(reqlevel, MAGIC_PREFIXES[item.prefixes[i]].reqlevel)
       }
 
-      for (let i = 0; item.suffixes && i < item.suffixes.length; ++i) {
+      for(let i = 0; item.suffixes && i < item.suffixes.length; ++i)
+      {
         if (MAGIC_SUFFIXES[item.suffixes[i]])
-          reqlevel = Math.max(
-            reqlevel,
-            MAGIC_SUFFIXES[item.suffixes[i]].reqlevel
-          );
+          reqlevel = Math.max(reqlevel, MAGIC_SUFFIXES[item.suffixes[i]].reqlevel)
       }
 
       break;
     case ItemQuality.SET:
       if (item.unique)
-        reqlevel = Math.max(reqlevel, SET_ITEMS[item.unique].levelReq);
+        reqlevel = Math.max(reqlevel, SET_ITEMS[item.unique]?.levelReq ?? 0)
       break;
     case ItemQuality.UNIQUE:
       if (item.unique)
-        reqlevel = Math.max(reqlevel, UNIQUE_ITEMS[item.unique].reqlevel);
+        reqlevel = Math.max(reqlevel, UNIQUE_ITEMS[item.unique]?.reqlevel ?? 0)
       break;
     case ItemQuality.CRAFTED:
       break;
   }
 
-  reqlevel = Math.max(reqlevel, MISC[item.code]?.levelReq || 0);
+  reqlevel = Math.max(reqlevel, MISC[item.code]?.levelReq || 0)
   return reqlevel;
 }
 export function parseQuality(
@@ -92,23 +90,25 @@ export function parseQuality(
       item.suffixes = [readInt(11)];
       item.name = getBase(item).name;
       if (item.prefixes[0]) {
-        item.name = `${MAGIC_PREFIXES[item.prefixes[0]].name} ${item.name}`;
+        const prefix = MAGIC_PREFIXES[item.prefixes[0]];
+        if (prefix) item.name = `${prefix.name} ${item.name}`;
       }
       if (item.suffixes[0]) {
-        item.name = `${item.name} ${MAGIC_SUFFIXES[item.suffixes[0]].name}`;
+        const suffix = MAGIC_SUFFIXES[item.suffixes[0]];
+        if (suffix) item.name = `${item.name} ${suffix.name}`;
       }
       break;
     case ItemQuality.SET:
       item.unique = readInt(12);
-      item.name = SET_ITEMS[item.unique].name;
+      item.name = SET_ITEMS[item.unique]?.name ?? getBase(item).name;
       break;
     case ItemQuality.UNIQUE:
       item.unique = readInt(12);
-      item.name = UNIQUE_ITEMS[item.unique].name;
+      item.name = UNIQUE_ITEMS[item.unique]?.name ?? getBase(item).name;
       break;
     case ItemQuality.RARE:
     case ItemQuality.CRAFTED:
-      item.name = `${RARE_NAMES[readInt(8)]} ${RARE_NAMES[readInt(8)]}`;
+      item.name = `${RARE_NAMES[readInt(8)] ?? "?"} ${RARE_NAMES[readInt(8)] ?? "?"}`;
       // Up to 6 affixes, alternating between prefix and suffix
       item.prefixes = [];
       item.suffixes = [];
@@ -126,7 +126,7 @@ export function parseQuality(
     if (item.runewordId === 2691) {
       item.runewordId = 21;
     }
-    item.name = RUNEWORDS[item.runewordId].name;
+    item.name = RUNEWORDS[item.runewordId]?.name ?? getBase(item).name;
     read(4);
   }
 
@@ -139,13 +139,18 @@ export function parseQuality(
     item.name = `${charName}'s ${item.name}`;
   }
 
-  item.reqlevel = getLevel(item);
+  item.reqlevel = getLevel(item)
 
   if (MISC[item.code]?.type === "book") {
     // Skip 5 unknown bits for tomes
     read(5);
   }
 
-  // Skip unknown "timestamp" bit
-  read(1);
+  // Realm/extra-data flag; in D2R, if set, skip 128 bits for misc items or 3 bits for others
+  const realmBit = readBool();
+  if (realmBit) {
+    if (item.owner.version >= FIRST_D2R) {
+      read(MISC[item.code] ? 128 : 3);
+    }
+  }
 }
