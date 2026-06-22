@@ -11,7 +11,7 @@ import {
   generateMiscItems,
   generateEquipmentItems,
 } from "../../scripts/items/catalog/generateCatalog";
-import { ARMORS, WEAPONS, RUNEWORDS } from "../../game-data";
+import { ARMORS, WEAPONS, RUNEWORDS, SKILLS, SKILL_TABS } from "../../game-data";
 import { itemMatchesTypes } from "../../scripts/items/catalog/itemTypeMatching";
 import { BufferContext } from "../store/BufferContext";
 import { ItemCard } from "../items/ItemCard";
@@ -34,10 +34,17 @@ const CATEGORIES: CategoryDef[] = [
   { id: "misc", label: "Miscellaneous", colorClass: "cat-misc" },
 ];
 
+interface SkillChoice {
+  modIdx: number;
+  label: string;
+  options: { value: number; label: string }[];
+}
+
 interface AddForm {
   item: Item;
   ethereal: boolean;
   baseCode: string;
+  skillChoices: Record<number, number>; // modIdx -> chosen param value
 }
 
 const TIER_LABELS = ["Normal", "Exceptional", "Elite"] as const;
@@ -72,6 +79,35 @@ function buildBaseGroups(runeword: Item, socketCount: number) {
   return byTier
     .map((items, i) => ({ label: TIER_LABELS[i], items }))
     .filter((g) => g.items.length > 0);
+}
+
+function getSkillChoices(item: Item): { choices: Record<number, number>; meta: SkillChoice[] } {
+  const choices: Record<number, number> = {};
+  const meta: SkillChoice[] = [];
+  for (let modIdx = 0; modIdx < (item.modifiers ?? []).length; modIdx++) {
+    const mod = item.modifiers![modIdx];
+    if (mod.skillRange) {
+      const [minId, maxId] = mod.skillRange;
+      const options: { value: number; label: string }[] = [];
+      for (let i = minId; i <= maxId; i++) {
+        if (SKILLS[i]) options.push({ value: i, label: SKILLS[i].name });
+      }
+      if (options.length) {
+        choices[modIdx] = options[0].value;
+        meta.push({ modIdx, label: `+${mod.value} to Skill`, options });
+      }
+    } else if (mod.skillTabRange) {
+      const [minId, maxId] = mod.skillTabRange;
+      const options = SKILL_TABS.filter(({ id }) => id >= minId && id <= maxId).map(
+        ({ id, name }) => ({ value: id, label: name })
+      );
+      if (options.length) {
+        choices[modIdx] = mod.param ?? options[0].value;
+        meta.push({ modIdx, label: "Skill Tab", options });
+      }
+    }
+  }
+  return { choices, meta };
 }
 
 export function Catalog() {
@@ -113,17 +149,31 @@ export function Catalog() {
     const baseGroups = item.runeword
       ? buildBaseGroups(item, item.sockets ?? 1)
       : [];
+    const { choices } = getSkillChoices(item);
     setAddForm({
       item,
       ethereal: false,
       baseCode: baseGroups[0]?.items[0]?.code ?? "",
+      skillChoices: choices,
     });
   }
 
   function confirmAdd() {
     if (!addForm) return;
-    const { item, ethereal, baseCode } = addForm;
-    addItem(item, { ethereal, baseCode: item.runeword ? baseCode : undefined });
+    const { item, ethereal, baseCode, skillChoices } = addForm;
+    let finalItem = item;
+    if (Object.keys(skillChoices).length > 0) {
+      const modifiers = (item.modifiers ?? []).map((mod, idx) => {
+        const chosen = skillChoices[idx];
+        if (chosen == null) return mod;
+        // Remove skillRange/skillTabRange so the specific chosen skill is displayed
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
+        const { skillRange, skillTabRange, ...rest } = mod;
+        return { ...rest, param: chosen };
+      });
+      finalItem = { ...item, modifiers };
+    }
+    addItem(finalItem, { ethereal, baseCode: item.runeword ? baseCode : undefined });
     setAddForm(null);
   }
 
@@ -132,6 +182,11 @@ export function Catalog() {
       addForm?.item.runeword
         ? buildBaseGroups(addForm.item, addForm.item.sockets ?? 1)
         : [],
+    [addForm?.item]
+  );
+
+  const skillChoiceMeta = useMemo(
+    () => (addForm?.item ? getSkillChoices(addForm.item).meta : []),
     [addForm?.item]
   );
 
@@ -202,6 +257,29 @@ export function Catalog() {
                 </select>
               </label>
             )}
+          {skillChoiceMeta.map(({ modIdx, label, options }) => (
+            <label key={modIdx}>
+              {label}:{" "}
+              <select
+                value={addForm.skillChoices[modIdx]}
+                onChange={(e) =>
+                  setAddForm({
+                    ...addForm,
+                    skillChoices: {
+                      ...addForm.skillChoices,
+                      [modIdx]: Number((e.target as HTMLSelectElement).value),
+                    },
+                  })
+                }
+              >
+                {options.map(({ value, label: name }) => (
+                  <option key={value} value={value}>
+                    {name}
+                  </option>
+                ))}
+              </select>
+            </label>
+          ))}
           <button class="button" onClick={confirmAdd}>
             Add to transfer
           </button>

@@ -108,7 +108,7 @@ export function describeSingleMod(
       }
       skillTab = SKILL_TABS.find(({ id }) => id === modifier.param);
       if (!skillTab) {
-        throw new Error(`Unknown skill tab ${skillTab}`);
+        return;
       }
       modDesc = `+${modValue} to ${skillTab.name} ${
         CHAR_CLASSES[skillTab.charClass].classOnly

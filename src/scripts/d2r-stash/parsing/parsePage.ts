@@ -3,6 +3,7 @@ import { SaveFileReader } from "../../save-file/SaveFileReader";
 import { parseItemList } from "../../items/parsing/parseItemList";
 
 export function parsePage(reader: SaveFileReader, stash: D2rStash) {
+  const pageStart = reader.nextIndex;
   const header = reader.readInt32LE().toString(16);
   if (header !== "aa55aa55") {
     throw new Error(`Unexpected header ${header} for a stash page`);
@@ -16,15 +17,11 @@ export function parsePage(reader: SaveFileReader, stash: D2rStash) {
 
   const page: D2rPage = { gold, items: [] };
 
-  if (pageType === 2) {
-    // v105 metadata pages carry no items and have no JM header — skip remaining bytes
-    const remaining = sectorSize - 64;
-    if (remaining > 0) {
-      reader.read(remaining);
-    }
-    return page;
+  if (pageType !== 2) {
+    page.items.push(...parseItemList(reader, stash));
   }
 
-  page.items.push(...parseItemList(reader, stash));
+  // Seek to the exact end of this page so the next page starts correctly
+  reader.nextIndex = pageStart + sectorSize;
   return page;
 }

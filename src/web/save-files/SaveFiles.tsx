@@ -3,7 +3,7 @@ import { CollectionContext } from "../store/CollectionContext";
 import { FilePicker } from "./FilePicker";
 import "./SaveFiles.css";
 import { PrettyOwnerName } from "./PrettyOwnerName";
-import { LAST_LEGACY } from "../../scripts/character/parsing/versions";
+import { LAST_LEGACY, V105_D2R } from "../../scripts/character/parsing/versions";
 
 const dateFormatter = Intl.DateTimeFormat(undefined, {
   dateStyle: "long",
@@ -25,6 +25,8 @@ export function SaveFiles() {
           <td>
             {owner.version <= LAST_LEGACY
               ? "Legacy Diablo 2"
+              : owner.version >= V105_D2R
+              ? "Diablo 2 Resurrected (Reign of the Warlock)"
               : "Diablo 2 Resurrected"}
           </td>
           <td>{dateFormatter.format(new Date(owner.lastModified))}</td>

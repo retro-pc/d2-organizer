@@ -58,7 +58,9 @@ export const MAGIC_SUFFIXES: MagicAffix[] = magicSuffixes;
 export const RUNEWORDS: Runeword[] = runewords;
 export const ITEM_TYPES: Record<string, string[]> = itemTypes;
 export const GEMS: Record<string, Gem> = gems;
-export const PROPERTY_GROUPS: Record<string, PropertyGroup> = propertyGroups as Record<string, PropertyGroup>;
+export const PROPERTY_GROUPS: Record<string, PropertyGroup> = Object.fromEntries(
+  Object.entries(propertyGroups).map(([k, v]) => [k.toLowerCase(), v])
+) as Record<string, PropertyGroup>;
 //
 let locaRecord: Record<string, ModifierLocale> = {};
 for (let i = 0; i < modLoc.length; ++i) {

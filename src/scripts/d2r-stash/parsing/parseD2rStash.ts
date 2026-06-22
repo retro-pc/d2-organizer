@@ -17,11 +17,12 @@ export function parseD2rStash(
     );
   }
 
+  const version = reader.readInt32LE(8);
   const stash: D2rStash = {
     filename: file?.name ?? "",
     lastModified: file?.lastModified ?? 0,
     // Can different pages have different versions?
-    version: reader.readInt32LE(8),
+    version,
     pages: [],
   };
   reader.peek = false;

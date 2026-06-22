@@ -59,7 +59,7 @@ export function Routes() {
         <NavLink hash="#saves">Save files</NavLink>
         <NavLink hash="#collection">Collection</NavLink>
         <NavLink hash="#characters">Characters</NavLink>
-        <NavLink hash="#catalog">Item catalog</NavLink>
+        <NavLink hash="#catalog">Catalog</NavLink>
         <NavLink hash="#transfer">
           Transfer {transferItems.length ? transferItems.length : ""} items
         </NavLink>

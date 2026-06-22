@@ -23,7 +23,7 @@ export function Transfer() {
     return (
       <p id="transfer-items">
         You have not selected any items yet. Browse the{" "}
-        <a href="#catalog">Item catalog</a> or your{" "}
+        <a href="#catalog">Catalog</a> or your{" "}
         <a href="#collection">Collection</a> and click an item to add it.
       </p>
     );
