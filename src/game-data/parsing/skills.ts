@@ -7,15 +7,16 @@ export async function skillsToJson(charClasses: CharacterClass[]) {
   const descriptions = await readGameFile("SkillDesc");
   for (const line of await readGameFile("Skills")) {
     const description = descriptions.find(
-      ([name]) =>
-        name.toLocaleLowerCase() === line[0].trim().toLocaleLowerCase()
+      (desc) =>
+        desc["skilldesc"]?.toLocaleLowerCase() ===
+        line["skill"].trim().toLocaleLowerCase()
     );
     const charClass = charClasses.findIndex(
-      ({ code }) => code === line[2].trim()
+      ({ code }) => code === line["charclass"].trim()
     );
-    skills[Number(line[1])] = {
-      code: line[0].trim(),
-      name: getString(description?.[7].trim() ?? line[0].trim()),
+    skills[Number(line["*Id"])] = {
+      code: line["skill"].trim(),
+      name: getString(description?.["str name"]?.trim() ?? line["skill"].trim()),
       ...(charClass >= 0 && { charClass }),
     };
   }

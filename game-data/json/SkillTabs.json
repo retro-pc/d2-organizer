@@ -103,5 +103,20 @@
     "id": 50,
     "name": "Martial Arts Skills",
     "charClass": 6
+  },
+  {
+    "id": 56,
+    "name": "Demon Skills",
+    "charClass": 7
+  },
+  {
+    "id": 57,
+    "name": "Eldritch Skills",
+    "charClass": 7
+  },
+  {
+    "id": 58,
+    "name": "Chaos Skills",
+    "charClass": 7
   }
 ]

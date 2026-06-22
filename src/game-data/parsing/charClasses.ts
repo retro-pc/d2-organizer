@@ -45,6 +45,12 @@ const CLASSES: CharacterClass[] = [
     skillsMod: getString("ModStre8b"),
     classOnly: getString("AssOnly"),
   },
+  {
+    code: "war",
+    name: "Warlock",
+    skillsMod: "to Warlock Skills",
+    classOnly: "(Warlock Only)",
+  },
 ];
 
 export async function charClassesToJson() {

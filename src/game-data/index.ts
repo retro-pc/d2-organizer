@@ -2,6 +2,7 @@ import {
   Armor,
   ItemStat,
   Property,
+  PropertyGroup,
   SetItem,
   Set,
   UniqueItem,
@@ -36,6 +37,7 @@ import runewords from "../../game-data/json/Runewords.json";
 import itemTypes from "../../game-data/json/ItemTypes.json";
 import gems from "../../game-data/json/Gems.json";
 import modLoc from "../../game-data/json/item-modifiers.json";
+import propertyGroups from "../../game-data/json/PropertyGroups.json";
 
 // TODO: switch to JSON.parse
 export const ARMORS: Record<string, Armor | undefined> = armors;
@@ -56,6 +58,7 @@ export const MAGIC_SUFFIXES: MagicAffix[] = magicSuffixes;
 export const RUNEWORDS: Runeword[] = runewords;
 export const ITEM_TYPES: Record<string, string[]> = itemTypes;
 export const GEMS: Record<string, Gem> = gems;
+export const PROPERTY_GROUPS: Record<string, PropertyGroup> = propertyGroups as Record<string, PropertyGroup>;
 //
 let locaRecord: Record<string, ModifierLocale> = {};
 for (let i = 0; i < modLoc.length; ++i) {

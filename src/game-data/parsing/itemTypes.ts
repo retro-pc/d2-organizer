@@ -4,9 +4,9 @@ export async function itemTypesToJson() {
   const table = await readGameFile("ItemTypes");
   const types: Record<string, string[]> = {};
   for (const line of table) {
-    const code = line[1]?.trim();
+    const code = line["Code"]?.trim();
     if (!code) continue;
-    const parents = [line[2]?.trim(), line[3]?.trim()].filter(
+    const parents = [line["Equiv1"]?.trim(), line["Equiv2"]?.trim()].filter(
       Boolean
     ) as string[];
     types[code] = parents;

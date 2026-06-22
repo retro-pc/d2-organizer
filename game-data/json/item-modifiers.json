@@ -1723,5 +1723,25 @@
     "id": 27374,
     "Key": "ModStr6l",
     "enUS": "%+d%% Attack Speed"
+  },
+  {
+    "id": 27375,
+    "Key": "ModStrge9",
+    "enUS": "%+d to Warlock Skills"
+  },
+  {
+    "id": 27376,
+    "Key": "ModStrMagMastery",
+    "enUS": "%+d%% to Magic Skill Damage"
+  },
+  {
+    "id": 27377,
+    "Key": "ModStrDamPierce",
+    "enUS": "-%d%% to Enemy Physical Damage Resistance"
+  },
+  {
+    "id": 27378,
+    "Key": "ModStrMagPierce",
+    "enUS": "-%d%% to Enemy Magic Resistance"
   }
 ]

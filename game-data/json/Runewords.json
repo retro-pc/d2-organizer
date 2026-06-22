@@ -15,25 +15,21 @@
     "modifiers": [
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 13,
         "max": 13
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -50,12 +46,41 @@
   },
   {
     "name": "Authority",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "itypes": [],
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r13",
+      "r08"
+    ],
+    "levelReq": 29,
+    "itypes": [
+      "tors"
+    ],
     "etypes": [],
-    "modifiers": []
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 387,
+        "min": 2,
+        "max": 10
+      },
+      {
+        "prop": "hit-skill",
+        "param": 399,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "war",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "dmg%",
+        "min": 40,
+        "max": 60
+      }
+    ]
   },
   {
     "name": "Beast",
@@ -77,7 +102,6 @@
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -89,13 +113,11 @@
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 240,
         "max": 270
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 25,
         "max": 40
       },
@@ -146,31 +168,26 @@
     "modifiers": [
       {
         "prop": "crush",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 120,
         "max": 120
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 200,
         "max": 200
       },
@@ -219,13 +236,11 @@
       },
       {
         "prop": "nec",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 100,
         "max": 150
       }
@@ -248,13 +263,11 @@
     "modifiers": [
       {
         "prop": "balance2",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 300,
         "max": 300
       },
@@ -266,19 +279,16 @@
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 13,
         "max": 13
       },
       {
         "prop": "extra-pois",
-        "param": 0,
         "min": 25,
         "max": 50
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 100,
         "max": 100
       },
@@ -307,13 +317,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 260,
         "max": 340
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 280,
         "max": 330
       },
@@ -331,19 +339,16 @@
       },
       {
         "prop": "knock",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "explosivearrow",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -357,7 +362,8 @@
       "r15",
       "r01",
       "r02",
-      "r33"
+      "r33",
+      "r05"
     ],
     "levelReq": 69,
     "itypes": [
@@ -367,25 +373,21 @@
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 125,
         "max": 125
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 12,
         "max": 15
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -397,13 +399,11 @@
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 350,
         "max": 400
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -436,19 +436,16 @@
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 240
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -472,7 +469,6 @@
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 12,
         "max": 12
       }
@@ -495,43 +491,36 @@
     "modifiers": [
       {
         "prop": "res-all",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 70,
         "max": 70
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 8,
         "max": 8
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -562,19 +551,16 @@
     "modifiers": [
       {
         "prop": "demon-heal",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 240,
         "max": 290
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 216,
         "max": 471
       },
@@ -586,7 +572,6 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 35,
         "max": 35
       },
@@ -622,25 +607,21 @@
     "modifiers": [
       {
         "prop": "pierce-ltng",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 180,
         "max": 220
       },
       {
         "prop": "abs-mag",
-        "param": 0,
         "min": 9,
         "max": 11
       },
@@ -701,7 +682,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 300,
         "max": 385
       },
@@ -731,13 +711,11 @@
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -786,7 +764,6 @@
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 261,
         "max": 261
       },
@@ -804,7 +781,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -847,13 +823,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 350,
         "max": 350
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 100,
         "max": 180
       },
@@ -883,7 +857,6 @@
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -909,7 +882,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 280,
         "max": 320
       },
@@ -921,25 +893,21 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 45,
         "max": 45
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "pierce-cold",
-        "param": 0,
         "min": 40,
         "max": 60
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -968,13 +936,11 @@
     "modifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 360,
         "max": 360
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 230,
         "max": 230
       },
@@ -1004,7 +970,6 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 3,
         "max": 5
       }
@@ -1036,7 +1001,6 @@
     "modifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 150,
         "max": 220
       },
@@ -1054,13 +1018,11 @@
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 5,
         "max": 20
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 20,
         "max": 30
       },
@@ -1072,7 +1034,6 @@
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 12,
         "max": 25
       }
@@ -1100,37 +1061,31 @@
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 10,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 150,
         "max": 200
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "stamdrain",
-        "param": 0,
         "min": -20,
         "max": -20
       }
@@ -1152,25 +1107,21 @@
     "modifiers": [
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 320,
         "max": 380
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 280,
         "max": 280
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -1182,13 +1133,11 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 5,
         "max": 10
       },
       {
         "prop": "cheap",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -1219,19 +1168,16 @@
     "modifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 750,
         "max": 775
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 14,
         "max": 14
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 45,
         "max": 45
       },
@@ -1243,7 +1189,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -1289,7 +1234,6 @@
       },
       {
         "prop": "sor",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -1328,19 +1272,16 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 260,
         "max": 310
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "slow",
-        "param": 0,
         "min": 33,
         "max": 33
       },
@@ -1352,19 +1293,16 @@
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1387,19 +1325,16 @@
     "modifiers": [
       {
         "prop": "block2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 220,
         "max": 260
       },
@@ -1446,25 +1381,21 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 280,
         "max": 280
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 120,
         "max": 120
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 15,
         "max": 15
       },
@@ -1482,7 +1413,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 2
       }
@@ -1506,43 +1436,36 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 270,
         "max": 320
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 12,
         "max": 12
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 180,
         "max": 200
       },
       {
         "prop": "dmg-elem",
-        "param": 0,
         "min": 50,
         "max": 200
       },
       {
         "prop": "ethereal",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1550,7 +1473,7 @@
   },
   {
     "name": "Flame",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r04",
       "r21",
@@ -1564,7 +1487,6 @@
     "modifiers": [
       {
         "prop": "fireskill",
-        "param": 0,
         "min": 3,
         "max": 3
       },
@@ -1576,25 +1498,21 @@
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 50,
         "max": 75
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -1618,19 +1536,16 @@
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -1642,19 +1557,16 @@
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 12,
         "max": 12
       },
       {
         "prop": "hp/lvl",
-        "param": 0,
         "min": 8,
         "max": 12
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 30
       }
@@ -1694,37 +1606,31 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 209,
         "max": 209
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 66,
         "max": 66
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 33,
         "max": 33
       },
@@ -1752,13 +1658,11 @@
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 170,
         "max": 230
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 30,
         "max": 30
       },
@@ -1770,25 +1674,21 @@
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -3,
         "max": -3
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1828,13 +1728,11 @@
       },
       {
         "prop": "dmg",
-        "param": 0,
         "min": 340,
         "max": 400
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 30,
         "max": 40
       },
@@ -1846,19 +1744,16 @@
       },
       {
         "prop": "pierce-pois",
-        "param": 0,
         "min": 20,
         "max": 25
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 10,
         "max": 15
       }
@@ -1881,13 +1776,11 @@
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 280,
         "max": 330
       },
@@ -1911,13 +1804,11 @@
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1940,13 +1831,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 275
       },
       {
         "prop": "dmg-elem",
-        "param": 0,
         "min": 55,
         "max": 160
       },
@@ -1970,13 +1859,11 @@
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -2009,7 +1896,6 @@
     "modifiers": [
       {
         "prop": "cast2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -2021,25 +1907,21 @@
       },
       {
         "prop": "mana%",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 30,
         "max": 40
       },
@@ -2086,31 +1968,26 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 20,
         "max": 60
       },
       {
         "prop": "dmg-max",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "res-ltng-max",
-        "param": 0,
         "min": 5,
         "max": 5
       },
@@ -2146,37 +2023,31 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 160,
         "max": 160
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -2226,7 +2097,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 140,
         "max": 210
       },
@@ -2238,7 +2108,6 @@
       },
       {
         "prop": "extra-cold",
-        "param": 0,
         "min": 25,
         "max": 30
       },
@@ -2256,7 +2125,6 @@
       },
       {
         "prop": "pierce-cold",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -2286,13 +2154,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 255,
         "max": 325
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 35,
         "max": 35
       },
@@ -2316,7 +2182,6 @@
       },
       {
         "prop": "pierce-ltng",
-        "param": 0,
         "min": 45,
         "max": 55
       },
@@ -2356,19 +2221,16 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 260
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 180,
         "max": 250
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 23,
         "max": 23
       },
@@ -2380,7 +2242,6 @@
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 35,
         "max": 35
       },
@@ -2392,7 +2253,6 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -2433,37 +2293,31 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 150,
         "max": 150
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "att-demon",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "att-undead",
-        "param": 0,
         "min": 100,
         "max": 100
       }
@@ -2487,31 +2341,26 @@
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 230,
         "max": 270
       },
       {
         "prop": "reduce-ac",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -2523,7 +2372,6 @@
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -2555,7 +2403,8 @@
       "r23",
       "r31",
       "r29",
-      "r31"
+      "r31",
+      "r30"
     ],
     "levelReq": 65,
     "itypes": [
@@ -2567,7 +2416,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 330,
         "max": 375
       },
@@ -2591,7 +2439,6 @@
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 40,
         "max": 50
       },
@@ -2636,13 +2483,11 @@
     "modifiers": [
       {
         "prop": "dmg-cold",
-        "param": 0,
         "min": 130,
         "max": 180
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 150,
         "max": 210
       },
@@ -2660,19 +2505,16 @@
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 200,
         "max": 250
       },
       {
         "prop": "rip",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "reduce-ac",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -2693,19 +2535,16 @@
     "modifiers": [
       {
         "prop": "fireskill",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "ac/lvl",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 33,
         "max": 33
       },
@@ -2754,37 +2593,31 @@
     "modifiers": [
       {
         "prop": "str",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -2805,25 +2638,21 @@
     "modifiers": [
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "mana-kill",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -2881,37 +2710,31 @@
     "modifiers": [
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "dmg-ac",
-        "param": 0,
         "min": -100,
         "max": -100
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -1,
         "max": -1
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": -5,
         "max": -5
       }
@@ -2933,7 +2756,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -2963,7 +2785,6 @@
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 300,
         "max": 300
       }
@@ -2986,31 +2807,26 @@
     "modifiers": [
       {
         "prop": "mana%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 7,
         "max": 7
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "sor",
-        "param": 0,
         "min": 3,
         "max": 3
       },
@@ -3030,7 +2846,7 @@
   },
   {
     "name": "Mist",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r32",
       "r13",
@@ -3046,13 +2862,11 @@
     "modifiers": [
       {
         "prop": "allskills",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 325,
         "max": 375
       },
@@ -3064,19 +2878,16 @@
       },
       {
         "prop": "pierce",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 24,
         "max": 24
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -3128,13 +2939,11 @@
       },
       {
         "prop": "bar",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -3155,19 +2964,16 @@
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -3,
         "max": -3
       },
@@ -3179,13 +2985,11 @@
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": -33,
         "max": -33
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -3228,13 +3032,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 210,
         "max": 340
       },
       {
         "prop": "swing1",
-        "param": 0,
         "min": 30,
         "max": 30
       },
@@ -3258,13 +3060,11 @@
       },
       {
         "prop": "abs-mag",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -3289,13 +3089,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 370,
         "max": 370
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -3307,25 +3105,21 @@
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 200,
         "max": 300
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 20,
         "max": 30
       }
@@ -3342,13 +3136,14 @@
   },
   {
     "name": "Obsession",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r33",
       "r24",
       "r20",
       "r17",
-      "r16"
+      "r16",
+      "r04"
     ],
     "levelReq": 69,
     "itypes": [
@@ -3358,7 +3153,6 @@
     "modifiers": [
       {
         "prop": "allskills",
-        "param": 0,
         "min": 4,
         "max": 4
       },
@@ -3370,31 +3164,26 @@
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 60,
         "max": 70
       },
       {
         "prop": "hp%",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 15,
         "max": 30
       }
@@ -3417,7 +3206,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 160,
         "max": 210
       },
@@ -3429,7 +3217,6 @@
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 50,
         "max": 80
       },
@@ -3441,7 +3228,6 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -3453,7 +3239,6 @@
       },
       {
         "prop": "stupidity",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -3470,7 +3255,7 @@
   },
   {
     "name": "Patter",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r07",
       "r09",
@@ -3484,43 +3269,36 @@
     "modifiers": [
       {
         "prop": "att%",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 40,
         "max": 80
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 12,
         "max": 32
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -3554,7 +3332,6 @@
       },
       {
         "prop": "ama",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -3584,25 +3361,21 @@
     "modifiers": [
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 220,
         "max": 350
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 280,
         "max": 300
       },
       {
         "prop": "dmg-cold",
-        "param": 0,
         "min": 100,
         "max": 220
       },
       {
         "prop": "pierce-cold",
-        "param": 0,
         "min": 24,
         "max": 24
       },
@@ -3620,7 +3393,6 @@
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -3671,13 +3443,11 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 350,
         "max": 400
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 350,
         "max": 400
       },
@@ -3695,7 +3465,6 @@
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 28,
         "max": 28
       },
@@ -3707,7 +3476,6 @@
       },
       {
         "prop": "abs-fire",
-        "param": 0,
         "min": 15,
         "max": 21
       }
@@ -3733,7 +3501,7 @@
   },
   {
     "name": "Plague",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r32",
       "r13",
@@ -3749,7 +3517,6 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 220,
         "max": 320
       },
@@ -3767,7 +3534,6 @@
       },
       {
         "prop": "pierce-pois",
-        "param": 0,
         "min": 23,
         "max": 23
       },
@@ -3785,7 +3551,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 2
       }
@@ -3833,13 +3598,11 @@
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 50,
         "max": 280
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 260,
         "max": 300
       },
@@ -3857,7 +3620,6 @@
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 8,
         "max": 8
       },
@@ -3891,19 +3653,16 @@
       },
       {
         "prop": "pal",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 100,
         "max": 150
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -3933,31 +3692,26 @@
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 140,
         "max": 170
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -3969,7 +3723,6 @@
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -4018,37 +3771,31 @@
     "modifiers": [
       {
         "prop": "light",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 75
       }
@@ -4082,13 +3829,11 @@
       },
       {
         "prop": "dru",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 100,
         "max": 150
       }
@@ -4127,37 +3872,31 @@
     "modifiers": [
       {
         "prop": "block2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -4181,19 +3920,16 @@
     "modifiers": [
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 160,
         "max": 250
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 60,
         "max": 180
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 38,
         "max": 38
       },
@@ -4217,7 +3953,6 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 5,
         "max": 10
       }
@@ -4239,37 +3974,31 @@
     "modifiers": [
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 130,
         "max": 160
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 50,
         "max": 70
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -4316,9 +4045,10 @@
       "r02",
       "r15",
       "r24",
-      "r03"
+      "r03",
+      "r26"
     ],
-    "levelReq": 51,
+    "levelReq": 55,
     "itypes": [
       "weap"
     ],
@@ -4326,43 +4056,36 @@
     "modifiers": [
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 4,
         "max": 4
       },
       {
         "prop": "stupidity",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -4392,31 +4115,26 @@
     "modifiers": [
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -1,
         "max": -1
       },
@@ -4455,43 +4173,36 @@
     "modifiers": [
       {
         "prop": "balance3",
-        "param": 0,
         "min": 55,
         "max": 55
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 89,
         "max": 112
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 22,
         "max": 22
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "abs-mag",
-        "param": 0,
         "min": 3,
         "max": 8
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -4512,43 +4223,36 @@
     "modifiers": [
       {
         "prop": "light",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 60,
         "max": 100
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -4578,37 +4282,31 @@
     "modifiers": [
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "stam",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -4631,31 +4329,26 @@
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dmg-min",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dmg-max",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -4696,7 +4389,6 @@
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 220,
         "max": 260
       },
@@ -4708,7 +4400,6 @@
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 300,
         "max": 300
       },
@@ -4720,19 +4411,16 @@
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -4762,25 +4450,21 @@
     "modifiers": [
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -4886,13 +4570,11 @@
       },
       {
         "prop": "ass",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 45,
         "max": 45
       }
@@ -4918,13 +4600,14 @@
   },
   {
     "name": "Unbending Will",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r19",
       "r16",
       "r06",
       "r02",
-      "r01"
+      "r01",
+      "r15"
     ],
     "levelReq": 41,
     "itypes": [
@@ -4946,31 +4629,26 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 30
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 300,
         "max": 350
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 8,
         "max": 8
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 8,
         "max": 10
       }
@@ -5016,7 +4694,6 @@
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -5034,7 +4711,6 @@
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 7,
         "max": 7
       }
@@ -5060,12 +4736,51 @@
   },
   {
     "name": "Void",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "itypes": [],
+    "enabled": true,
+    "runes": [
+      "r10",
+      "r33",
+      "r24"
+    ],
+    "levelReq": 69,
+    "itypes": [
+      "knif"
+    ],
     "etypes": [],
-    "modifiers": []
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "cast2",
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "extra-mag",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "oskill",
+        "param": 402,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "all-stats",
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "charged",
+        "param": 87,
+        "min": 35,
+        "max": 4
+      }
+    ]
   },
   {
     "name": "War",
@@ -5101,13 +4816,11 @@
     "modifiers": [
       {
         "prop": "gold%",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 100,
         "max": 100
       }
@@ -5143,19 +4856,16 @@
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 4,
         "max": 4
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 13,
         "max": 13
       },
@@ -5194,25 +4904,21 @@
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 120,
         "max": 160
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "reduce-ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -5230,7 +4936,6 @@
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -5247,7 +4952,7 @@
   },
   {
     "name": "Wisdom",
-    "enabled": false,
+    "enabled": true,
     "runes": [
       "r21",
       "r06",
@@ -5261,37 +4966,31 @@
     "modifiers": [
       {
         "prop": "pierce",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 4,
         "max": 8
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "mana-kill",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -5332,25 +5031,21 @@
     "modifiers": [
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 250,
         "max": 300
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 41,
         "max": 240
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 85,
         "max": 120
       },
@@ -5368,7 +5063,6 @@
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -5398,25 +5092,21 @@
     "modifiers": [
       {
         "prop": "move2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 66,
         "max": 66
       },
@@ -5428,14 +5118,13 @@
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       }
     ]
   },
   {
-    "name": "Runeword171",
+    "name": "Hysteria",
     "enabled": true,
     "runes": [
       "r13",
@@ -5450,25 +5139,21 @@
     "modifiers": [
       {
         "prop": "move2",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "stamdrain",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 10
       },
@@ -5481,7 +5166,7 @@
     ]
   },
   {
-    "name": "Runeword172",
+    "name": "Mania",
     "enabled": true,
     "runes": [
       "r13",
@@ -5502,13 +5187,11 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 180,
         "max": 200
       },
@@ -5521,7 +5204,7 @@
     ]
   },
   {
-    "name": "Runeword173",
+    "name": "Mosaic",
     "enabled": true,
     "runes": [
       "r23",
@@ -5542,44 +5225,38 @@
       },
       {
         "prop": "charge-noconsume",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 250
       },
       {
         "prop": "extra-fire",
-        "param": 0,
         "min": 8,
         "max": 15
       },
       {
         "prop": "extra-cold",
-        "param": 0,
         "min": 8,
         "max": 15
       },
       {
         "prop": "extra-ltng",
-        "param": 0,
         "min": 8,
         "max": 15
       }
     ]
   },
   {
-    "name": "Runeword174",
+    "name": "Metamorphosis",
     "enabled": true,
     "runes": [
       "r16",
@@ -5612,26 +5289,23 @@
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 80
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 25,
         "max": 25
       }
     ]
   },
   {
-    "name": "Runeword175",
+    "name": "Ground",
     "enabled": true,
     "runes": [
       "r13",
@@ -5646,32 +5320,28 @@
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "abs-ltng%",
-        "param": 0,
         "min": 10,
         "max": 15
       }
     ]
   },
   {
-    "name": "Runeword176",
+    "name": "Temper",
     "enabled": true,
     "runes": [
       "r13",
@@ -5686,32 +5356,28 @@
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "abs-fire%",
-        "param": 0,
         "min": 10,
         "max": 15
       }
     ]
   },
   {
-    "name": "Runeword177",
+    "name": "Hearth",
     "enabled": true,
     "runes": [
       "r13",
@@ -5726,38 +5392,33 @@
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "abs-cold%",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
     ]
   },
   {
-    "name": "Runeword178",
+    "name": "Cure",
     "enabled": true,
     "runes": [
       "r13",
@@ -5772,25 +5433,21 @@
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -5803,7 +5460,7 @@
     ]
   },
   {
-    "name": "Runeword179",
+    "name": "Bulwark",
     "enabled": true,
     "runes": [
       "r13",
@@ -5818,38 +5475,33 @@
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "red-dmg%",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 4,
         "max": 6
       }
     ]
   },
   {
-    "name": "Runeword180",
+    "name": "Coven",
     "enabled": true,
     "runes": [
       "r24",
@@ -5870,38 +5522,33 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "cast1",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 30,
         "max": 50
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 1,
         "max": 15
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 1,
         "max": 5
       }
     ]
   },
   {
-    "name": "Runeword181",
+    "name": "Vigilance",
     "enabled": true,
     "runes": [
       "r14",
@@ -5924,44 +5571,38 @@
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 40
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 20,
         "max": 40
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       }
     ]
   },
   {
-    "name": "Runeword182",
+    "name": "Ritual",
     "enabled": true,
     "runes": [
       "r11",
@@ -5982,37 +5623,31 @@
       },
       {
         "prop": "swing1",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 270
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 150,
         "max": 250
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 200,
         "max": 260
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 3,
         "max": 5
       },
       {
         "prop": "rip",
-        "param": 0,
         "min": 1,
         "max": 1
       }

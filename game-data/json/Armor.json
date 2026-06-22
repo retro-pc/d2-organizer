@@ -3432,5 +3432,260 @@
     "qlevel": 85,
     "levelReq": 65,
     "stackable": false
+  },
+  "wa1": {
+    "name": "Old Book",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      2,
+      5
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 4,
+    "levelReq": 3,
+    "stackable": false
+  },
+  "wa2": {
+    "name": "Tome",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      4,
+      8
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 8,
+    "levelReq": 6,
+    "stackable": false
+  },
+  "wa3": {
+    "name": "Codex",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      6,
+      10
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 16,
+    "levelReq": 12,
+    "stackable": false
+  },
+  "wa4": {
+    "name": "Compendium",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      10,
+      16
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 20,
+    "levelReq": 15,
+    "stackable": false
+  },
+  "wa5": {
+    "name": "Grimoire",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      15,
+      20
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 24,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "wa6": {
+    "name": "Burnt Text",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      38,
+      48
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 33,
+    "levelReq": 24,
+    "stackable": false
+  },
+  "wa7": {
+    "name": "Dark Tome",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      41,
+      52
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 39,
+    "levelReq": 29,
+    "stackable": false
+  },
+  "wa8": {
+    "name": "Dark Codex",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      44,
+      55
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 45,
+    "levelReq": 33,
+    "stackable": false
+  },
+  "wa9": {
+    "name": "Possessed Compendium",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      50,
+      64
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 49,
+    "levelReq": 36,
+    "stackable": false
+  },
+  "waa": {
+    "name": "Possessed Grimoire",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      58,
+      70
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 54,
+    "levelReq": 40,
+    "stackable": false
+  },
+  "wab": {
+    "name": "Forgotten Volume",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      95,
+      139
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 59,
+    "levelReq": 44,
+    "stackable": false
+  },
+  "wac": {
+    "name": "Occult Tome",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      96,
+      141
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 67,
+    "levelReq": 49,
+    "stackable": false
+  },
+  "wad": {
+    "name": "Occult Codex",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      98,
+      142
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 66,
+    "levelReq": 50,
+    "stackable": false
+  },
+  "wae": {
+    "name": "Blasphemous Compendium",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      100,
+      146
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 81,
+    "levelReq": 60,
+    "stackable": false
+  },
+  "waf": {
+    "name": "Blasphemous Grimoire",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      103,
+      148
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 85,
+    "levelReq": 65,
+    "stackable": false
   }
 }

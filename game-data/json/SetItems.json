@@ -8,13 +8,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -23,7 +21,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 21,
           "max": 22
         }
@@ -31,7 +28,6 @@
       [
         {
           "prop": "res-pois",
-          "param": 0,
           "min": 25,
           "max": 26
         }
@@ -50,13 +46,11 @@
     "baseModifiers": [
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 4,
         "max": 4
       }
@@ -65,7 +59,6 @@
       [
         {
           "prop": "res-cold",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -73,7 +66,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -92,13 +84,11 @@
     "baseModifiers": [
       {
         "prop": "att",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "dmg-max",
-        "param": 0,
         "min": 17,
         "max": 23
       }
@@ -127,13 +117,11 @@
     "baseModifiers": [
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -162,13 +150,11 @@
     "baseModifiers": [
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -197,13 +183,11 @@
     "baseModifiers": [
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -232,13 +216,11 @@
     "baseModifiers": [
       {
         "prop": "att%",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -267,13 +249,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 17,
         "max": 17
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 75,
         "max": 75
       }
@@ -282,7 +262,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -302,13 +281,11 @@
     "baseModifiers": [
       {
         "prop": "knock",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "slow",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -337,13 +314,11 @@
     "baseModifiers": [
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 75,
         "max": 75
       }
@@ -352,7 +327,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -372,13 +346,11 @@
     "baseModifiers": [
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -387,7 +359,6 @@
       [
         {
           "prop": "swing2",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -407,13 +378,11 @@
     "baseModifiers": [
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -442,13 +411,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dmg-min",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -457,7 +424,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -477,13 +443,11 @@
     "baseModifiers": [
       {
         "prop": "dmg-min",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -512,13 +476,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "light-thorns",
-        "param": 0,
         "min": 4,
         "max": 4
       }
@@ -527,7 +489,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 8,
           "max": 8
         }
@@ -547,13 +508,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -582,13 +541,11 @@
     "baseModifiers": [
       {
         "prop": "dex",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -597,7 +554,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 8,
           "max": 8
         }
@@ -617,13 +573,11 @@
     "baseModifiers": [
       {
         "prop": "ltng-min",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "ltng-max",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -652,13 +606,11 @@
     "baseModifiers": [
       {
         "prop": "stam",
-        "param": 0,
         "min": 150,
         "max": 150
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -667,7 +619,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 8,
           "max": 8
         }
@@ -687,13 +638,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 11,
         "max": 11
       }
@@ -702,7 +651,6 @@
       [
         {
           "prop": "res-fire",
-          "param": 0,
           "min": 24,
           "max": 24
         }
@@ -729,13 +677,11 @@
     "baseModifiers": [
       {
         "prop": "hp",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -744,7 +690,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -764,13 +709,11 @@
     "baseModifiers": [
       {
         "prop": "mag%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -779,7 +722,6 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -787,7 +729,6 @@
       [
         {
           "prop": "ac%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -806,19 +747,16 @@
     "baseModifiers": [
       {
         "prop": "pal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -840,13 +778,11 @@
     "baseModifiers": [
       {
         "prop": "hp",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -855,7 +791,6 @@
       [
         {
           "prop": "res-cold",
-          "param": 0,
           "min": 40,
           "max": 40
         }
@@ -875,13 +810,11 @@
     "baseModifiers": [
       {
         "prop": "thorns",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -890,7 +823,6 @@
       [
         {
           "prop": "ac%",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -910,13 +842,11 @@
     "baseModifiers": [
       {
         "prop": "fireskill",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "fire-max",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -925,7 +855,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -933,7 +862,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -952,13 +880,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -50,
         "max": -50
       }
@@ -967,7 +893,6 @@
       [
         {
           "prop": "thorns",
-          "param": 0,
           "min": 5,
           "max": 5
         }
@@ -975,7 +900,6 @@
       [
         {
           "prop": "res-fire",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -994,13 +918,11 @@
     "baseModifiers": [
       {
         "prop": "mana",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -1029,13 +951,11 @@
     "baseModifiers": [
       {
         "prop": "balance1",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "light-thorns",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -1044,7 +964,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1052,7 +971,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -1071,13 +989,11 @@
     "baseModifiers": [
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -1086,7 +1002,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1106,13 +1021,11 @@
     "baseModifiers": [
       {
         "prop": "att",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 80,
         "max": 80
       }
@@ -1121,7 +1034,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1129,7 +1041,6 @@
       [
         {
           "prop": "swing2",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1148,13 +1059,11 @@
     "baseModifiers": [
       {
         "prop": "hp",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -1183,13 +1092,11 @@
     "baseModifiers": [
       {
         "prop": "regen-stam",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -1198,7 +1105,6 @@
       [
         {
           "prop": "move3",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1206,7 +1112,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1225,13 +1130,11 @@
     "baseModifiers": [
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1240,7 +1143,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 78,
           "max": 78
         }
@@ -1248,7 +1150,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 60,
           "max": 60
         }
@@ -1267,13 +1168,11 @@
     "baseModifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -1282,7 +1181,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1302,13 +1200,11 @@
     "baseModifiers": [
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1317,7 +1213,6 @@
       [
         {
           "prop": "swing3",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1337,13 +1232,11 @@
     "baseModifiers": [
       {
         "prop": "mana",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -1372,13 +1265,11 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -1387,7 +1278,6 @@
       [
         {
           "prop": "thorns",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1407,13 +1297,11 @@
     "baseModifiers": [
       {
         "prop": "move2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -1422,7 +1310,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1430,7 +1317,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1449,13 +1335,11 @@
     "baseModifiers": [
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1484,13 +1368,11 @@
     "baseModifiers": [
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1512,13 +1394,11 @@
     "baseModifiers": [
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1547,13 +1427,11 @@
     "baseModifiers": [
       {
         "prop": "dmg-min",
-        "param": 0,
         "min": 8,
         "max": 8
       },
       {
         "prop": "nec",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1582,13 +1460,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1597,7 +1473,6 @@
       [
         {
           "prop": "res-pois",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -1605,7 +1480,6 @@
       [
         {
           "prop": "half-freeze",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -1624,13 +1498,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -1659,13 +1531,11 @@
     "baseModifiers": [
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "bar",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1694,13 +1564,11 @@
     "baseModifiers": [
       {
         "prop": "att%",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -1709,7 +1577,6 @@
       [
         {
           "prop": "dmg%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1729,13 +1596,11 @@
     "baseModifiers": [
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 75,
         "max": 75
       }
@@ -1744,7 +1609,6 @@
       [
         {
           "prop": "swing3",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1764,13 +1628,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1779,7 +1641,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -1799,13 +1660,11 @@
     "baseModifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 4,
         "max": 4
       }
@@ -1834,13 +1693,11 @@
     "baseModifiers": [
       {
         "prop": "att",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 250,
         "max": 250
       }
@@ -1849,7 +1706,6 @@
       [
         {
           "prop": "dmg%",
-          "param": 0,
           "min": 75,
           "max": 75
         }
@@ -1857,7 +1713,6 @@
       [
         {
           "prop": "swing3",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1876,13 +1731,11 @@
     "baseModifiers": [
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -1891,7 +1744,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 150,
           "max": 150
         }
@@ -1899,7 +1751,6 @@
       [
         {
           "prop": "res-fire",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1918,13 +1769,11 @@
     "baseModifiers": [
       {
         "prop": "regen",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1941,7 +1790,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1960,13 +1808,11 @@
     "baseModifiers": [
       {
         "prop": "light",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1975,7 +1821,6 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 75,
           "max": 75
         }
@@ -1983,7 +1828,6 @@
       [
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -2002,13 +1846,11 @@
     "baseModifiers": [
       {
         "prop": "att%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -2044,13 +1886,11 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 275,
         "max": 325
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -2067,7 +1907,6 @@
       [
         {
           "prop": "res-cold",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2086,13 +1925,11 @@
     "baseModifiers": [
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -2101,7 +1938,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 40,
           "max": 40
         }
@@ -2109,7 +1945,6 @@
       [
         {
           "prop": "res-cold",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -2128,13 +1963,11 @@
     "baseModifiers": [
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "swing1",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -2143,7 +1976,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -2151,7 +1983,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -2170,13 +2001,11 @@
     "baseModifiers": [
       {
         "prop": "mana",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -2185,7 +2014,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -2193,7 +2021,6 @@
       [
         {
           "prop": "res-fire",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -2212,13 +2039,11 @@
     "baseModifiers": [
       {
         "prop": "sor",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -2227,7 +2052,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -2235,7 +2059,6 @@
       [
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 5,
           "max": 5
         }
@@ -2254,13 +2077,11 @@
     "baseModifiers": [
       {
         "prop": "regen",
-        "param": 0,
         "min": 4,
         "max": 4
       },
       {
         "prop": "thorns",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -2277,7 +2098,6 @@
       [
         {
           "prop": "res-ltng",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2296,13 +2116,11 @@
     "baseModifiers": [
       {
         "prop": "light",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 3,
         "max": 3
       }
@@ -2311,7 +2129,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -2319,7 +2136,6 @@
       [
         {
           "prop": "enr",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -2338,31 +2154,26 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 135,
         "max": 175
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 20,
         "max": 30
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 20
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 3,
         "max": 3
       }
@@ -2384,19 +2195,16 @@
     "baseModifiers": [
       {
         "prop": "swing3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -2408,19 +2216,16 @@
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 12,
         "max": 17
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 200,
         "max": 200
       }
@@ -2442,7 +2247,6 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 150,
         "max": 225
       },
@@ -2460,19 +2264,16 @@
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 1,
         "max": 3
       }
@@ -2494,13 +2295,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 75,
         "max": 125
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -2512,19 +2311,16 @@
       },
       {
         "prop": "dur",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 15,
         "max": 25
       }
@@ -2546,37 +2342,31 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 90,
         "max": 90
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 17,
         "max": 17
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 40,
         "max": 50
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -2585,7 +2375,6 @@
       [
         {
           "prop": "enr",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2593,7 +2382,6 @@
       [
         {
           "prop": "enr",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2601,7 +2389,6 @@
       [
         {
           "prop": "enr",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2619,7 +2406,6 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 300,
         "max": 300
       },
@@ -2631,25 +2417,21 @@
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 40,
         "max": 50
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -50,
         "max": -50
       },
@@ -2664,7 +2446,6 @@
       [
         {
           "prop": "vit",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2672,7 +2453,6 @@
       [
         {
           "prop": "vit",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2680,7 +2460,6 @@
       [
         {
           "prop": "vit",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2698,43 +2477,36 @@
     "baseModifiers": [
       {
         "prop": "dmg-norm",
-        "param": 0,
         "min": 40,
         "max": 62
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 50,
         "max": 75
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 2,
         "max": 5
       }
@@ -2743,7 +2515,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2751,7 +2522,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2759,7 +2529,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2777,43 +2546,36 @@
     "baseModifiers": [
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "regen-stam",
-        "param": 0,
         "min": 32,
         "max": 32
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "stam",
-        "param": 0,
         "min": 180,
         "max": 180
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 40,
         "max": 50
       }
@@ -2822,7 +2584,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2830,7 +2591,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2838,7 +2598,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -2856,13 +2615,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 125,
         "max": 125
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 37,
         "max": 37
       },
@@ -2874,19 +2631,16 @@
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 4,
         "max": 4
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 25,
         "max": 40
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -2908,7 +2662,6 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 400,
         "max": 400
       },
@@ -2926,7 +2679,6 @@
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -2935,7 +2687,6 @@
       [
         {
           "prop": "balance2",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -2943,7 +2694,6 @@
       [
         {
           "prop": "res-cold",
-          "param": 0,
           "min": 40,
           "max": 40
         }
@@ -2951,7 +2701,6 @@
       [
         {
           "prop": "res-fire",
-          "param": 0,
           "min": 40,
           "max": 40
         }
@@ -2959,7 +2708,6 @@
       [
         {
           "prop": "res-ltng",
-          "param": 0,
           "min": 40,
           "max": 40
         }
@@ -2967,7 +2715,6 @@
       [
         {
           "prop": "ac%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -2983,25 +2730,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 36,
         "max": 36
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 28,
         "max": 28
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 31,
         "max": 31
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -3010,7 +2753,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 105,
           "max": 105
         }
@@ -3018,7 +2760,6 @@
       [
         {
           "prop": "balance2",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -3026,7 +2767,6 @@
       [
         {
           "prop": "ac%",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -3034,7 +2774,6 @@
       [
         {
           "prop": "red-dmg%",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -3058,19 +2797,16 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -3085,7 +2821,6 @@
       [
         {
           "prop": "swing2",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -3093,7 +2828,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 120,
           "max": 120
         }
@@ -3101,7 +2835,6 @@
       [
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -3109,7 +2842,6 @@
       [
         {
           "prop": "manasteal",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -3117,7 +2849,6 @@
       [
         {
           "prop": "freeze",
-          "param": 0,
           "min": 2,
           "max": 2
         }
@@ -3133,25 +2864,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 110,
         "max": 110
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 44,
         "max": 44
       }
@@ -3160,7 +2887,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -3176,7 +2902,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 160,
           "max": 160
         }
@@ -3184,7 +2909,6 @@
       [
         {
           "prop": "half-freeze",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -3201,43 +2925,36 @@
     "baseModifiers": [
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 35,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -3246,7 +2963,6 @@
       [
         {
           "prop": "dmg-fire",
-          "param": 0,
           "min": 211,
           "max": 397
         }
@@ -3254,7 +2970,6 @@
       [
         {
           "prop": "dmg-ltng",
-          "param": 0,
           "min": 7,
           "max": 477
         }
@@ -3278,7 +2993,6 @@
       [
         {
           "prop": "dmg-mag",
-          "param": 0,
           "min": 250,
           "max": 361
         }
@@ -3294,31 +3008,26 @@
     "baseModifiers": [
       {
         "prop": "ease",
-        "param": 0,
         "min": -20,
         "max": -20
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 37,
         "max": 37
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 10,
         "max": 15
       }
@@ -3327,7 +3036,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 60,
           "max": 60
         }
@@ -3335,7 +3043,6 @@
       [
         {
           "prop": "cast2",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -3354,31 +3061,26 @@
     "baseModifiers": [
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "sor",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 3,
         "max": 32
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 42,
         "max": 42
       }
@@ -3389,7 +3091,6 @@
       [
         {
           "prop": "cast2",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -3407,25 +3108,21 @@
     "baseModifiers": [
       {
         "prop": "hp",
-        "param": 0,
         "min": 57,
         "max": 57
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 77,
         "max": 77
       },
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -3452,7 +3149,6 @@
       [
         {
           "prop": "sor",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -3460,7 +3156,6 @@
       [
         {
           "prop": "pierce-fire",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -3468,7 +3163,6 @@
       [
         {
           "prop": "pierce-ltng",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -3476,7 +3170,6 @@
       [
         {
           "prop": "extra-cold",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -3493,43 +3186,36 @@
     "baseModifiers": [
       {
         "prop": "ease",
-        "param": 0,
         "min": -60,
         "max": -60
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 88,
         "max": 88
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 400,
         "max": 400
       }
@@ -3538,7 +3224,6 @@
       [
         {
           "prop": "cast2",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -3558,37 +3243,31 @@
     "baseModifiers": [
       {
         "prop": "mana",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 45,
         "max": 45
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -3610,37 +3289,31 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 75
       },
       {
         "prop": "abs-cold/lvl",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -40,
         "max": -40
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 20,
         "max": 30
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -3669,7 +3342,6 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 500,
         "max": 500
       },
@@ -3681,19 +3353,16 @@
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -40,
         "max": -40
       }
@@ -3715,31 +3384,26 @@
     "baseModifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 240
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -20,
         "max": -20
       },
       {
         "prop": "sock",
-        "param": 0,
         "min": 3,
         "max": 4
       }
@@ -3756,7 +3420,6 @@
       [
         {
           "prop": "dmg-norm",
-          "param": 0,
           "min": 10,
           "max": 20
         }
@@ -3764,7 +3427,6 @@
       [
         {
           "prop": "dmg-norm",
-          "param": 0,
           "min": 10,
           "max": 20
         }
@@ -3782,7 +3444,6 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 108,
         "max": 108
       },
@@ -3794,19 +3455,16 @@
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 45,
         "max": 45
       }
@@ -3828,31 +3486,26 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 80,
         "max": 100
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "thorns",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 150,
         "max": 150
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -3874,19 +3527,16 @@
     "baseModifiers": [
       {
         "prop": "ease",
-        "param": 0,
         "min": -40,
         "max": -40
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -3898,13 +3548,11 @@
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 150,
         "max": 150
       }
@@ -3914,7 +3562,6 @@
       [
         {
           "prop": "res-ltng",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -3923,7 +3570,6 @@
       [
         {
           "prop": "red-dmg%",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -3940,37 +3586,31 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 125,
         "max": 125
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 38,
         "max": 45
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -3986,7 +3626,6 @@
       [
         {
           "prop": "pierce-pois",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -3994,7 +3633,6 @@
       [
         {
           "prop": "regen",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -4012,19 +3650,16 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 30,
         "max": 30
       },
@@ -4041,7 +3676,6 @@
       [
         {
           "prop": "extra-pois",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -4059,43 +3693,36 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "stam",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 66,
         "max": 66
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -40,
         "max": -40
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 25,
         "max": 50
       }
@@ -4105,7 +3732,6 @@
       [
         {
           "prop": "res-cold",
-          "param": 0,
           "min": 40,
           "max": 40
         }
@@ -4124,25 +3750,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 150,
         "max": 150
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -4151,7 +3773,6 @@
       [
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -4159,7 +3780,6 @@
       [
         {
           "prop": "att%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -4167,7 +3787,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -4191,13 +3810,11 @@
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -30,
         "max": -30
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 5,
         "max": 12
       },
@@ -4215,7 +3832,6 @@
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 350,
         "max": 350
       }
@@ -4225,7 +3841,6 @@
       [
         {
           "prop": "balance2",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -4244,7 +3859,6 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 45,
         "max": 50
       },
@@ -4256,25 +3870,21 @@
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 56,
         "max": 56
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -4293,7 +3903,6 @@
       [
         {
           "prop": "extra-cold",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -4310,25 +3919,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -4339,7 +3944,6 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -4357,25 +3961,21 @@
     "baseModifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 188,
         "max": 188
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "magicarrow",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -4384,7 +3984,6 @@
       [
         {
           "prop": "dmg-mag",
-          "param": 0,
           "min": 114,
           "max": 377
         }
@@ -4418,25 +4017,21 @@
     "baseModifiers": [
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 35,
         "max": 50
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 18,
         "max": 18
       },
       {
         "prop": "thorns",
-        "param": 0,
         "min": 8,
         "max": 10
       }
@@ -4458,25 +4053,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 350,
         "max": 350
       },
@@ -4504,25 +4095,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "stam",
-        "param": 0,
         "min": 15,
         "max": 25
       }
@@ -4544,13 +4131,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 305,
         "max": 415
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 24,
         "max": 24
       },
@@ -4584,25 +4169,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -4630,7 +4211,6 @@
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -4642,7 +4222,6 @@
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 20,
         "max": 30
       }
@@ -4664,43 +4243,36 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "thorns",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "block3",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -4722,31 +4294,26 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 500,
         "max": 500
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "ac-hth",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -20,
         "max": -20
       }
@@ -4768,13 +4335,11 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -40,
         "max": -40
       },
@@ -4786,19 +4351,16 @@
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 24,
         "max": 24
       }
@@ -4820,31 +4382,26 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 120,
         "max": 120
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -4866,25 +4423,21 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -4906,31 +4459,26 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 100,
         "max": 100
       }
@@ -4952,31 +4500,26 @@
     "baseModifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 175,
         "max": 175
       },
       {
         "prop": "block3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 55,
         "max": 55
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -4998,25 +4541,21 @@
     "baseModifiers": [
       {
         "prop": "regen",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 37,
         "max": 37
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 100,
         "max": 100
       }
@@ -5038,19 +4577,16 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 27,
         "max": 27
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 100,
         "max": 100
       },
@@ -5078,13 +4614,11 @@
     "baseModifiers": [
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 3,
         "max": 33
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -5096,7 +4630,6 @@
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 12,
         "max": 12
       }
@@ -5118,13 +4651,11 @@
     "baseModifiers": [
       {
         "prop": "att",
-        "param": 0,
         "min": 330,
         "max": 330
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -5136,19 +4667,16 @@
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 5,
         "max": 25
       }
@@ -5170,7 +4698,6 @@
     "baseModifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 150,
         "max": 150
       },
@@ -5182,31 +4709,26 @@
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 318,
         "max": 318
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -5228,31 +4750,26 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 400,
         "max": 400
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "att-demon",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 50,
         "max": 75
       }
@@ -5274,25 +4791,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 15,
         "max": 20
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 15,
         "max": 20
       }
@@ -5314,31 +4827,21 @@
     "baseModifiers": [
       {
         "prop": "crush",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
-        "prop": "knock",
-        "param": 0,
-        "min": 1,
-        "max": 1
-      },
-      {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       }
@@ -5360,7 +4863,6 @@
     "baseModifiers": [
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -5372,19 +4874,16 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       }
@@ -5406,25 +4905,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "thorns",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -5446,19 +4941,16 @@
     "baseModifiers": [
       {
         "prop": "res-all",
-        "param": 0,
         "min": 18,
         "max": 18
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 30,
         "max": 30
       },
@@ -5486,31 +4978,26 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 25,
         "max": 35
       }
@@ -5532,13 +5019,11 @@
     "baseModifiers": [
       {
         "prop": "enr",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 150,
         "max": 150
       },
@@ -5550,25 +5035,21 @@
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 6,
         "max": 45
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 70,
         "max": 70
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -5590,37 +5071,31 @@
     "baseModifiers": [
       {
         "prop": "ease",
-        "param": 0,
         "min": -60,
         "max": -60
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 45,
         "max": 45
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 300,
         "max": 300
       }
@@ -5642,25 +5117,21 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 15,
         "max": 15
       },
@@ -5688,13 +5159,11 @@
     "baseModifiers": [
       {
         "prop": "mag%",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "thorns",
-        "param": 0,
         "min": 8,
         "max": 8
       },
@@ -5722,25 +5191,21 @@
     "baseModifiers": [
       {
         "prop": "move3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -5762,19 +5227,16 @@
     "baseModifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 20,
         "max": 25
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -5808,19 +5270,16 @@
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 8,
         "max": 8
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -5840,83 +5299,29 @@
     ]
   },
   {
-    "name": "",
-    "code": "",
-    "set": "",
-    "qlevel": 0,
-    "levelReq": 0,
-    "baseModifiers": [],
-    "setModifiers": []
-  },
-  {
-    "name": "",
-    "code": "",
-    "set": "",
-    "qlevel": 0,
-    "levelReq": 0,
-    "baseModifiers": [],
-    "setModifiers": []
-  },
-  {
-    "name": "",
-    "code": "",
-    "set": "",
-    "qlevel": 0,
-    "levelReq": 0,
-    "baseModifiers": [],
-    "setModifiers": []
-  },
-  {
-    "name": "",
-    "code": "",
-    "set": "",
-    "qlevel": 0,
-    "levelReq": 0,
-    "baseModifiers": [],
-    "setModifiers": []
-  },
-  {
-    "name": "",
-    "code": "",
-    "set": "",
-    "qlevel": 0,
-    "levelReq": 0,
-    "baseModifiers": [],
-    "setModifiers": []
-  },
-  {
-    "name": "Bane's Oathmaker",
-    "code": "kri",
-    "set": "Bane's Garments",
-    "qlevel": 7,
-    "levelReq": 8,
+    "name": "Warlord's Conquest",
+    "code": "hgl",
+    "set": "Warlord's Glory",
+    "qlevel": 100,
+    "levelReq": 1,
     "baseModifiers": [
       {
-        "prop": "move1",
-        "param": 0,
-        "min": 20,
-        "max": 20
+        "prop": "str",
+        "min": 15,
+        "max": 15
       },
       {
-        "prop": "dmg/lvl",
-        "param": 8,
-        "min": 0,
-        "max": 0
+        "prop": "att",
+        "min": 45,
+        "max": 45
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "mana-kill",
-          "param": 0,
-          "min": 3,
-          "max": 3
-        },
-        {
-          "prop": "deadly",
-          "param": 0,
-          "min": 30,
-          "max": 30
+          "prop": "swing3",
+          "min": 20,
+          "max": 20
         }
       ],
       [],
@@ -5926,21 +5331,58 @@
     ]
   },
   {
-    "name": "Bane's Wraithskin",
-    "code": "hla",
-    "set": "Bane's Garments",
-    "qlevel": 7,
-    "levelReq": 8,
+    "name": "Warlord's Lust",
+    "code": "ghm",
+    "set": "Warlord's Glory",
+    "qlevel": 100,
+    "levelReq": 1,
     "baseModifiers": [
       {
-        "prop": "ac",
-        "param": 0,
-        "min": 50,
-        "max": 50
+        "prop": "hp",
+        "min": 30,
+        "max": 30
       },
       {
-        "prop": "res-mag",
-        "param": 0,
+        "prop": "ac",
+        "min": 15,
+        "max": 15
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "att",
+          "param": 25,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "prop": "ac/lvl",
+          "param": 16,
+          "min": 0,
+          "max": 0
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Warlord's Mantle",
+    "code": "ful",
+    "set": "Warlord's Glory",
+    "qlevel": 100,
+    "levelReq": 1,
+    "baseModifiers": [
+      {
+        "prop": "ac%",
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "res-cold",
         "min": 30,
         "max": 30
       }
@@ -5948,11 +5390,69 @@
     "setModifiers": [
       [
         {
-          "prop": "balance1",
-          "param": 0,
-          "min": 25,
-          "max": 25
-        },
+          "prop": "mana",
+          "min": 20,
+          "max": 20
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Warlord's Crushers",
+    "code": "hbt",
+    "set": "Warlord's Glory",
+    "qlevel": 100,
+    "levelReq": 1,
+    "baseModifiers": [
+      {
+        "prop": "move2",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-fire",
+        "min": 20,
+        "max": 20
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "mag%",
+          "min": 75,
+          "max": 75
+        }
+      ],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Warlord's Authority",
+    "code": "hbl",
+    "set": "Warlord's Glory",
+    "qlevel": 100,
+    "levelReq": 1,
+    "baseModifiers": [
+      {
+        "prop": "res-ltng",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hp",
+        "min": 25,
+        "max": 25
+      }
+    ],
+    "setModifiers": [
+      [
         {
           "prop": "att/lvl",
           "param": 16,
@@ -5967,6 +5467,84 @@
     ]
   },
   {
+    "name": "Bane's Oathmaker",
+    "code": "kri",
+    "set": "Bane's Garments",
+    "qlevel": 7,
+    "levelReq": 8,
+    "baseModifiers": [
+      {
+        "prop": "move1",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "mana-kill",
+          "min": 3,
+          "max": 3
+        }
+      ],
+      [
+        {
+          "prop": "deadly",
+          "min": 30,
+          "max": 30
+        }
+      ],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Bane's Wraithskin",
+    "code": "hla",
+    "set": "Bane's Garments",
+    "qlevel": 7,
+    "levelReq": 8,
+    "baseModifiers": [
+      {
+        "prop": "ac",
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "res-mag",
+        "min": 30,
+        "max": 30
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "balance1",
+          "min": 25,
+          "max": 25
+        }
+      ],
+      [
+        {
+          "prop": "att/lvl",
+          "param": 16,
+          "min": 0,
+          "max": 0
+        }
+      ],
+      [],
+      [],
+      []
+    ]
+  },
+  {
     "name": "Bane's Authority",
     "code": "vbl",
     "set": "Bane's Garments",
@@ -5975,27 +5553,24 @@
     "baseModifiers": [
       {
         "prop": "cast1",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 20,
         "max": 20
       }
     ],
     "setModifiers": [
+      [],
       [
         {
           "prop": "enr",
-          "param": 0,
           "min": 15,
           "max": 15
         }
       ],
-      [],
       [],
       [],
       []
@@ -6016,19 +5591,16 @@
       },
       {
         "prop": "war",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 20
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 7,
         "max": 10
       }
@@ -6037,13 +5609,18 @@
       [
         {
           "prop": "hp%",
-          "param": 0,
           "min": 5,
           "max": 5
         }
       ],
       [],
-      [],
+      [
+        {
+          "prop": "str",
+          "min": 15,
+          "max": 15
+        }
+      ],
       [],
       []
     ]
@@ -6063,31 +5640,26 @@
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 15,
         "max": 25
       }
@@ -6096,15 +5668,26 @@
       [
         {
           "prop": "res-pois",
-          "param": 0,
           "min": 25,
           "max": 25
         }
       ],
       [],
+      [
+        {
+          "prop": "vit",
+          "min": 15,
+          "max": 15
+        }
+      ],
       [],
-      [],
-      []
+      [
+        {
+          "prop": "red-dmg%",
+          "min": 15,
+          "max": 15
+        }
+      ]
     ]
   },
   {
@@ -6116,31 +5699,26 @@
     "baseModifiers": [
       {
         "prop": "crush",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 95,
         "max": 150
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 140,
         "max": 270
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 30,
         "max": 40
       }
@@ -6149,19 +5727,24 @@
       [
         {
           "prop": "swing1",
-          "param": 0,
           "min": 30,
           "max": 30
-        },
+        }
+      ],
+      [
         {
           "prop": "manasteal",
-          "param": 0,
           "min": 7,
           "max": 7
         }
       ],
-      [],
-      [],
+      [
+        {
+          "prop": "lifesteal",
+          "min": 7,
+          "max": 7
+        }
+      ],
       [],
       []
     ]
@@ -6175,37 +5758,31 @@
     "baseModifiers": [
       {
         "prop": "move1",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "res-mag",
-        "param": 0,
         "min": 20,
         "max": 30
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "ease",
-        "param": 0,
         "min": -30,
         "max": -30
       }
@@ -6214,7 +5791,6 @@
       [
         {
           "prop": "move2",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -6240,25 +5816,21 @@
       },
       {
         "prop": "balance1",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 20,
         "max": 30
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 30,
         "max": 50
       }
@@ -6267,19 +5839,24 @@
       [
         {
           "prop": "res-pois-len",
-          "param": 0,
           "min": 75,
           "max": 75
-        },
+        }
+      ],
+      [
         {
           "prop": "pierce-fire",
-          "param": 0,
           "min": 25,
           "max": 25
         }
       ],
-      [],
-      [],
+      [
+        {
+          "prop": "enr",
+          "min": 15,
+          "max": 15
+        }
+      ],
       [],
       []
     ]

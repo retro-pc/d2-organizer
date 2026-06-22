@@ -20,28 +20,24 @@ function propertyTypeFromFunc(func: string): PropertyType {
   }
 }
 
-// set val func stat
-// func stat set val
-
 export async function propertiesToJson() {
   const table = await readGameFile("Properties");
   const properties: Record<string, Property> = {};
   for (const line of table) {
     const stats: Property["stats"] = [];
     for (let i = 1; i < 8; i++) {
-      const statIndex = -1 + 4 * i;
-      if (line[statIndex]) {
-        const param = line[statIndex + 1]
-          ? Number(line[statIndex + 1])
-          : undefined;
+      const stat = line[`stat${i}`];
+      if (stat) {
+        const setVal = line[`set${i}`] || line[`val${i}`];
+        const param = setVal ? Number(setVal) : undefined;
         stats.push({
-          stat: line[statIndex].trim(),
+          stat: stat.trim(),
           param,
-          type: propertyTypeFromFunc(line[statIndex - 1]),
+          type: propertyTypeFromFunc(line[`func${i}`]),
         });
       }
     }
-    const propId = line[0].trim();
+    const propId = line["code"].trim();
     // Missing special cases
     if (propId === "dmg%") {
       stats.push(
@@ -87,5 +83,6 @@ export async function propertiesToJson() {
     }
     properties[propId] = { stats };
   }
+
   await writeJson("Properties", properties);
 }

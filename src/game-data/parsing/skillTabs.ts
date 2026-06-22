@@ -23,6 +23,9 @@ const IN_ORDER = [
   "Traps Skills",
   "Shadow Disciplines Skills",
   "Martial Arts Skills",
+  "Demon Skills",
+  "Eldritch Skills",
+  "Chaos Skills",
 ];
 
 export async function skillTabsToJson() {

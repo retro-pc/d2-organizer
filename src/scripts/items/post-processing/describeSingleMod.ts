@@ -18,6 +18,7 @@ const fix_classSkillBonus = [
   "ModStr3e",
   "ModStre8a",
   "ModStre8b",
+  "ModStrge9",
 ];
 
 // Monster names for item_reanimate, keyed by the stat's param. Faith is the
@@ -97,6 +98,14 @@ export function describeSingleMod(
       break;
     }
     case 14:
+      if (modifier.skillTabRange) {
+        const [minId, maxId] = modifier.skillTabRange;
+        const tabs = SKILL_TABS.filter(({ id }) => id >= minId && id <= maxId);
+        const names = tabs.map(({ name }) => name.replace(/ Skills$/, "")).join("/");
+        const charClass = tabs[0]?.charClass ?? 0;
+        modDesc = `+${modValue} to ${names} Skills ${CHAR_CLASSES[charClass].classOnly}`;
+        break;
+      }
       skillTab = SKILL_TABS.find(({ id }) => id === modifier.param);
       if (!skillTab) {
         throw new Error(`Unknown skill tab ${skillTab}`);

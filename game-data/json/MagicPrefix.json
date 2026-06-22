@@ -2678,5 +2678,213 @@
   {
     "name": "Cruel",
     "reqlevel": 48
+  },
+  {
+    "name": "Virulent",
+    "reqlevel": 75
+  },
+  {
+    "name": "Virulent",
+    "reqlevel": 75
+  },
+  {
+    "name": "Virulent",
+    "reqlevel": 75
+  },
+  {
+    "name": "Virulent",
+    "reqlevel": 75
+  },
+  {
+    "name": "Virulent",
+    "reqlevel": 75
+  },
+  {
+    "name": "Incendiary",
+    "reqlevel": 75
+  },
+  {
+    "name": "Incendiary",
+    "reqlevel": 75
+  },
+  {
+    "name": "Incendiary",
+    "reqlevel": 75
+  },
+  {
+    "name": "Incendiary",
+    "reqlevel": 75
+  },
+  {
+    "name": "Incendiary",
+    "reqlevel": 75
+  },
+  {
+    "name": "Gelid",
+    "reqlevel": 75
+  },
+  {
+    "name": "Gelid",
+    "reqlevel": 75
+  },
+  {
+    "name": "Gelid",
+    "reqlevel": 75
+  },
+  {
+    "name": "Gelid",
+    "reqlevel": 75
+  },
+  {
+    "name": "Gelid",
+    "reqlevel": 75
+  },
+  {
+    "name": "Magnetic",
+    "reqlevel": 75
+  },
+  {
+    "name": "Magnetic",
+    "reqlevel": 75
+  },
+  {
+    "name": "Magnetic",
+    "reqlevel": 75
+  },
+  {
+    "name": "Magnetic",
+    "reqlevel": 75
+  },
+  {
+    "name": "Magnetic",
+    "reqlevel": 75
+  },
+  {
+    "name": "Mystical",
+    "reqlevel": 75
+  },
+  {
+    "name": "Mystical",
+    "reqlevel": 75
+  },
+  {
+    "name": "Mystical",
+    "reqlevel": 75
+  },
+  {
+    "name": "Mystical",
+    "reqlevel": 75
+  },
+  {
+    "name": "Mystical",
+    "reqlevel": 75
+  },
+  {
+    "name": "Breaching",
+    "reqlevel": 75
+  },
+  {
+    "name": "Breaching",
+    "reqlevel": 75
+  },
+  {
+    "name": "Breaching",
+    "reqlevel": 75
+  },
+  {
+    "name": "Breaching",
+    "reqlevel": 75
+  },
+  {
+    "name": "Breaching",
+    "reqlevel": 75
+  },
+  {
+    "name": "Chaotic",
+    "reqlevel": 42
+  },
+  {
+    "name": "Sullied",
+    "reqlevel": 42
+  },
+  {
+    "name": "Fiendish",
+    "reqlevel": 42
+  },
+  {
+    "name": "Chaotic",
+    "reqlevel": 15
+  },
+  {
+    "name": "Erratic",
+    "reqlevel": 30
+  },
+  {
+    "name": "Torrid",
+    "reqlevel": 45
+  },
+  {
+    "name": "Sullied",
+    "reqlevel": 15
+  },
+  {
+    "name": "TaintedAffix",
+    "reqlevel": 30
+  },
+  {
+    "name": "Forbidden",
+    "reqlevel": 45
+  },
+  {
+    "name": "Fiendish",
+    "reqlevel": 15
+  },
+  {
+    "name": "Dreadful",
+    "reqlevel": 30
+  },
+  {
+    "name": "Malevolent",
+    "reqlevel": 45
+  },
+  {
+    "name": "Devil's",
+    "reqlevel": 27
+  },
+  {
+    "name": "Arch-Devil's",
+    "reqlevel": 67
+  },
+  {
+    "name": "Devil's",
+    "reqlevel": 22
+  },
+  {
+    "name": "Arch-Devil's",
+    "reqlevel": 42
+  },
+  {
+    "name": "Virulent",
+    "reqlevel": 75
+  },
+  {
+    "name": "Incendiary",
+    "reqlevel": 75
+  },
+  {
+    "name": "Gelid",
+    "reqlevel": 75
+  },
+  {
+    "name": "Magnetic",
+    "reqlevel": 75
+  },
+  {
+    "name": "Mystical",
+    "reqlevel": 75
+  },
+  {
+    "name": "Breaching",
+    "reqlevel": 75
   }
 ]

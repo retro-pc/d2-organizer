@@ -181,6 +181,9 @@
   "drui": [
     "clas"
   ],
+  "warl": [
+    "clas"
+  ],
   "h2h": [
     "mele",
     "assn"
@@ -305,5 +308,15 @@
   ],
   "sppl": [
     "mele"
+  ],
+  "grim": [
+    "shld",
+    "warl"
+  ],
+  "cjwl": [
+    "jewl"
+  ],
+  "csch": [
+    "char"
   ]
 }

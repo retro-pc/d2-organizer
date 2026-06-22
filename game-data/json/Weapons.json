@@ -591,7 +591,7 @@
     "name": "Blade",
     "type": "knif",
     "tier": 0,
-    "maxSockets": 2,
+    "maxSockets": 3,
     "spawnable": true,
     "indestructible": false,
     "stackable": false,
@@ -1215,8 +1215,7 @@
     "width": 1,
     "height": 2,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "g33": {
     "name": "The Gidbinn",
@@ -1230,8 +1229,7 @@
     "width": 1,
     "height": 2,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "leg": {
     "name": "Wirt's Leg",
@@ -1260,8 +1258,7 @@
     "width": 1,
     "height": 2,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "hfh": {
     "name": "Hell Forge Hammer",
@@ -1275,8 +1272,7 @@
     "width": 2,
     "height": 3,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "hst": {
     "name": "Horadric Staff",
@@ -1290,8 +1286,7 @@
     "width": 1,
     "height": 4,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "msf": {
     "name": "Shaft of the Horadric Staff",
@@ -1305,8 +1300,7 @@
     "width": 1,
     "height": 3,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "9ha": {
     "name": "Hatchet",
@@ -1900,7 +1894,7 @@
     "name": "Stiletto",
     "type": "knif",
     "tier": 1,
-    "maxSockets": 2,
+    "maxSockets": 3,
     "spawnable": true,
     "indestructible": false,
     "stackable": false,
@@ -2440,8 +2434,7 @@
     "width": 2,
     "height": 3,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "qf2": {
     "name": "Khalim's Will",
@@ -2455,8 +2448,7 @@
     "width": 2,
     "height": 3,
     "qlevel": 0,
-    "levelReq": 0,
-    "trackQuestDifficulty": true
+    "levelReq": 0
   },
   "ktr": {
     "name": "Katar",
@@ -3344,7 +3336,7 @@
     "name": "Legend Spike",
     "type": "knif",
     "tier": 2,
-    "maxSockets": 2,
+    "maxSockets": 3,
     "spawnable": true,
     "indestructible": false,
     "stackable": false,

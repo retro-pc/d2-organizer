@@ -9,8 +9,8 @@ export async function magicAffixesToJson() {
     const affixes: MagicAffix[] = [{ name: "", reqlevel: 1 }];
     for (const line of table) {
       affixes.push({
-        name: getString(line[0].trim()),
-        reqlevel: Number(line[6]),
+        name: getString(line["Name"].trim()),
+        reqlevel: Number(line["levelreq"]),
       });
     }
     await writeJson(file, affixes);

@@ -149,3 +149,8 @@ export interface ModifierLocale {
   Key: string;
   enUS: string;
 }
+
+export interface PropertyGroup {
+  pickmode: 1 | 2;
+  [key: string]: string | number;
+}

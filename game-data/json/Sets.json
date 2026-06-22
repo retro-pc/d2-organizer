@@ -6,7 +6,6 @@
       [
         {
           "prop": "res-fire",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -41,7 +40,6 @@
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -55,7 +53,6 @@
       [
         {
           "prop": "thorns",
-          "param": 0,
           "min": 5,
           "max": 5
         }
@@ -92,7 +89,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -121,7 +117,6 @@
         },
         {
           "prop": "swing2",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -135,7 +130,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -143,13 +137,11 @@
       [
         {
           "prop": "move2",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "pierce",
-          "param": 0,
           "min": 24,
           "max": 24
         }
@@ -203,7 +195,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -211,7 +202,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -239,13 +229,11 @@
         },
         {
           "prop": "block",
-          "param": 0,
           "min": 30,
           "max": 30
         },
         {
           "prop": "move2",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -259,13 +247,11 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 75,
           "max": 75
         },
         {
           "prop": "manasteal",
-          "param": 0,
           "min": 7,
           "max": 7
         }
@@ -273,7 +259,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -301,7 +286,6 @@
         },
         {
           "prop": "str",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -315,7 +299,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 75,
           "max": 75
         },
@@ -329,13 +312,11 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 125,
           "max": 125
         },
         {
           "prop": "nofreeze",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -377,13 +358,11 @@
       [
         {
           "prop": "dmg-fire",
-          "param": 0,
           "min": 15,
           "max": 20
         },
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 16,
           "max": 16
         }
@@ -391,7 +370,6 @@
       [
         {
           "prop": "res-ltng",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -439,7 +417,6 @@
       [
         {
           "prop": "dmg-ltng",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -447,7 +424,6 @@
       [
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 5,
           "max": 5
         }
@@ -489,7 +465,6 @@
       [
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -497,7 +472,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -531,7 +505,6 @@
         },
         {
           "prop": "mana",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -553,7 +526,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -581,19 +553,16 @@
         },
         {
           "prop": "manasteal",
-          "param": 0,
           "min": 6,
           "max": 6
         },
         {
           "prop": "mana%",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "nofreeze",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -607,7 +576,6 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -642,7 +610,6 @@
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 75,
           "max": 75
         }
@@ -656,7 +623,6 @@
       [
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 8,
           "max": 8
         }
@@ -693,7 +659,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -701,7 +666,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -729,7 +693,6 @@
         },
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 8,
           "max": 8
         }
@@ -743,7 +706,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 5,
           "max": 5
         }
@@ -751,7 +713,6 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -787,7 +748,6 @@
       [
         {
           "prop": "mana",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -795,13 +755,11 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 12,
           "max": 12
         }
@@ -829,7 +787,6 @@
         },
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -843,7 +800,6 @@
       [
         {
           "prop": "red-mag",
-          "param": 0,
           "min": 15,
           "max": 15
         }
@@ -851,7 +807,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 200,
           "max": 200
         }
@@ -859,7 +814,6 @@
       [
         {
           "prop": "res-pois",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -868,43 +822,36 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "ass",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 150,
           "max": 150
         },
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 14,
           "max": 14
         },
         {
           "prop": "manasteal",
-          "param": 0,
           "min": 14,
           "max": 14
         },
         {
           "prop": "red-dmg%",
-          "param": 0,
           "min": 30,
           "max": 30
         },
         {
           "prop": "fade",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -918,7 +865,6 @@
       [
         {
           "prop": "att%",
-          "param": 0,
           "min": 150,
           "max": 150
         }
@@ -926,7 +872,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -934,7 +879,6 @@
       [
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -943,37 +887,31 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "dru",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 150,
           "max": 150
         },
         {
           "prop": "manasteal",
-          "param": 0,
           "min": 10,
           "max": 10
         },
         {
           "prop": "mana",
-          "param": 0,
           "min": 150,
           "max": 150
         },
         {
           "prop": "dmg%",
-          "param": 0,
           "min": 350,
           "max": 350
         },
@@ -993,7 +931,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1001,7 +938,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 75,
           "max": 75
         }
@@ -1009,7 +945,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 125,
           "max": 125
         }
@@ -1017,7 +952,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 200,
           "max": 200
         }
@@ -1025,25 +959,21 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "bar",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "hp",
-          "param": 0,
           "min": 150,
           "max": 150
         },
         {
           "prop": "red-mag",
-          "param": 0,
           "min": 10,
           "max": 10
         },
@@ -1063,7 +993,6 @@
       [
         {
           "prop": "regen",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1071,7 +1000,6 @@
       [
         {
           "prop": "mag%",
-          "param": 0,
           "min": 65,
           "max": 65
         }
@@ -1079,7 +1007,6 @@
       [
         {
           "prop": "balance2",
-          "param": 0,
           "min": 25,
           "max": 25
         }
@@ -1088,31 +1015,26 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "sor",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 150,
           "max": 150
         },
         {
           "prop": "hp",
-          "param": 0,
           "min": 150,
           "max": 150
         },
         {
           "prop": "ac-miss",
-          "param": 0,
           "min": 50,
           "max": 50
         },
@@ -1132,7 +1054,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1140,7 +1061,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1150,25 +1070,21 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "pal",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "att",
-          "param": 0,
           "min": 200,
           "max": 200
         },
         {
           "prop": "hp",
-          "param": 0,
           "min": 150,
           "max": 150
         },
@@ -1180,7 +1096,6 @@
         },
         {
           "prop": "balance2",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1194,7 +1109,6 @@
       [
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 15,
           "max": 15
         },
@@ -1208,7 +1122,6 @@
       [
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 15,
           "max": 15
         },
@@ -1222,7 +1135,6 @@
       [
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 15,
           "max": 15
         },
@@ -1237,25 +1149,21 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "nec",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "mana",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 200,
           "max": 200
         },
@@ -1267,7 +1175,6 @@
         },
         {
           "prop": "regen-mana",
-          "param": 0,
           "min": 15,
           "max": 15
         },
@@ -1279,7 +1186,6 @@
         },
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1293,7 +1199,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1301,7 +1206,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1311,31 +1215,26 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "ama",
-          "param": 0,
           "min": 3,
           "max": 3
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "att",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "mag%",
-          "param": 0,
           "min": 100,
           "max": 100
         },
@@ -1355,7 +1254,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 150,
           "max": 150
         }
@@ -1371,7 +1269,6 @@
       [
         {
           "prop": "str",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1379,7 +1276,6 @@
       [
         {
           "prop": "dex",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1387,19 +1283,16 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "allskills",
-          "param": 0,
           "min": 2,
           "max": 2
         },
         {
           "prop": "mana",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -1413,7 +1306,6 @@
       [
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 10,
           "max": 10
         }
@@ -1421,7 +1313,6 @@
       [
         {
           "prop": "regen",
-          "param": 0,
           "min": 30,
           "max": 30
         },
@@ -1437,31 +1328,26 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "allskills",
-          "param": 0,
           "min": 2,
           "max": 2
         },
         {
           "prop": "nofreeze",
-          "param": 0,
           "min": 1,
           "max": 1
         },
         {
           "prop": "light",
-          "param": 0,
           "min": 5,
           "max": 5
         },
         {
           "prop": "red-dmg%",
-          "param": 0,
           "min": 24,
           "max": 24
         }
@@ -1475,7 +1361,6 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 35,
           "max": 35
         }
@@ -1483,7 +1368,6 @@
       [
         {
           "prop": "thorns",
-          "param": 0,
           "min": 5,
           "max": 5
         }
@@ -1491,7 +1375,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -1500,31 +1383,26 @@
       [
         {
           "prop": "hp",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "dex",
-          "param": 0,
           "min": 10,
           "max": 10
         },
         {
           "prop": "str",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "res-all",
-          "param": 0,
           "min": 15,
           "max": 15
         },
@@ -1544,7 +1422,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -1552,7 +1429,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 200,
           "max": 200
         }
@@ -1562,25 +1438,21 @@
       [
         {
           "prop": "allskills",
-          "param": 0,
           "min": 2,
           "max": 2
         },
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "move3",
-          "param": 0,
           "min": 30,
           "max": 30
         },
         {
           "prop": "res-all",
-          "param": 0,
           "min": 30,
           "max": 30
         }
@@ -1594,13 +1466,11 @@
       [
         {
           "prop": "move3",
-          "param": 0,
           "min": 40,
           "max": 40
         },
         {
           "prop": "res-pois-len",
-          "param": 0,
           "min": 75,
           "max": 75
         }
@@ -1611,31 +1481,26 @@
       [
         {
           "prop": "res-all",
-          "param": 0,
           "min": 30,
           "max": 30
         },
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 15,
           "max": 15
         },
         {
           "prop": "hp%",
-          "param": 0,
           "min": 27,
           "max": 27
         },
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         },
         {
           "prop": "red-dmg%",
-          "param": 0,
           "min": 16,
           "max": 16
         }
@@ -1653,49 +1518,41 @@
       [
         {
           "prop": "dmg-fire",
-          "param": 0,
           "min": 200,
           "max": 200
         },
         {
           "prop": "allskills",
-          "param": 0,
           "min": 2,
           "max": 2
         },
         {
           "prop": "att",
-          "param": 0,
           "min": 200,
           "max": 200
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 200,
           "max": 200
         },
         {
           "prop": "dmg-undead",
-          "param": 0,
           "min": 200,
           "max": 200
         },
         {
           "prop": "dmg-demon",
-          "param": 0,
           "min": 200,
           "max": 200
         },
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 10,
           "max": 10
         },
         {
           "prop": "deadly",
-          "param": 0,
           "min": 20,
           "max": 20
         }
@@ -1709,13 +1566,11 @@
       [
         {
           "prop": "res-pois",
-          "param": 0,
           "min": 25,
           "max": 25
         },
         {
           "prop": "ac",
-          "param": 0,
           "min": 100,
           "max": 100
         }
@@ -1726,25 +1581,21 @@
       [
         {
           "prop": "stam",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "str",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "gold%",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "mag%",
-          "param": 0,
           "min": 100,
           "max": 100
         },
@@ -1756,19 +1607,16 @@
         },
         {
           "prop": "swing3",
-          "param": 0,
           "min": 30,
           "max": 30
         },
         {
           "prop": "hp",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         }
@@ -1782,7 +1630,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 175,
           "max": 175
         },
@@ -1799,49 +1646,41 @@
       [
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         },
         {
           "prop": "regen",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "dex",
-          "param": 0,
           "min": 15,
           "max": 15
         },
         {
           "prop": "res-all",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "str",
-          "param": 0,
           "min": 20,
           "max": 20
         },
         {
           "prop": "mana",
-          "param": 0,
           "min": 100,
           "max": 100
         },
         {
           "prop": "fireskill",
-          "param": 0,
           "min": 2,
           "max": 2
         },
         {
           "prop": "hp%",
-          "param": 0,
           "min": 12,
           "max": 12
         }
@@ -1855,7 +1694,6 @@
       [
         {
           "prop": "ac",
-          "param": 0,
           "min": 50,
           "max": 50
         }
@@ -1863,7 +1701,6 @@
       [
         {
           "prop": "att",
-          "param": 0,
           "min": 75,
           "max": 75
         }
@@ -1873,27 +1710,175 @@
       [
         {
           "prop": "allskills",
-          "param": 0,
           "min": 1,
           "max": 1
         },
         {
           "prop": "mag%",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "mana",
-          "param": 0,
           "min": 50,
           "max": 50
         },
         {
           "prop": "lifesteal",
-          "param": 0,
           "min": 4,
           "max": 4
+        }
+      ]
+    ]
+  },
+  "Warlord's Glory": {
+    "name": "Warlord's Glory",
+    "levelReq": 1,
+    "modifiers": [
+      [
+        {
+          "prop": "lifesteal",
+          "min": 15,
+          "max": 15
+        }
+      ],
+      [
+        {
+          "prop": "ac",
+          "min": 150,
+          "max": 150
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "prop": "allskills",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "prop": "aura",
+          "param": 120,
+          "min": 10,
+          "max": 10
+        },
+        {
+          "prop": "red-dmg",
+          "param": 0,
+          "min": 9,
+          "max": 9
+        },
+        {
+          "prop": "res-fire",
+          "param": 0,
+          "min": 15,
+          "max": 15
+        },
+        {
+          "prop": "mana",
+          "min": 20,
+          "max": 20
+        }
+      ]
+    ]
+  },
+  "Bane's Garments": {
+    "name": "Bane's Garments",
+    "levelReq": 8,
+    "modifiers": [
+      [
+        {
+          "prop": "dmg%",
+          "min": 80,
+          "max": 80
+        }
+      ],
+      [],
+      [],
+      [],
+      [
+        {
+          "prop": "allskills",
+          "min": 1,
+          "max": 1
+        },
+        {
+          "prop": "dex",
+          "min": 15,
+          "max": 15
+        },
+        {
+          "prop": "cast1",
+          "min": 25,
+          "max": 25
+        },
+        {
+          "prop": "mag%",
+          "min": 40,
+          "max": 40
+        }
+      ]
+    ]
+  },
+  "Horazon's Splendor": {
+    "name": "Horazon's Splendor",
+    "levelReq": 67,
+    "modifiers": [
+      [
+        {
+          "prop": "dex",
+          "min": 20,
+          "max": 20
+        }
+      ],
+      [
+        {
+          "prop": "enr",
+          "min": 30,
+          "max": 30
+        }
+      ],
+      [
+        {
+          "prop": "ac",
+          "min": 300,
+          "max": 300
+        }
+      ],
+      [],
+      [
+        {
+          "prop": "res-all",
+          "min": 50,
+          "max": 50
+        },
+        {
+          "prop": "war",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "prop": "dmg%",
+          "min": 350,
+          "max": 350
+        },
+        {
+          "prop": "mag%",
+          "min": 100,
+          "max": 100
+        },
+        {
+          "prop": "oskill",
+          "param": 52,
+          "min": 30,
+          "max": 30
+        },
+        {
+          "prop": "state",
+          "param": -1,
+          "min": 1,
+          "max": 1
         }
       ]
     ]
