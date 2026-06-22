@@ -7,16 +7,24 @@ import { Item } from "../items/Item";
 export interface ItemsTableProps {
   items: ItemType[];
   pageSize: number;
-  selectable: boolean;
+  withLocation?: boolean;
+  withCharacteristics?: boolean;
+  onAdd?: (item: ItemType) => void;
+  onHover?: (item: ItemType | null) => void;
 }
 
-export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
+export function ItemsTable({
+  items,
+  pageSize,
+  withLocation = true,
+  withCharacteristics = true,
+  onAdd,
+  onHover,
+}: ItemsTableProps) {
   const [firstItem, setFirstItem] = useState(0);
 
-  // We group simple items together with a quantity, leave others alone
   const groupedItems = useMemo(() => groupItems(items), [items]);
 
-  // Reset to the first page when the list of items changes
   useEffect(() => {
     setFirstItem(0);
   }, [items]);
@@ -36,16 +44,15 @@ export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
         )}
       />
       <table id="collection">
-        <thead>
-          <tr class="sidenote">
-            <th>
-              <span class="sr-only">Select</span>
-            </th>
-            <th>Item</th>
-            <th>Characteristics</th>
-            <th>Location</th>
-          </tr>
-        </thead>
+        {(withCharacteristics || withLocation) && (
+          <thead>
+            <tr class="sidenote">
+              <th>Item</th>
+              {withCharacteristics && <th>Characteristics</th>}
+              {withLocation && <th>Location</th>}
+            </tr>
+          </thead>
+        )}
         <tbody>
           {groupedItems
             .slice(firstItem, firstItem + pageSize)
@@ -54,8 +61,10 @@ export function ItemsTable({ items, pageSize, selectable }: ItemsTableProps) {
                 key={items[0].id ?? index}
                 item={items[0]}
                 duplicates={items}
-                selectable={selectable}
-                withLocation={true}
+                withLocation={withLocation}
+                withCharacteristics={withCharacteristics}
+                onAdd={onAdd}
+                onHover={onHover}
               />
             ))}
         </tbody>

@@ -8,28 +8,28 @@
       "r07"
     ],
     "levelReq": 21,
+    "itypes": [
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 13,
         "max": 13
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -40,14 +40,47 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
     "name": "Authority",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r15",
+      "r13",
+      "r08"
+    ],
+    "levelReq": 29,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 387,
+        "min": 2,
+        "max": 10
+      },
+      {
+        "prop": "hit-skill",
+        "param": 399,
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "war",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "dmg%",
+        "min": 40,
+        "max": 60
+      }
+    ]
   },
   {
     "name": "Beast",
@@ -60,10 +93,15 @@
       "r17"
     ],
     "levelReq": 63,
+    "itypes": [
+      "axe",
+      "scep",
+      "hamm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -75,13 +113,11 @@
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 240,
         "max": 270
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 25,
         "max": 40
       },
@@ -110,6 +146,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -121,34 +159,35 @@
       "r04"
     ],
     "levelReq": 35,
+    "itypes": [
+      "club",
+      "hamm",
+      "mace"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "crush",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 120,
         "max": 120
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 200,
         "max": 200
       },
@@ -165,6 +204,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -176,6 +217,10 @@
       "r22"
     ],
     "levelReq": 47,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -191,13 +236,11 @@
       },
       {
         "prop": "nec",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 100,
         "max": 150
       }
@@ -213,16 +256,18 @@
       "r05"
     ],
     "levelReq": 61,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "balance2",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 300,
         "max": 300
       },
@@ -234,19 +279,16 @@
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 13,
         "max": 13
       },
       {
         "prop": "extra-pois",
-        "param": 0,
         "min": 25,
         "max": 50
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 100,
         "max": 100
       },
@@ -268,16 +310,18 @@
       "r25"
     ],
     "levelReq": 65,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 260,
         "max": 340
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 280,
         "max": 330
       },
@@ -295,19 +339,16 @@
       },
       {
         "prop": "knock",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "explosivearrow",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -321,31 +362,32 @@
       "r15",
       "r01",
       "r02",
-      "r33"
+      "r33",
+      "r05"
     ],
     "levelReq": 69,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 125,
         "max": 125
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 12,
         "max": 15
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -357,13 +399,11 @@
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 350,
         "max": 400
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -374,6 +414,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -387,22 +429,23 @@
       "r27"
     ],
     "levelReq": 57,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 240
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -426,7 +469,6 @@
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 12,
         "max": 12
       }
@@ -442,46 +484,43 @@
       "r24"
     ],
     "levelReq": 63,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "res-all",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 70,
         "max": 70
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 8,
         "max": 8
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -492,6 +531,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -503,22 +544,23 @@
       "r22"
     ],
     "levelReq": 57,
+    "itypes": [
+      "h2h"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "demon-heal",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 240,
         "max": 290
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 216,
         "max": 471
       },
@@ -530,7 +572,6 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 35,
         "max": 35
       },
@@ -557,28 +598,30 @@
       "r03"
     ],
     "levelReq": 47,
+    "itypes": [
+      "axe",
+      "swor",
+      "pole"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "pierce-ltng",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 180,
         "max": 220
       },
       {
         "prop": "abs-mag",
-        "param": 0,
         "min": 9,
         "max": 11
       },
@@ -607,6 +650,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -614,6 +659,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -627,10 +674,14 @@
       "r25"
     ],
     "levelReq": 55,
+    "itypes": [
+      "swor",
+      "axe"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 300,
         "max": 385
       },
@@ -660,13 +711,11 @@
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -677,6 +726,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -688,6 +739,10 @@
       "r16"
     ],
     "levelReq": 51,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -709,7 +764,6 @@
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 261,
         "max": 261
       },
@@ -727,7 +781,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -738,6 +791,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -745,6 +800,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -758,16 +815,19 @@
       "r18"
     ],
     "levelReq": 65,
+    "itypes": [
+      "pole",
+      "swor"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 350,
         "max": 350
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 100,
         "max": 180
       },
@@ -797,7 +857,6 @@
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -814,10 +873,15 @@
       "r32"
     ],
     "levelReq": 67,
+    "itypes": [
+      "axe",
+      "pole",
+      "hamm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 280,
         "max": 320
       },
@@ -829,25 +893,21 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 45,
         "max": 45
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "pierce-cold",
-        "param": 0,
         "min": 40,
         "max": 60
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -868,16 +928,19 @@
       "r12"
     ],
     "levelReq": 61,
+    "itypes": [
+      "tors",
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 360,
         "max": 360
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 230,
         "max": 230
       },
@@ -907,7 +970,6 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 3,
         "max": 5
       }
@@ -918,6 +980,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -929,10 +993,14 @@
       "r21"
     ],
     "levelReq": 65,
+    "itypes": [
+      "helm",
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 150,
         "max": 220
       },
@@ -950,13 +1018,11 @@
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 5,
         "max": 20
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 20,
         "max": 30
       },
@@ -968,7 +1034,6 @@
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 12,
         "max": 25
       }
@@ -983,6 +1048,10 @@
       "r10"
     ],
     "levelReq": 47,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -992,37 +1061,31 @@
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 10,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 150,
         "max": 200
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "stamdrain",
-        "param": 0,
         "min": -20,
         "max": -20
       }
@@ -1037,28 +1100,28 @@
       "r11"
     ],
     "levelReq": 25,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 320,
         "max": 380
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 280,
         "max": 280
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -1070,13 +1133,11 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 5,
         "max": 10
       },
       {
         "prop": "cheap",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -1087,6 +1148,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1098,22 +1161,23 @@
       "r30"
     ],
     "levelReq": 65,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac",
-        "param": 0,
         "min": 750,
         "max": 775
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 14,
         "max": 14
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 45,
         "max": 45
       },
@@ -1125,7 +1189,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -1152,6 +1215,10 @@
       "r12"
     ],
     "levelReq": 45,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -1167,7 +1234,6 @@
       },
       {
         "prop": "sor",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -1184,6 +1250,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1197,22 +1265,23 @@
       "r29"
     ],
     "levelReq": 63,
+    "itypes": [
+      "mele"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 260,
         "max": 310
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "slow",
-        "param": 0,
         "min": 33,
         "max": 33
       },
@@ -1224,19 +1293,16 @@
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1252,22 +1318,23 @@
       "r14"
     ],
     "levelReq": 57,
+    "itypes": [
+      "pala"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "block2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 220,
         "max": 260
       },
@@ -1307,28 +1374,28 @@
       "r02"
     ],
     "levelReq": 65,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 280,
         "max": 280
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 120,
         "max": 120
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 15,
         "max": 15
       },
@@ -1346,7 +1413,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 2
       }
@@ -1362,46 +1428,44 @@
       "r31"
     ],
     "levelReq": 65,
+    "itypes": [
+      "axe",
+      "hamm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 270,
         "max": 320
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 12,
         "max": 12
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 180,
         "max": 200
       },
       {
         "prop": "dmg-elem",
-        "param": 0,
         "min": 50,
         "max": 200
       },
       {
         "prop": "ethereal",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1416,10 +1480,13 @@
       "r26"
     ],
     "levelReq": 55,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "fireskill",
-        "param": 0,
         "min": 3,
         "max": 3
       },
@@ -1431,25 +1498,21 @@
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 50,
         "max": 75
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -1465,22 +1528,24 @@
       "r28"
     ],
     "levelReq": 59,
+    "itypes": [
+      "weap",
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -1492,19 +1557,16 @@
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 12,
         "max": 12
       },
       {
         "prop": "hp/lvl",
-        "param": 0,
         "min": 8,
         "max": 12
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 30
       }
@@ -1515,6 +1577,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1522,6 +1586,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1533,40 +1599,38 @@
       "r05"
     ],
     "levelReq": 65,
+    "itypes": [
+      "mele"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 209,
         "max": 209
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 66,
         "max": 66
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 33,
         "max": 33
       },
@@ -1587,16 +1651,18 @@
       "r21"
     ],
     "levelReq": 47,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 170,
         "max": 230
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 30,
         "max": 30
       },
@@ -1608,25 +1674,21 @@
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -3,
         "max": -3
       },
       {
         "prop": "half-freeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -1637,6 +1699,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1650,6 +1714,11 @@
       "r08"
     ],
     "levelReq": 59,
+    "itypes": [
+      "swor",
+      "axe"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-dem/lvl",
@@ -1659,13 +1728,11 @@
       },
       {
         "prop": "dmg",
-        "param": 0,
         "min": 340,
         "max": 400
       },
       {
         "prop": "swing3",
-        "param": 0,
         "min": 30,
         "max": 40
       },
@@ -1677,19 +1744,16 @@
       },
       {
         "prop": "pierce-pois",
-        "param": 0,
         "min": 20,
         "max": 25
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "heal-kill",
-        "param": 0,
         "min": 10,
         "max": 15
       }
@@ -1705,16 +1769,18 @@
       "r28"
     ],
     "levelReq": 67,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 280,
         "max": 330
       },
@@ -1738,13 +1804,11 @@
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -1760,16 +1824,18 @@
       "r18"
     ],
     "levelReq": 39,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 275
       },
       {
         "prop": "dmg-elem",
-        "param": 0,
         "min": 55,
         "max": 160
       },
@@ -1793,13 +1859,11 @@
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -1810,6 +1874,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1822,10 +1888,14 @@
       "r10"
     ],
     "levelReq": 55,
+    "itypes": [
+      "staf",
+      "mace"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "cast2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -1837,25 +1907,21 @@
       },
       {
         "prop": "mana%",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 30,
         "max": 40
       },
@@ -1872,6 +1938,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1879,6 +1947,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1891,34 +1961,33 @@
       "r07"
     ],
     "levelReq": 21,
+    "itypes": [
+      "scep"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 20,
         "max": 60
       },
       {
         "prop": "dmg-max",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "res-ltng-max",
-        "param": 0,
         "min": 5,
         "max": 5
       },
@@ -1947,40 +2016,38 @@
       "r12"
     ],
     "levelReq": 27,
+    "itypes": [
+      "mele"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 160,
         "max": 160
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "deadly",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -1991,6 +2058,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -1998,6 +2067,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2005,6 +2076,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2017,10 +2090,13 @@
       "r28"
     ],
     "levelReq": 65,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 140,
         "max": 210
       },
@@ -2032,7 +2108,6 @@
       },
       {
         "prop": "extra-cold",
-        "param": 0,
         "min": 25,
         "max": 30
       },
@@ -2050,7 +2125,6 @@
       },
       {
         "prop": "pierce-cold",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -2072,16 +2146,19 @@
       "r24"
     ],
     "levelReq": 63,
+    "itypes": [
+      "pole",
+      "spea"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 255,
         "max": 325
       },
       {
         "prop": "move3",
-        "param": 0,
         "min": 35,
         "max": 35
       },
@@ -2105,7 +2182,6 @@
       },
       {
         "prop": "pierce-ltng",
-        "param": 0,
         "min": 45,
         "max": 55
       },
@@ -2122,6 +2198,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2134,22 +2212,25 @@
       "r12"
     ],
     "levelReq": 27,
+    "itypes": [
+      "pole",
+      "staf",
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 260
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 180,
         "max": 250
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 23,
         "max": 23
       },
@@ -2161,7 +2242,6 @@
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 35,
         "max": 35
       },
@@ -2173,7 +2253,6 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -2184,6 +2263,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2191,6 +2272,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2202,40 +2285,39 @@
       "r10"
     ],
     "levelReq": 25,
+    "itypes": [
+      "swor",
+      "scep"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 150,
         "max": 150
       },
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "att-demon",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "att-undead",
-        "param": 0,
         "min": 100,
         "max": 100
       }
@@ -2251,34 +2333,34 @@
       "r19"
     ],
     "levelReq": 53,
+    "itypes": [
+      "swor",
+      "axe"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 230,
         "max": 270
       },
       {
         "prop": "reduce-ac",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -2290,7 +2372,6 @@
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -2301,6 +2382,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2308,6 +2391,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2318,13 +2403,19 @@
       "r23",
       "r31",
       "r29",
-      "r31"
+      "r31",
+      "r30"
     ],
     "levelReq": 65,
+    "itypes": [
+      "swor",
+      "hamm",
+      "axe"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 330,
         "max": 375
       },
@@ -2348,7 +2439,6 @@
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 40,
         "max": 50
       },
@@ -2371,6 +2461,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2382,16 +2474,20 @@
       "r18"
     ],
     "levelReq": 43,
+    "itypes": [
+      "swor",
+      "hamm",
+      "scep"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-cold",
-        "param": 0,
         "min": 130,
         "max": 180
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 150,
         "max": 210
       },
@@ -2409,19 +2505,16 @@
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 200,
         "max": 250
       },
       {
         "prop": "rip",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "reduce-ac",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -2435,22 +2528,23 @@
       "r08"
     ],
     "levelReq": 19,
+    "itypes": [
+      "staf"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "fireskill",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "ac/lvl",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 33,
         "max": 33
       },
@@ -2479,6 +2573,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2490,40 +2586,38 @@
       "r19"
     ],
     "levelReq": 41,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "str",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -2537,28 +2631,28 @@
       "r12"
     ],
     "levelReq": 27,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "mana-kill",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -2569,6 +2663,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2576,6 +2672,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2583,6 +2681,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2590,6 +2690,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2601,40 +2703,38 @@
       "r05"
     ],
     "levelReq": 15,
+    "itypes": [
+      "mele"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "dmg-ac",
-        "param": 0,
         "min": -100,
         "max": -100
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -1,
         "max": -1
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": -5,
         "max": -5
       }
@@ -2649,10 +2749,13 @@
       "r04"
     ],
     "levelReq": 39,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -2682,7 +2785,6 @@
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 300,
         "max": 300
       }
@@ -2698,34 +2800,33 @@
       "r05"
     ],
     "levelReq": 37,
+    "itypes": [
+      "staf"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "mana%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 7,
         "max": 7
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "sor",
-        "param": 0,
         "min": 3,
         "max": 3
       },
@@ -2754,16 +2855,18 @@
       "r06"
     ],
     "levelReq": 67,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "allskills",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 325,
         "max": 375
       },
@@ -2775,19 +2878,16 @@
       },
       {
         "prop": "pierce",
-        "param": 0,
         "min": 100,
         "max": 100
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 24,
         "max": 24
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -2798,6 +2898,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2805,6 +2907,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2816,6 +2920,10 @@
       "r04"
     ],
     "levelReq": 25,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -2831,13 +2939,11 @@
       },
       {
         "prop": "bar",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -2851,22 +2957,23 @@
       "r03"
     ],
     "levelReq": 13,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -3,
         "max": -3
       },
@@ -2878,13 +2985,11 @@
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": -33,
         "max": -33
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 5,
         "max": 5
       }
@@ -2895,6 +3000,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2902,6 +3009,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -2914,16 +3023,20 @@
       "r17"
     ],
     "levelReq": 49,
+    "itypes": [
+      "swor",
+      "axe",
+      "mace"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 210,
         "max": 340
       },
       {
         "prop": "swing1",
-        "param": 0,
         "min": 30,
         "max": 30
       },
@@ -2947,13 +3060,11 @@
       },
       {
         "prop": "abs-mag",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "indestruct",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -2970,16 +3081,19 @@
       "r19"
     ],
     "levelReq": 41,
+    "itypes": [
+      "pole",
+      "spea"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 370,
         "max": 370
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 40,
         "max": 40
       },
@@ -2991,25 +3105,21 @@
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 200,
         "max": 300
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 20,
         "max": 30
       }
@@ -3020,6 +3130,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3030,13 +3142,17 @@
       "r24",
       "r20",
       "r17",
-      "r16"
+      "r16",
+      "r04"
     ],
     "levelReq": 69,
+    "itypes": [
+      "staf"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "allskills",
-        "param": 0,
         "min": 4,
         "max": 4
       },
@@ -3048,31 +3164,26 @@
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "balance3",
-        "param": 0,
         "min": 60,
         "max": 60
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 60,
         "max": 70
       },
       {
         "prop": "hp%",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "regen-mana",
-        "param": 0,
         "min": 15,
         "max": 30
       }
@@ -3088,10 +3199,13 @@
       "r20"
     ],
     "levelReq": 43,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 160,
         "max": 210
       },
@@ -3103,7 +3217,6 @@
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 50,
         "max": 80
       },
@@ -3115,7 +3228,6 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -3127,7 +3239,6 @@
       },
       {
         "prop": "stupidity",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -3138,6 +3249,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3149,46 +3262,43 @@
       "r10"
     ],
     "levelReq": 23,
+    "itypes": [
+      "h2h"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "att%",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 40,
         "max": 80
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 12,
         "max": 32
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 30,
         "max": 30
       }
@@ -3203,6 +3313,10 @@
       "r11"
     ],
     "levelReq": 29,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -3218,7 +3332,6 @@
       },
       {
         "prop": "ama",
-        "param": 0,
         "min": 2,
         "max": 2
       },
@@ -3240,28 +3353,29 @@
       "r02"
     ],
     "levelReq": 43,
+    "itypes": [
+      "swor",
+      "mace"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 220,
         "max": 350
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 280,
         "max": 300
       },
       {
         "prop": "dmg-cold",
-        "param": 0,
         "min": 100,
         "max": 220
       },
       {
         "prop": "pierce-cold",
-        "param": 0,
         "min": 24,
         "max": 24
       },
@@ -3279,7 +3393,6 @@
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -3290,6 +3403,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3297,6 +3412,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3304,6 +3421,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3316,16 +3435,19 @@
       "r31"
     ],
     "levelReq": 65,
+    "itypes": [
+      "weap",
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 350,
         "max": 400
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 350,
         "max": 400
       },
@@ -3343,7 +3465,6 @@
       },
       {
         "prop": "pierce-fire",
-        "param": 0,
         "min": 28,
         "max": 28
       },
@@ -3355,7 +3476,6 @@
       },
       {
         "prop": "abs-fire",
-        "param": 0,
         "min": 15,
         "max": 21
       }
@@ -3366,6 +3486,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3373,6 +3495,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3384,10 +3508,15 @@
       "r22"
     ],
     "levelReq": 67,
+    "itypes": [
+      "swor",
+      "knif",
+      "h2h"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 220,
         "max": 320
       },
@@ -3405,7 +3534,6 @@
       },
       {
         "prop": "pierce-pois",
-        "param": 0,
         "min": 23,
         "max": 23
       },
@@ -3423,7 +3551,6 @@
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 2
       }
@@ -3434,6 +3561,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3441,6 +3570,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3453,6 +3584,11 @@
       "r28"
     ],
     "levelReq": 67,
+    "itypes": [
+      "pole",
+      "spea"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-dem/lvl",
@@ -3462,13 +3598,11 @@
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 50,
         "max": 280
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 260,
         "max": 300
       },
@@ -3486,7 +3620,6 @@
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 8,
         "max": 8
       },
@@ -3507,6 +3640,10 @@
       "r02"
     ],
     "levelReq": 53,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -3516,19 +3653,16 @@
       },
       {
         "prop": "pal",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "hp",
-        "param": 0,
         "min": 100,
         "max": 150
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 50,
         "max": 50
       }
@@ -3539,6 +3673,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3549,34 +3685,33 @@
       "r03"
     ],
     "levelReq": 49,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 140,
         "max": 170
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
@@ -3588,7 +3723,6 @@
       },
       {
         "prop": "light",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -3599,6 +3733,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3606,6 +3742,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3613,6 +3751,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3624,40 +3764,38 @@
       "r06"
     ],
     "levelReq": 27,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "light",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 75
       }
@@ -3672,6 +3810,10 @@
       "r06"
     ],
     "levelReq": 49,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -3687,13 +3829,11 @@
       },
       {
         "prop": "dru",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 100,
         "max": 150
       }
@@ -3704,6 +3844,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3711,6 +3853,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3721,40 +3865,38 @@
       "r05"
     ],
     "levelReq": 29,
+    "itypes": [
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "block2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -3770,22 +3912,24 @@
       "r25"
     ],
     "levelReq": 53,
+    "itypes": [
+      "pole",
+      "scep"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 160,
         "max": 250
       },
       {
         "prop": "dmg-fire",
-        "param": 0,
         "min": 60,
         "max": 180
       },
       {
         "prop": "dmg-to-mana",
-        "param": 0,
         "min": 38,
         "max": 38
       },
@@ -3809,7 +3953,6 @@
       },
       {
         "prop": "all-stats",
-        "param": 0,
         "min": 5,
         "max": 10
       }
@@ -3824,40 +3967,38 @@
       "r23"
     ],
     "levelReq": 49,
+    "itypes": [
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "block",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 130,
         "max": 160
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 50,
         "max": 70
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
@@ -3874,6 +4015,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3881,6 +4024,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3888,6 +4033,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3898,49 +4045,47 @@
       "r02",
       "r15",
       "r24",
-      "r03"
+      "r03",
+      "r26"
     ],
-    "levelReq": 51,
+    "levelReq": 55,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 4,
         "max": 4
       },
       {
         "prop": "stupidity",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 200
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -3951,6 +4096,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -3961,34 +4108,33 @@
       "r17"
     ],
     "levelReq": 37,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 75
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "light",
-        "param": 0,
         "min": -1,
         "max": -1
       },
@@ -4005,6 +4151,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4017,46 +4165,44 @@
       "r11"
     ],
     "levelReq": 25,
+    "itypes": [
+      "swor",
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "balance3",
-        "param": 0,
         "min": 55,
         "max": 55
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 89,
         "max": 112
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 22,
         "max": 22
       },
       {
         "prop": "cast3",
-        "param": 0,
         "min": 25,
         "max": 35
       },
       {
         "prop": "abs-mag",
-        "param": 0,
         "min": 3,
         "max": 8
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 2,
         "max": 2
       }
@@ -4070,46 +4216,43 @@
       "r17"
     ],
     "levelReq": 37,
+    "itypes": [
+      "shld"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "light",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "gold%",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 60,
         "max": 100
       },
       {
         "prop": "block2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "allskills",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -4120,6 +4263,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4130,40 +4275,38 @@
       "r05"
     ],
     "levelReq": 17,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dex",
-        "param": 0,
         "min": 6,
         "max": 6
       },
       {
         "prop": "stam",
-        "param": 0,
         "min": 15,
         "max": 15
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -4177,34 +4320,35 @@
       "r01"
     ],
     "levelReq": 13,
+    "itypes": [
+      "swor",
+      "axe",
+      "mace"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "swing2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dmg-min",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "dmg-max",
-        "param": 0,
         "min": 3,
         "max": 3
       },
       {
         "prop": "openwounds",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 20,
         "max": 20
       }
@@ -4215,6 +4359,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4222,6 +4368,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4234,10 +4382,13 @@
       "r17"
     ],
     "levelReq": 47,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "ac%",
-        "param": 0,
         "min": 220,
         "max": 260
       },
@@ -4249,7 +4400,6 @@
       },
       {
         "prop": "ac-miss",
-        "param": 0,
         "min": 300,
         "max": 300
       },
@@ -4261,19 +4411,16 @@
       },
       {
         "prop": "str",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 16,
         "max": 16
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 40,
         "max": 40
       }
@@ -4284,6 +4431,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4294,28 +4443,28 @@
       "r03"
     ],
     "levelReq": 25,
+    "itypes": [
+      "mele"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "str",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "vit",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 25,
         "max": 25
       }
@@ -4326,6 +4475,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4333,6 +4484,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4340,6 +4493,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4347,6 +4502,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4354,6 +4511,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4361,6 +4520,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4368,6 +4529,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4375,6 +4538,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4386,6 +4551,10 @@
       "r20"
     ],
     "levelReq": 43,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -4401,13 +4570,11 @@
       },
       {
         "prop": "ass",
-        "param": 0,
         "min": 2,
         "max": 2
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 45,
         "max": 45
       }
@@ -4418,6 +4585,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4425,6 +4594,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4435,9 +4606,14 @@
       "r16",
       "r06",
       "r02",
-      "r01"
+      "r01",
+      "r15"
     ],
     "levelReq": 41,
+    "itypes": [
+      "swor"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "skilltab",
@@ -4453,31 +4629,26 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 30
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 300,
         "max": 350
       },
       {
         "prop": "red-dmg",
-        "param": 0,
         "min": 8,
         "max": 8
       },
       {
         "prop": "noheal",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 8,
         "max": 10
       }
@@ -4488,6 +4659,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4495,6 +4668,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4506,6 +4681,10 @@
       "r23"
     ],
     "levelReq": 49,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-pois",
@@ -4515,7 +4694,6 @@
       },
       {
         "prop": "ignore-ac",
-        "param": 0,
         "min": 1,
         "max": 1
       },
@@ -4533,7 +4711,6 @@
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 7,
         "max": 7
       }
@@ -4544,6 +4721,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4551,20 +4730,65 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
     "name": "Void",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r10",
+      "r33",
+      "r24"
+    ],
+    "levelReq": 69,
+    "itypes": [
+      "knif"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "cast2",
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "extra-mag",
+        "min": 10,
+        "max": 15
+      },
+      {
+        "prop": "oskill",
+        "param": 402,
+        "min": 1,
+        "max": 3
+      },
+      {
+        "prop": "all-stats",
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "charged",
+        "param": 87,
+        "min": 35,
+        "max": 4
+      }
+    ]
   },
   {
     "name": "War",
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4572,6 +4796,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4583,16 +4809,18 @@
       "r03"
     ],
     "levelReq": 43,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "gold%",
-        "param": 0,
         "min": 250,
         "max": 250
       },
       {
         "prop": "mag%",
-        "param": 0,
         "min": 100,
         "max": 100
       }
@@ -4603,6 +4831,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4613,6 +4843,10 @@
       "r16"
     ],
     "levelReq": 35,
+    "itypes": [
+      "wand"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "skilltab",
@@ -4622,19 +4856,16 @@
       },
       {
         "prop": "red-mag",
-        "param": 0,
         "min": 4,
         "max": 4
       },
       {
         "prop": "cast2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "mana",
-        "param": 0,
         "min": 13,
         "max": 13
       },
@@ -4666,28 +4897,28 @@
       "r01"
     ],
     "levelReq": 61,
+    "itypes": [
+      "mele"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 120,
         "max": 160
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "move2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "reduce-ac",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -4705,7 +4936,6 @@
       },
       {
         "prop": "balance2",
-        "param": 0,
         "min": 15,
         "max": 15
       }
@@ -4716,6 +4946,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4727,40 +4959,38 @@
       "r02"
     ],
     "levelReq": 45,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "pierce",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "manasteal",
-        "param": 0,
         "min": 4,
         "max": 8
       },
       {
         "prop": "att%",
-        "param": 0,
         "min": 15,
         "max": 25
       },
       {
         "prop": "mana-kill",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       },
       {
         "prop": "enr",
-        "param": 0,
         "min": 10,
         "max": 10
       }
@@ -4771,6 +5001,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4778,6 +5010,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4790,28 +5024,28 @@
       "r23"
     ],
     "levelReq": 63,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "dmg-demon",
-        "param": 0,
         "min": 300,
         "max": 300
       },
       {
         "prop": "dmg-undead",
-        "param": 0,
         "min": 250,
         "max": 300
       },
       {
         "prop": "dmg-ltng",
-        "param": 0,
         "min": 41,
         "max": 240
       },
       {
         "prop": "dmg-mag",
-        "param": 0,
         "min": 85,
         "max": 120
       },
@@ -4829,7 +5063,6 @@
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
@@ -4840,6 +5073,8 @@
     "enabled": false,
     "runes": [],
     "levelReq": 0,
+    "itypes": [],
+    "etypes": [],
     "modifiers": []
   },
   {
@@ -4850,28 +5085,28 @@
       "r05"
     ],
     "levelReq": 21,
+    "itypes": [
+      "miss"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "move2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 25,
         "max": 25
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 33,
         "max": 33
       },
       {
         "prop": "att",
-        "param": 0,
         "min": 66,
         "max": 66
       },
@@ -4883,14 +5118,13 @@
       },
       {
         "prop": "ac",
-        "param": 0,
         "min": 25,
         "max": 25
       }
     ]
   },
   {
-    "name": "Runeword171",
+    "name": "Hysteria",
     "enabled": true,
     "runes": [
       "r13",
@@ -4898,28 +5132,28 @@
       "r02"
     ],
     "levelReq": 39,
+    "itypes": [
+      "tors"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "move2",
-        "param": 0,
         "min": 65,
         "max": 65
       },
       {
         "prop": "stamdrain",
-        "param": 0,
         "min": 35,
         "max": 35
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 40,
         "max": 40
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 10
       },
@@ -4932,7 +5166,7 @@
     ]
   },
   {
-    "name": "Runeword172",
+    "name": "Mania",
     "enabled": true,
     "runes": [
       "r13",
@@ -4940,6 +5174,10 @@
       "r02"
     ],
     "levelReq": 39,
+    "itypes": [
+      "weap"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -4949,13 +5187,11 @@
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 180,
         "max": 200
       },
@@ -4968,7 +5204,7 @@
     ]
   },
   {
-    "name": "Runeword173",
+    "name": "Mosaic",
     "enabled": true,
     "runes": [
       "r23",
@@ -4976,6 +5212,10 @@
       "r11"
     ],
     "levelReq": 53,
+    "itypes": [
+      "h2h"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "skilltab",
@@ -4985,44 +5225,38 @@
       },
       {
         "prop": "charge-noconsume",
-        "param": 0,
         "min": 50,
         "max": 50
       },
       {
         "prop": "swing2",
-        "param": 0,
         "min": 20,
         "max": 20
       },
       {
         "prop": "dmg%",
-        "param": 0,
         "min": 200,
         "max": 250
       },
       {
         "prop": "extra-fire",
-        "param": 0,
         "min": 8,
         "max": 15
       },
       {
         "prop": "extra-cold",
-        "param": 0,
         "min": 8,
         "max": 15
       },
       {
         "prop": "extra-ltng",
-        "param": 0,
         "min": 8,
         "max": 15
       }
     ]
   },
   {
-    "name": "Runeword174",
+    "name": "Metamorphosis",
     "enabled": true,
     "runes": [
       "r16",
@@ -5030,6 +5264,10 @@
       "r19"
     ],
     "levelReq": 67,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -5051,26 +5289,23 @@
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 50,
         "max": 80
       },
       {
         "prop": "res-all",
-        "param": 0,
         "min": 10,
         "max": 10
       },
       {
         "prop": "crush",
-        "param": 0,
         "min": 25,
         "max": 25
       }
     ]
   },
   {
-    "name": "Runeword175",
+    "name": "Ground",
     "enabled": true,
     "runes": [
       "r13",
@@ -5078,35 +5313,35 @@
       "r09"
     ],
     "levelReq": 35,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-ltng",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "abs-ltng%",
-        "param": 0,
         "min": 10,
         "max": 15
       }
     ]
   },
   {
-    "name": "Runeword176",
+    "name": "Temper",
     "enabled": true,
     "runes": [
       "r13",
@@ -5114,35 +5349,35 @@
       "r08"
     ],
     "levelReq": 35,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-fire",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "abs-fire%",
-        "param": 0,
         "min": 10,
         "max": 15
       }
     ]
   },
   {
-    "name": "Runeword177",
+    "name": "Hearth",
     "enabled": true,
     "runes": [
       "r13",
@@ -5150,41 +5385,40 @@
       "r10"
     ],
     "levelReq": 35,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-cold",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "abs-cold%",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "nofreeze",
-        "param": 0,
         "min": 1,
         "max": 1
       }
     ]
   },
   {
-    "name": "Runeword178",
+    "name": "Cure",
     "enabled": true,
     "runes": [
       "r13",
@@ -5192,28 +5426,28 @@
       "r07"
     ],
     "levelReq": 35,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "res-pois",
-        "param": 0,
         "min": 10,
         "max": 30
       },
       {
         "prop": "res-pois-len",
-        "param": 0,
         "min": 50,
         "max": 50
       },
@@ -5226,7 +5460,7 @@
     ]
   },
   {
-    "name": "Runeword179",
+    "name": "Bulwark",
     "enabled": true,
     "runes": [
       "r13",
@@ -5234,36 +5468,188 @@
       "r12"
     ],
     "levelReq": 35,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
     "modifiers": [
       {
         "prop": "hp%",
-        "param": 0,
         "min": 5,
         "max": 5
       },
       {
         "prop": "ac%",
-        "param": 0,
         "min": 75,
         "max": 100
       },
       {
         "prop": "red-dmg%",
-        "param": 0,
         "min": 10,
         "max": 15
       },
       {
         "prop": "regen",
-        "param": 0,
         "min": 30,
         "max": 30
       },
       {
         "prop": "lifesteal",
-        "param": 0,
         "min": 4,
         "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Coven",
+    "enabled": true,
+    "runes": [
+      "r24",
+      "r08",
+      "r16"
+    ],
+    "levelReq": 51,
+    "itypes": [
+      "helm"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 393,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "allskills",
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "cast1",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "min": 30,
+        "max": 50
+      },
+      {
+        "prop": "mag%",
+        "min": 1,
+        "max": 15
+      },
+      {
+        "prop": "heal-kill",
+        "min": 1,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "name": "Vigilance",
+    "enabled": true,
+    "runes": [
+      "r14",
+      "r25"
+    ],
+    "levelReq": 53,
+    "itypes": [
+      "grim",
+      "shld",
+      "head",
+      "ashd"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 394,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "move2",
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "block2",
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "hp",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "mana",
+        "min": 20,
+        "max": 40
+      },
+      {
+        "prop": "res-all",
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "ac%",
+        "min": 75,
+        "max": 100
+      }
+    ]
+  },
+  {
+    "name": "Ritual",
+    "enabled": true,
+    "runes": [
+      "r11",
+      "r13",
+      "r27"
+    ],
+    "levelReq": 57,
+    "itypes": [
+      "knif"
+    ],
+    "etypes": [],
+    "modifiers": [
+      {
+        "prop": "gethit-skill",
+        "param": 400,
+        "min": 13,
+        "max": 1
+      },
+      {
+        "prop": "swing1",
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "dmg%",
+        "min": 200,
+        "max": 270
+      },
+      {
+        "prop": "dmg-demon",
+        "min": 150,
+        "max": 250
+      },
+      {
+        "prop": "att%",
+        "min": 200,
+        "max": 260
+      },
+      {
+        "prop": "heal-kill",
+        "min": 3,
+        "max": 5
+      },
+      {
+        "prop": "rip",
+        "min": 1,
+        "max": 1
       }
     ]
   }

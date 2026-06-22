@@ -8,24 +8,36 @@ export async function setItemsToJson(skills: Skill[]) {
   const setItems: SetItem[] = [];
   for (const line of itemsTable) {
     const item: SetItem = {
-      name: getString(line[0].trim()),
-      code: line[3].trim(),
-      set: line[2].trim(),
-      qlevel: Number(line[6]),
-      levelReq: Number(line[7]),
+      name: getString(line["index"].trim()),
+      code: line["item"].trim(),
+      set: line["set"].trim(),
+      qlevel: Number(line["lvl"]),
+      levelReq: Number(line["lvl req"]),
       baseModifiers: [],
       setModifiers: [],
     };
-    for (let i = 0; i < 9; i++) {
-      const modifier = readModifierRange(line, 18 + 4 * i, skills);
+    for (let i = 1; i <= 9; i++) {
+      const modifier = readModifierRange(
+        line[`prop${i}`],
+        line[`par${i}`],
+        line[`min${i}`],
+        line[`max${i}`],
+        skills
+      );
       if (modifier) {
         item.baseModifiers.push(modifier);
       }
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 1; i <= 5; i++) {
       const partial = [];
-      for (let j = 0; j < 2; j++) {
-        const modifier = readModifierRange(line, 54 + 4 * (2 * i + j), skills);
+      for (const s of ["a", "b"]) {
+        const modifier = readModifierRange(
+          line[`aprop${i}${s}`],
+          line[`apar${i}${s}`],
+          line[`amin${i}${s}`],
+          line[`amax${i}${s}`],
+          skills
+        );
         if (modifier) {
           partial.push(modifier);
         }

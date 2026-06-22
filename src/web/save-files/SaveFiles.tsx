@@ -2,9 +2,8 @@ import { useContext, useMemo, useState } from "preact/hooks";
 import { CollectionContext } from "../store/CollectionContext";
 import { FilePicker } from "./FilePicker";
 import "./SaveFiles.css";
-import { UPLOAD_CONFIRM } from "../store/singleStashConfirmation";
 import { PrettyOwnerName } from "./PrettyOwnerName";
-import { LAST_LEGACY } from "../../scripts/character/parsing/versions";
+import { LAST_LEGACY, V105_D2R } from "../../scripts/character/parsing/versions";
 
 const dateFormatter = Intl.DateTimeFormat(undefined, {
   dateStyle: "long",
@@ -26,6 +25,8 @@ export function SaveFiles() {
           <td>
             {owner.version <= LAST_LEGACY
               ? "Legacy Diablo 2"
+              : owner.version >= V105_D2R
+              ? "Diablo 2 Resurrected (Reign of the Warlock)"
               : "Diablo 2 Resurrected"}
           </td>
           <td>{dateFormatter.format(new Date(owner.lastModified))}</td>
@@ -48,9 +49,7 @@ export function SaveFiles() {
         {!allowSingleFile && (
           <button
             class="button sidenote"
-            onClick={() =>
-              window.confirm(UPLOAD_CONFIRM) && setAllowSingleFile(true)
-            }
+            onClick={() => setAllowSingleFile(true)}
           >
             Let me select a single file
           </button>

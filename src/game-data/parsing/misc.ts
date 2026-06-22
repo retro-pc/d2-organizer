@@ -5,19 +5,20 @@ import { getString } from "../strings";
 export async function miscToJson() {
   const misc: Record<string, Misc> = {};
   for (const line of await readGameFile("Misc")) {
-    const code = line[14].trim();
+    const code = line["code"].trim();
     misc[code] = {
-      name: getString(line[16].trim()),
-      type: line[31].trim(),
+      name: getString(line["namestr"].trim()),
+      type: line["type"].trim(),
       tier: 0,
-      maxSockets: Number(line[21]),
-      indestructible: line[11].trim() === "1",
-      width: Number(line[18]),
-      height: Number(line[19]),
-      qlevel: Number(line[3]),
-      levelReq: Number(line[5]),
-      stackable: line[42] === "1",
-      trackQuestDifficulty: line[47] === "1" || undefined,
+      maxSockets: Number(line["gemsockets"]),
+      spawnable: line["spawnable"].trim() === "1",
+      indestructible: line["nodurability"].trim() === "1",
+      width: Number(line["invwidth"]),
+      height: Number(line["invheight"]),
+      qlevel: Number(line["level"]),
+      levelReq: Number(line["levelreq"]),
+      stackable: line["stackable"] === "1",
+      trackQuestDifficulty: line["quest"] === "1" || undefined,
     };
     // Token of absolution name is messed up, has the description at the start
     if (code === "toa") {

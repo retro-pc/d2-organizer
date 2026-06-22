@@ -10,8 +10,22 @@ import {
   MOD_LOCA,
 } from "../../../game-data";
 
+const fix_classSkillBonus = [
+  "ModStr3a",
+  "ModStr3d",
+  "ModStr3c",
+  "ModStr3b",
+  "ModStr3e",
+  "ModStre8a",
+  "ModStre8b",
+  "ModStrge9",
+];
 
-const fix_classSkillBonus = ["ModStr3a", "ModStr3d", "ModStr3c",  "ModStr3b", "ModStr3e", "ModStre8a" , "ModStre8b"]
+// Monster names for item_reanimate, keyed by the stat's param. Faith is the
+// only vanilla item granting this stat, reanimating kills as "Returned".
+const REANIMATE_MONSTERS: Record<number, string> = {
+  1: "Returned",
+};
 
 /**
  * Generates the human-friendly description for an item modifier
@@ -67,18 +81,34 @@ export function describeSingleMod(
       break;
     case 5:
       valueDesc = `${Math.floor((modValue! * 100) / 128)}%`;
+      modDesc = modDesc.replace("%+d%%", valueDesc).replace("%d%%", valueDesc);
       break;
     case 11:
       modDesc = modDesc.replace("%d", `${100 / modValue!}`);
       break;
-    case 13:
-      modDesc = MOD_LOCA[fix_classSkillBonus[modifier.param || 0]].enUS
-      modDesc = modDesc.replace("%+d", (modValue ?? 0) < 0 ? `${modValue}` : `+${modValue}`)
+    case 13: {
+      const classKey = fix_classSkillBonus[modifier.param || 0];
+      const classLoca = classKey ? MOD_LOCA[classKey] : undefined;
+      if (classLoca) {
+        modDesc = classLoca.enUS.replace(
+          "%+d",
+          (modValue ?? 0) < 0 ? `${modValue}` : `+${modValue}`
+        );
+      }
       break;
+    }
     case 14:
+      if (modifier.skillTabRange) {
+        const [minId, maxId] = modifier.skillTabRange;
+        const tabs = SKILL_TABS.filter(({ id }) => id >= minId && id <= maxId);
+        const names = tabs.map(({ name }) => name.replace(/ Skills$/, "")).join("/");
+        const charClass = tabs[0]?.charClass ?? 0;
+        modDesc = `+${modValue} to ${names} Skills ${CHAR_CLASSES[charClass].classOnly}`;
+        break;
+      }
       skillTab = SKILL_TABS.find(({ id }) => id === modifier.param);
       if (!skillTab) {
-        throw new Error(`Unknown skill tab ${skillTab}`);
+        return;
       }
       modDesc = `+${modValue} to ${skillTab.name} ${
         CHAR_CLASSES[skillTab.charClass].classOnly
@@ -98,6 +128,7 @@ export function describeSingleMod(
       break;
     case 1:
       modDesc = modDesc.replace("%d", `${modValue}`);
+      valueDesc = (modValue ?? 0) < 0 ? `${modValue}` : `+${modValue}`;
       break;
     case 20:
       valueDesc = `${-modValue!}%`;
@@ -107,24 +138,37 @@ export function describeSingleMod(
       // We need to do the monster type, but I can't find a single item with this.
       break;
     case 23:
-      valueDesc = `${modValue}%`;
-      // We need to do the monster, but I can't find a single item with this.
+      modDesc = modDesc
+        .replace("%0%%", `${modValue}%`)
+        .replace("%1", REANIMATE_MONSTERS[modifier.param ?? -1] ?? `Monster ${modifier.param}`);
       break;
     case 24:
-      modDesc = `Level ${modifier.level} ${
-        SKILLS[modifier.spell!].name
-      } ${modDesc
+      modDesc = modDesc
+        .replace("%d", `${modifier.level}`)
+        .replace("%s", `${SKILLS[modifier.spell!].name}`)
         .replace("%d", `${modifier.charges}`)
-        .replace("%d", `${modifier.maxCharges}`)}`;
+        .replace("%d", `${modifier.maxCharges}`);
       break;
     case 27:
+      if (modifier.skillRange) {
+        const poolSkill = SKILLS[modifier.skillRange[0]];
+        const className =
+          poolSkill?.charClass != null
+            ? CHAR_CLASSES[poolSkill.charClass].name
+            : "Unknown";
+        modDesc = `+${modValue} to a random ${className} Skill`;
+        break;
+      }
       skill = SKILLS[modifier.param!];
-      modDesc = `+${modValue} to ${skill.name} ${
-        CHAR_CLASSES[skill.charClass!].classOnly
+      modDesc = `+${modValue} to ${skill?.name ?? "Unknown Skill"}${
+        skill?.charClass != null ? ` ${CHAR_CLASSES[skill.charClass].classOnly}` : ""
       }`;
       break;
     case 28:
       modDesc = `+${modValue} to ${SKILLS[modifier.param!].name}`;
+      break;
+    case 29:
+      modDesc = modDesc.replace("%d%%", `${Math.abs(modValue ?? 0)}%`);
       break;
     // Custom describe functions to handle groups
     case 100:

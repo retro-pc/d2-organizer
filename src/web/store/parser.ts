@@ -26,9 +26,7 @@ export async function parseSaveFile(file: File) {
       return parsePlugyStash(raw, file);
     }
   } catch (e) {
-    if (e instanceof Error) {
-      alert(e.message);
-    }
+    console.error(e);
     throw e;
   }
 }

@@ -575,6 +575,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 0,
         "type": "other"
       }
     ]
@@ -583,6 +584,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 3,
         "type": "other"
       }
     ]
@@ -591,6 +593,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 2,
         "type": "other"
       }
     ]
@@ -599,6 +602,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 1,
         "type": "other"
       }
     ]
@@ -607,6 +611,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 4,
         "type": "other"
       }
     ]
@@ -864,6 +869,7 @@
     "stats": [
       {
         "stat": "item_elemskill",
+        "param": 1,
         "type": "other"
       }
     ]
@@ -1008,6 +1014,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 5,
         "type": "other"
       }
     ]
@@ -1016,6 +1023,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 6,
         "type": "other"
       }
     ]
@@ -2138,6 +2146,7 @@
     "stats": [
       {
         "stat": "item_addclassskills",
+        "param": 3,
         "type": "other"
       }
     ]
@@ -2202,6 +2211,97 @@
     "stats": [
       {
         "stat": "item_charge_noconsume",
+        "type": "other"
+      }
+    ]
+  },
+  "war": {
+    "stats": [
+      {
+        "stat": "item_addclassskills",
+        "param": 7,
+        "type": "other"
+      }
+    ]
+  },
+  "dmg-mag/lvl": {
+    "stats": [
+      {
+        "stat": "item_magic_damagemax_perlevel",
+        "type": "param"
+      }
+    ]
+  },
+  "pierce-mag": {
+    "stats": [
+      {
+        "stat": "passive_mag_pierce",
+        "type": "other"
+      }
+    ]
+  },
+  "pierce-dmg": {
+    "stats": [
+      {
+        "stat": "passive_dmg_pierce",
+        "type": "other"
+      }
+    ]
+  },
+  "affix-rand": {
+    "stats": []
+  },
+  "extra-skill-dmg%-rand": {
+    "stats": [
+      {
+        "stat": "passive_fire_mastery",
+        "type": "other"
+      },
+      {
+        "stat": "passive_ltng_mastery",
+        "type": "other"
+      },
+      {
+        "stat": "passive_cold_mastery",
+        "type": "other"
+      },
+      {
+        "stat": "passive_pois_mastery",
+        "type": "other"
+      },
+      {
+        "stat": "passive_mag_mastery",
+        "type": "other"
+      },
+      {
+        "stat": "dmg%",
+        "type": "other"
+      }
+    ]
+  },
+  "war-tab-rand": {
+    "stats": [
+      {
+        "stat": "item_addskill_tab",
+        "param": 21,
+        "type": "other"
+      },
+      {
+        "stat": "item_addskill_tab",
+        "param": 22,
+        "type": "other"
+      },
+      {
+        "stat": "item_addskill_tab",
+        "param": 23,
+        "type": "other"
+      }
+    ]
+  },
+  "extra-mag": {
+    "stats": [
+      {
+        "stat": "passive_mag_mastery",
         "type": "other"
       }
     ]

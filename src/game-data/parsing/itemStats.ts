@@ -6,24 +6,25 @@ export async function itemStatsToJson() {
   const table = await readGameFile("ItemStatCost");
   const itemStats: ItemStat[] = [];
   for (const line of table) {
-    if (line[0].startsWith("unused") || line[0].endsWith("_bytime")) {
+    const stat = line["Stat"];
+    if (stat.startsWith("unused") || stat.endsWith("_bytime")) {
       continue;
     }
-    const id = Number(line[1]);
+    const id = Number(line["*ID"]);
     const item: ItemStat = {
-      stat: line[0].trim(),
-      encode: Number(line[14]),
-      size: Number(line[20]),
-      charSize: line[9] ? Number(line[9]) : undefined,
-      bias: Number(line[21]),
-      paramSize: Number(line[22]),
-      descPriority: Number(line[37]),
-      descFunc: Number(line[38]),
-      descVal: Number(line[39]),
-      descPos: line[40],
-      descNeg: line[41],
-      descAdditional: getString(line[42].trim()),
-      display: Number(line[50]),
+      stat: stat.trim(),
+      encode: Number(line["Encode"]),
+      size: Number(line["Save Bits"]),
+      charSize: line["CSvBits"] ? Number(line["CSvBits"]) : undefined,
+      bias: Number(line["Save Add"]),
+      paramSize: Number(line["Save Param Bits"]),
+      descPriority: Number(line["descpriority"]),
+      descFunc: Number(line["descfunc"]),
+      descVal: Number(line["descval"]),
+      descPos: line["descstrpos"],
+      descNeg: line["descstrneg"],
+      descAdditional: getString(line["descstr2"].trim()),
+      display: Number(line["advdisplay"]),
     };
     if (
       (item.encode === 2 && (item.size !== 7 || item.paramSize !== 16)) ||

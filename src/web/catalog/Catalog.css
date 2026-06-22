@@ -1,0 +1,108 @@
+/* ── Search bar ──────────────────────────────────────────────────── */
+.catalog-search {
+  margin-bottom: 12px;
+}
+
+.catalog-search > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.catalog-search p {
+  margin: 0;
+}
+
+.catalog-search label {
+  white-space: nowrap;
+  color: #aaa;
+}
+
+.catalog-search input {
+  flex: 1;
+  background: #1c1c1c;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 6px 10px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+/* ── Category grid ───────────────────────────────────────────────── */
+.catalog-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.catalog-category-tile {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 7px 28px;
+  min-width: 220px;
+  text-align: center;
+  font-family: inherit;
+  transition: background 0.1s, border-color 0.1s;
+}
+
+.catalog-category-tile:hover {
+  background: #242424;
+  border-color: #555;
+}
+
+.catalog-category-tile.active {
+  background: #242424;
+  border-color: currentColor;
+}
+
+.catalog-category-name {
+  font-size: 1.35em;
+  font-weight: normal;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* Quality colors */
+.cat-unique   { color: rgb(199, 179, 119); }
+.cat-set      { color: rgb(0, 255, 0); }
+.cat-runeword { color: rgb(199, 179, 119); }
+.cat-magic    { color: rgb(105, 105, 255); }
+.cat-rare     { color: rgb(255, 255, 100); }
+.cat-crafted  { color: rgb(255, 168, 0); }
+.cat-misc     { color: #ddd; }
+
+/* ── Add form ────────────────────────────────────────────────────── */
+.catalog-add-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #161616;
+  border: 1px solid #444;
+  margin-bottom: 10px;
+}
+
+.catalog-add-form strong {
+  color: #c8a96e;
+}
+
+.catalog-add-form label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.catalog-add-form select {
+  background: #222;
+  border: 1px solid #555;
+  color: #ddd;
+  padding: 2px 6px;
+  max-width: 260px;
+}

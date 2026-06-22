@@ -1,0 +1,59 @@
+#transfer-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#transfer-items .selectors {
+  display: flex;
+  align-items: center;
+}
+
+#transfer-items .error {
+  margin-left: 2em;
+}
+
+#transfer-items .success {
+  margin-left: 2em;
+  color: #6fb76f;
+}
+
+#transfer-items h4 {
+  padding-top: 0.4em;
+  margin-top: 3em;
+  border-top: 1px solid #666;
+}
+
+#transfer-items .pagination {
+  margin-top: 0;
+}
+
+.transfer-tag {
+  display: inline-block;
+  background: #2a2020;
+  border: 1px solid #554444;
+  border-radius: 3px;
+  color: #c8a96e;
+  font-size: 0.8em;
+  margin-right: 4px;
+  padding: 1px 5px;
+}
+
+.transfer-actions {
+  white-space: nowrap;
+}
+
+.transfer-actions button {
+  background: none;
+  border: 1px solid #555;
+  color: #aaa;
+  cursor: pointer;
+  margin-left: 4px;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+
+.transfer-actions button:hover {
+  border-color: #aaa;
+  color: #fff;
+}

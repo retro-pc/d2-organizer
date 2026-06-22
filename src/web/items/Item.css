@@ -11,3 +11,12 @@
 .item td:first-child {
   width: 2em;
 }
+
+.item-selectable {
+  cursor: pointer;
+}
+
+.item-selectable:hover td,
+.item-selectable:hover th {
+  background: #1e1e14;
+}

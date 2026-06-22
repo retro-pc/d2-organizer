@@ -6,26 +6,27 @@ export async function weaponsToJson() {
   const table = await readGameFile("Weapons");
   const weapons: Record<string, Weapon> = {};
   for (const line of table) {
-    const code = line[3].trim();
+    const code = line["code"].trim();
     const tier =
-      code === line[37].trim()
+      code === line["normcode"].trim()
         ? EquipmentTier.NORMAL
-        : code === line[38].trim()
+        : code === line["ubercode"].trim()
         ? EquipmentTier.EXCEPTIONAL
         : EquipmentTier.ELITE;
     weapons[code] = {
-      name: getString(line[5].trim()),
-      type: line[1].trim(),
+      name: getString(line["namestr"].trim()),
+      type: line["type"].trim(),
       tier,
-      maxSockets: Number(line[55]) || 0,
-      indestructible: line[29].trim() === "1",
-      stackable: line[46] === "1",
-      twoHanded: line[17] === "1",
-      width: Number(line[44]),
-      height: Number(line[45]),
-      qlevel: Number(line[30]),
-      levelReq: Number(line[32]),
-      trackQuestDifficulty: line[69] === "1" || undefined,
+      maxSockets: Number(line["gemsockets"]) || 0,
+      spawnable: line["spawnable"].trim() === "1",
+      indestructible: line["nodurability"].trim() === "1",
+      stackable: line["stackable"] === "1",
+      twoHanded: line["2handed"] === "1",
+      width: Number(line["invwidth"]),
+      height: Number(line["invheight"]),
+      qlevel: Number(line["level"]),
+      levelReq: Number(line["levelreq"]),
+      trackQuestDifficulty: line["quest"] === "1" || undefined,
     };
   }
   await writeJson("Weapons", weapons);

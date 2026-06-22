@@ -13,7 +13,6 @@ export function parseItemList(reader: SaveFileReader, owner: ItemsOwner) {
   let remainingItems = reader.readInt16LE();
   const items: Item[] = [];
 
-  // After that comes the first item
   while (remainingItems > 0) {
     const parsedItem = parseItem(reader, owner);
     if (parsedItem.location === ItemLocation.SOCKET) {

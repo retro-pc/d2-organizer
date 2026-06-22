@@ -8,6 +8,7 @@
       5
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -24,6 +25,7 @@
       11
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -40,6 +42,7 @@
       18
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -56,6 +59,7 @@
       26
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -72,6 +76,7 @@
       35
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -88,6 +93,7 @@
       45
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -104,6 +110,7 @@
       27
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -120,6 +127,7 @@
       11
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -136,6 +144,7 @@
       17
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -152,6 +161,7 @@
       24
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -168,6 +178,7 @@
       35
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -184,6 +195,7 @@
       48
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -200,6 +212,7 @@
       60
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -216,6 +229,7 @@
       75
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -232,6 +246,7 @@
       68
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -248,6 +263,7 @@
       95
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -264,6 +280,7 @@
       116
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -280,6 +297,7 @@
       105
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -296,6 +314,7 @@
       135
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -312,6 +331,7 @@
       161
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -328,6 +348,7 @@
       233
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -344,6 +365,7 @@
       107
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -360,6 +382,7 @@
       6
     ],
     "maxSockets": 1,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -376,6 +399,7 @@
       10
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -392,6 +416,7 @@
       14
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -408,6 +433,7 @@
       18
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -424,6 +450,7 @@
       25
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -440,6 +467,7 @@
       35
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -456,6 +484,7 @@
       3
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -472,6 +501,7 @@
       6
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -488,6 +518,7 @@
       9
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -504,6 +535,7 @@
       11
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -520,6 +552,7 @@
       15
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -536,6 +569,7 @@
       3
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -552,6 +586,7 @@
       6
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -568,6 +603,7 @@
       9
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -584,6 +620,7 @@
       11
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -600,6 +637,7 @@
       15
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -616,6 +654,7 @@
       2
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -632,6 +671,7 @@
       3
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -648,6 +688,7 @@
       5
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -664,6 +705,7 @@
       6
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -680,6 +722,7 @@
       11
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -696,6 +739,7 @@
       36
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -712,6 +756,7 @@
       30
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -728,6 +773,7 @@
       25
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -744,6 +790,7 @@
       53
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -760,6 +807,7 @@
       62
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -776,6 +824,7 @@
       72
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -792,6 +841,7 @@
       84
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -808,6 +858,7 @@
       98
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -824,6 +875,7 @@
       113
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -840,6 +892,7 @@
       86
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -856,6 +909,7 @@
       117
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -872,6 +926,7 @@
       126
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -888,6 +943,7 @@
       136
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -904,6 +960,7 @@
       153
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -920,6 +977,7 @@
       172
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -936,6 +994,7 @@
       190
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -952,6 +1011,7 @@
       213
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -968,6 +1028,7 @@
       202
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -984,6 +1045,7 @@
       243
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1000,6 +1062,7 @@
       274
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1016,6 +1079,7 @@
       258
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1032,6 +1096,7 @@
       303
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1048,6 +1113,7 @@
       342
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1064,6 +1130,7 @@
       450
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1080,6 +1147,7 @@
       261
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1096,6 +1164,7 @@
       49
     ],
     "maxSockets": 1,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1112,6 +1181,7 @@
       55
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1128,6 +1198,7 @@
       61
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1144,6 +1215,7 @@
       67
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1160,6 +1232,7 @@
       78
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1176,6 +1249,7 @@
       93
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -1192,6 +1266,7 @@
       35
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1208,6 +1283,7 @@
       39
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1224,6 +1300,7 @@
       44
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1240,6 +1317,7 @@
       47
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1256,6 +1334,7 @@
       53
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1272,6 +1351,7 @@
       35
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1288,6 +1368,7 @@
       39
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1304,6 +1385,7 @@
       44
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1320,6 +1402,7 @@
       47
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1336,6 +1419,7 @@
       53
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1352,6 +1436,7 @@
       34
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -1368,6 +1453,7 @@
       36
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -1384,6 +1470,7 @@
       40
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -1400,6 +1487,7 @@
       42
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -1416,6 +1504,7 @@
       52
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -1432,6 +1521,7 @@
       125
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1448,6 +1538,7 @@
       150
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1464,6 +1555,7 @@
       78
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1480,6 +1572,7 @@
       11
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1496,6 +1589,7 @@
       15
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1512,6 +1606,7 @@
       24
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1528,6 +1623,7 @@
       28
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1544,6 +1640,7 @@
       35
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1560,6 +1657,7 @@
       15
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1576,6 +1674,7 @@
       20
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1592,6 +1691,7 @@
       30
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1608,6 +1708,7 @@
       35
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1624,6 +1725,7 @@
       50
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1640,6 +1742,7 @@
       12
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1656,6 +1759,7 @@
       18
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1672,6 +1776,7 @@
       26
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -1688,6 +1793,7 @@
       36
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -1704,6 +1810,7 @@
       40
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1720,6 +1827,7 @@
       5
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1736,6 +1844,7 @@
       8
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1752,6 +1861,7 @@
       10
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1768,6 +1878,7 @@
       16
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1784,6 +1895,7 @@
       20
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1800,6 +1912,7 @@
       30
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1816,6 +1929,7 @@
       40
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1832,6 +1946,7 @@
       50
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1848,6 +1963,7 @@
       60
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1864,6 +1980,7 @@
       141
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1880,6 +1997,7 @@
       145
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1896,6 +2014,7 @@
       149
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1912,6 +2031,7 @@
       154
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1928,6 +2048,7 @@
       159
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1944,6 +2065,7 @@
       165
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1960,6 +2082,7 @@
       154
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -1976,6 +2099,7 @@
       467
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1992,6 +2116,7 @@
       470
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2008,6 +2133,7 @@
       474
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2024,6 +2150,7 @@
       481
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2040,6 +2167,7 @@
       489
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2056,6 +2184,7 @@
       496
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2072,6 +2201,7 @@
       505
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2088,6 +2218,7 @@
       501
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2104,6 +2235,7 @@
       517
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2120,6 +2252,7 @@
       530
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2136,6 +2269,7 @@
       523
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2152,6 +2286,7 @@
       541
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2168,6 +2303,7 @@
       557
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2184,6 +2320,7 @@
       600
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2200,6 +2337,7 @@
       524
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2216,6 +2354,7 @@
       110
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2232,6 +2371,7 @@
       123
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2248,6 +2388,7 @@
       135
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2264,6 +2405,7 @@
       148
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2280,6 +2422,7 @@
       161
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2296,6 +2439,7 @@
       170
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -2312,6 +2456,7 @@
       62
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2328,6 +2473,7 @@
       65
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2344,6 +2490,7 @@
       67
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2360,6 +2507,7 @@
       68
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2376,6 +2524,7 @@
       71
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2392,6 +2541,7 @@
       62
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2408,6 +2558,7 @@
       65
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2424,6 +2575,7 @@
       67
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2440,6 +2592,7 @@
       68
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2456,6 +2609,7 @@
       71
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2472,6 +2626,7 @@
       62
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -2488,6 +2643,7 @@
       63
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -2504,6 +2660,7 @@
       65
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -2520,6 +2677,7 @@
       66
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -2536,6 +2694,7 @@
       71
     ],
     "maxSockets": 0,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 1,
@@ -2552,6 +2711,7 @@
       157
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2568,6 +2728,7 @@
       173
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2584,6 +2745,7 @@
       163
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -2600,6 +2762,7 @@
       62
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2616,6 +2779,7 @@
       68
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2632,6 +2796,7 @@
       81
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2648,6 +2813,7 @@
       87
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2664,6 +2830,7 @@
       98
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2680,6 +2847,7 @@
       68
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2696,6 +2864,7 @@
       75
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2712,6 +2881,7 @@
       90
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2728,6 +2898,7 @@
       98
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2744,6 +2915,7 @@
       120
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2760,6 +2932,7 @@
       125
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2776,6 +2949,7 @@
       137
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2792,6 +2966,7 @@
       153
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -2808,6 +2983,7 @@
       168
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -2824,6 +3000,7 @@
       181
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2840,6 +3017,7 @@
       48
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2856,6 +3034,7 @@
       52
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2872,6 +3051,7 @@
       55
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2888,6 +3068,7 @@
       64
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2904,6 +3085,7 @@
       70
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2920,6 +3102,7 @@
       145
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2936,6 +3119,7 @@
       147
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2952,6 +3136,7 @@
       152
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2968,6 +3153,7 @@
       155
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2984,6 +3170,7 @@
       159
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3000,6 +3187,7 @@
       147
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3016,6 +3204,7 @@
       150
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3032,6 +3221,7 @@
       156
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3048,6 +3238,7 @@
       159
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3064,6 +3255,7 @@
       168
     ],
     "maxSockets": 3,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3080,6 +3272,7 @@
       158
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3096,6 +3289,7 @@
       164
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3112,6 +3306,7 @@
       172
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -3128,6 +3323,7 @@
       193
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 4,
@@ -3144,6 +3340,7 @@
       225
     ],
     "maxSockets": 4,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3160,6 +3357,7 @@
       139
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3176,6 +3374,7 @@
       141
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3192,6 +3391,7 @@
       142
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3208,6 +3408,7 @@
       146
     ],
     "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3224,6 +3425,262 @@
       148
     ],
     "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 85,
+    "levelReq": 65,
+    "stackable": false
+  },
+  "wa1": {
+    "name": "Old Book",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      2,
+      5
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 4,
+    "levelReq": 3,
+    "stackable": false
+  },
+  "wa2": {
+    "name": "Tome",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      4,
+      8
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 8,
+    "levelReq": 6,
+    "stackable": false
+  },
+  "wa3": {
+    "name": "Codex",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      6,
+      10
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 16,
+    "levelReq": 12,
+    "stackable": false
+  },
+  "wa4": {
+    "name": "Compendium",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      10,
+      16
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 20,
+    "levelReq": 15,
+    "stackable": false
+  },
+  "wa5": {
+    "name": "Grimoire",
+    "type": "grim",
+    "tier": 0,
+    "def": [
+      15,
+      20
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 24,
+    "levelReq": 18,
+    "stackable": false
+  },
+  "wa6": {
+    "name": "Burnt Text",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      38,
+      48
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 33,
+    "levelReq": 24,
+    "stackable": false
+  },
+  "wa7": {
+    "name": "Dark Tome",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      41,
+      52
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 39,
+    "levelReq": 29,
+    "stackable": false
+  },
+  "wa8": {
+    "name": "Dark Codex",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      44,
+      55
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 45,
+    "levelReq": 33,
+    "stackable": false
+  },
+  "wa9": {
+    "name": "Possessed Compendium",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      50,
+      64
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 49,
+    "levelReq": 36,
+    "stackable": false
+  },
+  "waa": {
+    "name": "Possessed Grimoire",
+    "type": "grim",
+    "tier": 1,
+    "def": [
+      58,
+      70
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 54,
+    "levelReq": 40,
+    "stackable": false
+  },
+  "wab": {
+    "name": "Forgotten Volume",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      95,
+      139
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 59,
+    "levelReq": 44,
+    "stackable": false
+  },
+  "wac": {
+    "name": "Occult Tome",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      96,
+      141
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 67,
+    "levelReq": 49,
+    "stackable": false
+  },
+  "wad": {
+    "name": "Occult Codex",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      98,
+      142
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 66,
+    "levelReq": 50,
+    "stackable": false
+  },
+  "wae": {
+    "name": "Blasphemous Compendium",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      100,
+      146
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
+    "indestructible": false,
+    "width": 2,
+    "height": 2,
+    "qlevel": 81,
+    "levelReq": 60,
+    "stackable": false
+  },
+  "waf": {
+    "name": "Blasphemous Grimoire",
+    "type": "grim",
+    "tier": 2,
+    "def": [
+      103,
+      148
+    ],
+    "maxSockets": 2,
+    "spawnable": true,
     "indestructible": false,
     "width": 2,
     "height": 2,

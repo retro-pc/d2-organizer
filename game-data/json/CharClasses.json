@@ -40,5 +40,11 @@
     "name": "Assassin",
     "skillsMod": "to Assassin Skills",
     "classOnly": "(Assassin Only)"
+  },
+  {
+    "code": "war",
+    "name": "Warlock",
+    "skillsMod": "to Warlock Skills",
+    "classOnly": "(Warlock Only)"
   }
 ]

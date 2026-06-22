@@ -20,4 +20,10 @@ export interface Modifier {
   description?: string;
   // Not from the game either, this is the possible range for that mod
   range?: [number, number];
+  // Not from the game either: for "random skill" mods (e.g. Ormus' Robes),
+  // the range of skill ids the game can randomly pick from.
+  skillRange?: [number, number];
+  // For "random skill tab" mods (e.g. Wraithstep skilltab-war),
+  // the range of tab binary IDs the game can randomly pick from.
+  skillTabRange?: [number, number];
 }

@@ -1700,5 +1700,259 @@
   {
     "code": "Mark of the Wolf",
     "name": "SkillnameMetamorphosisWolf"
+  },
+  {
+    "code": "Summon Goatman",
+    "name": "Summon Goatman",
+    "charClass": 7
+  },
+  {
+    "code": "Demonic Mastery",
+    "name": "Demonic Mastery",
+    "charClass": 7
+  },
+  {
+    "code": "Death Mark",
+    "name": "Death Mark",
+    "charClass": 7
+  },
+  {
+    "code": "Summon Tainted",
+    "name": "Summon Tainted",
+    "charClass": 7
+  },
+  {
+    "code": "Summon Defiler",
+    "name": "Summon Defiler",
+    "charClass": 7
+  },
+  {
+    "code": "Blood Oath",
+    "name": "Blood Oath",
+    "charClass": 7
+  },
+  {
+    "code": "Engorge",
+    "name": "Engorge",
+    "charClass": 7
+  },
+  {
+    "code": "Blood Boil",
+    "name": "Blood Boil",
+    "charClass": 7
+  },
+  {
+    "code": "Consume",
+    "name": "Consume",
+    "charClass": 7
+  },
+  {
+    "code": "Bind Demon",
+    "name": "Bind Demon",
+    "charClass": 7
+  },
+  {
+    "code": "Levitate",
+    "name": "Levitation Mastery",
+    "charClass": 7
+  },
+  {
+    "code": "Eldritch Blast",
+    "name": "Eldritch Blast",
+    "charClass": 7
+  },
+  {
+    "code": "Hex Bane",
+    "name": "Hex: Bane",
+    "charClass": 7
+  },
+  {
+    "code": "Hex Siphon",
+    "name": "Hex: Siphon",
+    "charClass": 7
+  },
+  {
+    "code": "Psychic Ward",
+    "name": "Psychic Ward",
+    "charClass": 7
+  },
+  {
+    "code": "Echoing Strike",
+    "name": "Echoing Strike",
+    "charClass": 7
+  },
+  {
+    "code": "Hex Purge",
+    "name": "Hex: Purge",
+    "charClass": 7
+  },
+  {
+    "code": "Blade Warp",
+    "name": "Blade Warp",
+    "charClass": 7
+  },
+  {
+    "code": "Cleave",
+    "name": "Cleave",
+    "charClass": 7
+  },
+  {
+    "code": "Mirrored Blades",
+    "name": "Mirrored Blades",
+    "charClass": 7
+  },
+  {
+    "code": "Sigil Lethargy",
+    "name": "Sigil: Lethargy",
+    "charClass": 7
+  },
+  {
+    "code": "Ring of Fire",
+    "name": "Ring of Fire",
+    "charClass": 7
+  },
+  {
+    "code": "Miasma Bolt",
+    "name": "Miasma Bolt",
+    "charClass": 7
+  },
+  {
+    "code": "Sigil Rancor",
+    "name": "Sigil: Rancor",
+    "charClass": 7
+  },
+  {
+    "code": "Enhanced Entropy",
+    "name": "Enhanced Entropy",
+    "charClass": 7
+  },
+  {
+    "code": "Flame Wave",
+    "name": "Flame Wave",
+    "charClass": 7
+  },
+  {
+    "code": "Miasma Chains",
+    "name": "Miasma Chain",
+    "charClass": 7
+  },
+  {
+    "code": "Sigil Death",
+    "name": "Sigil: Death",
+    "charClass": 7
+  },
+  {
+    "code": "Apocalypse",
+    "name": "Apocalypse",
+    "charClass": 7
+  },
+  {
+    "code": "Abyss",
+    "name": "Abyss",
+    "charClass": 7
+  },
+  {
+    "code": "Sigil Death Explosion",
+    "name": "Sigil Death Explosion"
+  },
+  {
+    "code": "Hex Purge Explosion",
+    "name": "Hex Purge Explosion"
+  },
+  {
+    "code": "Health Link",
+    "name": "Health Link"
+  },
+  {
+    "code": "Cold Fissure",
+    "name": "Cold Fissure"
+  },
+  {
+    "code": "Korlic's Leap Attack",
+    "name": "Korlic's Leap Attack"
+  },
+  {
+    "code": "Cold Enchant",
+    "name": "Cold Enchant"
+  },
+  {
+    "code": "Lightning Enchant",
+    "name": "Lightning Enchant"
+  },
+  {
+    "code": "Talic's Whirlwind",
+    "name": "Talic's Whirlwind"
+  },
+  {
+    "code": "Townportal O Skill",
+    "name": "Townportal O Skill"
+  },
+  {
+    "code": "Fire Twisters",
+    "name": "Fire Twisters"
+  },
+  {
+    "code": "Colossal Volcano",
+    "name": "Colossal Volcano"
+  },
+  {
+    "code": "Colossal Thunder Storm",
+    "name": "Colossal Thunder Storm"
+  },
+  {
+    "code": "UberAncientsHeal",
+    "name": "UberAncientsHeal"
+  },
+  {
+    "code": "Goatman Stun",
+    "name": "Goatman Stun"
+  },
+  {
+    "code": "Goatman Frenzy",
+    "name": "Goatman Frenzy"
+  },
+  {
+    "code": "Goatman Berserk",
+    "name": "Goatman Berserk"
+  },
+  {
+    "code": "Goatman Cleave",
+    "name": "Goatman Cleave"
+  },
+  {
+    "code": "Tainted Resist Fire",
+    "name": "Tainted Resist Fire"
+  },
+  {
+    "code": "Tainted Fire Bolt",
+    "name": "Tainted Fire Bolt"
+  },
+  {
+    "code": "Tainted Fire Ball",
+    "name": "Tainted Fire Ball"
+  },
+  {
+    "code": "Talic's Fire Pierce",
+    "name": "Talic's Fire Pierce"
+  },
+  {
+    "code": "Madawc's Lightning Pierce",
+    "name": "Madawc's Lightning Pierce"
+  },
+  {
+    "code": "Korlic's Cold Pierce",
+    "name": "Korlic's Cold Pierce"
+  },
+  {
+    "code": "Charged Bolt Disk",
+    "name": "Charged Bolt Disk"
+  },
+  {
+    "code": "Korlic's Bash",
+    "name": "Korlic's Bash"
+  },
+  {
+    "code": "HeraldThorns",
+    "name": "HeraldThorns"
   }
 ]

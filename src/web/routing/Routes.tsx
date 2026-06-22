@@ -1,15 +1,14 @@
 import { RenderableProps } from "preact";
 import { useContext, useEffect, useMemo, useState } from "preact/hooks";
-import { GrailTracker } from "../grail/GrailTracker";
 import { StashView } from "../stash/StashView";
 import "./Navigation.css";
-import { Organizer } from "../organizer/Organizer";
 import { Collection } from "../collection/Collection";
 import { SaveFiles } from "../save-files/SaveFiles";
-import { SelectionContext } from "../transfer/SelectionContext";
-import { TransferItems } from "../transfer/TransferItems";
+import { Catalog } from "../catalog/Catalog";
+import { Transfer } from "../transfer/Transfer";
 import { Help } from "../help/Help";
 import { Settings } from "../settings/Settings";
+import { BufferContext } from "../store/BufferContext";
 
 function NavLink({
   hash,
@@ -26,7 +25,7 @@ function NavLink({
 
 export function Routes() {
   const [currentHash, setCurrentHash] = useState(location.hash);
-  const { selectedItems } = useContext(SelectionContext);
+  const { items: transferItems } = useContext(BufferContext);
 
   useEffect(() => {
     const listener = () => setCurrentHash(location.hash);
@@ -42,12 +41,10 @@ export function Routes() {
         return <Collection />;
       case "#characters":
         return <StashView />;
+      case "#catalog":
+        return <Catalog />;
       case "#transfer":
-        return <TransferItems />;
-      case "#organize":
-        return <Organizer />;
-      case "#grail-tracker":
-        return <GrailTracker />;
+        return <Transfer />;
       case "#settings":
         return <Settings />;
       case "#help":
@@ -55,17 +52,17 @@ export function Routes() {
         return <Help />;
     }
   }, [currentHash]);
+
   return (
     <>
       <nav id="navigation" data-nosnippet={true}>
         <NavLink hash="#saves">Save files</NavLink>
         <NavLink hash="#collection">Collection</NavLink>
         <NavLink hash="#characters">Characters</NavLink>
+        <NavLink hash="#catalog">Catalog</NavLink>
         <NavLink hash="#transfer">
-          Transfer {selectedItems.size ? selectedItems.size : ""} items
+          Transfer {transferItems.length ? transferItems.length : ""} items
         </NavLink>
-        <NavLink hash="#organize">Organize PlugY stash</NavLink>
-        <NavLink hash="#grail-tracker">Grail tracker</NavLink>
         <NavLink hash="#settings">Settings</NavLink>
       </nav>
       <main>{view}</main>

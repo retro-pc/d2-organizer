@@ -14,6 +14,7 @@ export interface Item {
   ethereal: boolean;
   personalized: boolean;
   runeword: boolean;
+  extras?: boolean; // D2R only: triggers 52-bit skip after stat blocks
 
   location: ItemLocation;
   equippedInSlot: ItemEquipSlot;
@@ -59,6 +60,8 @@ export interface Item {
   modifiers?: Modifier[];
   setItemModifiers?: Modifier[][];
   setGlobalModifiers?: Modifier[][];
+  // Stats granted by the runes/gems socketed into this item (catalog runewords)
+  socketModifiers?: Modifier[];
 
   // Searcheable description of the item. Right now it's only mods.
   search: string;

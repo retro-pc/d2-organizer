@@ -1,8 +1,12 @@
 import { BinaryStream } from "../../save-file/binary";
 import { Item } from "../types/Item";
 import { ARMORS, MISC, WEAPONS } from "../../../game-data";
+import { V105_D2R } from "../../character/parsing/versions";
 
-export function parseQuantified({ read, readInt }: BinaryStream, item: Item) {
+export function parseQuantified(
+  { read, readBool, readInt }: BinaryStream,
+  item: Item
+) {
   const baseArmor = ARMORS[item.code];
   const baseWeapon = WEAPONS[item.code];
   const baseMisc = MISC[item.code];
@@ -24,7 +28,17 @@ export function parseQuantified({ read, readInt }: BinaryStream, item: Item) {
     }
   }
 
-  if (baseArmor?.stackable || baseWeapon?.stackable || baseMisc?.stackable) {
+  if (item.owner.version >= V105_D2R) {
+    // In v105, the stackable flag bit is unconditionally present for all non-simple items.
+    // Earlier versions only include quantity bits when the item type is stackable.
+    if (readBool()) {
+      item.quantity = readInt(9);
+    }
+  } else if (
+    baseArmor?.stackable ||
+    baseWeapon?.stackable ||
+    baseMisc?.stackable
+  ) {
     item.quantity = readInt(9);
   }
 
