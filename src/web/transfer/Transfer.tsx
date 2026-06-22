@@ -32,7 +32,7 @@ export function Transfer() {
   function transferItems() {
     try {
       const stash = wrapAllInD2rStash(items);
-      downloadFile(stash, "SharedStashSoftCoreV2.d2i");
+      downloadFile(stash, "ModernSharedStashSoftCoreV2.d2i");
     } catch (e) {
       console.error("Failed to generate stash binary", e);
     }
