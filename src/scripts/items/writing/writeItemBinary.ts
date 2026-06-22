@@ -320,10 +320,10 @@ export function writeItemBinary(item: Item, opts: CreateItemOpts, stashVersion =
 }
 
 const D2R_PAGE_HEADER = 0xaa55aa55;
-const D2R_STASH_VERSION = 99;
+const D2R_STASH_VERSION = 105;
 export const STASH_PAGE_WIDTH = 10;
 export const STASH_PAGE_HEIGHT = 10;
-export const STASH_PAGE_COUNT = 3;
+export const STASH_PAGE_COUNT = 5;
 
 function writePage(w: SaveFileWriter, itemBytesList: Uint8Array[]) {
   const pageStart = w.nextIndex;
